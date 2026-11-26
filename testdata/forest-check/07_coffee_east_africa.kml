@@ -1,0 +1,2933 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="07_coffee_east_africa" id="07_coffee_east_africa">
+	<SimpleField name="plot_id" type="string"></SimpleField>
+	<SimpleField name="producer" type="string"></SimpleField>
+	<SimpleField name="country" type="string"></SimpleField>
+	<SimpleField name="region" type="string"></SimpleField>
+	<SimpleField name="declared_ha" type="float"></SimpleField>
+</Schema>
+<Folder><name>07_coffee_east_africa</name>
+  <Placemark id="07_coffee_east_africa.1">
+	<name>EA-COF-0001</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-0001</SimpleData>
+		<SimpleData name="producer">Producer 787</SimpleData>
+		<SimpleData name="country">ETH</SimpleData>
+		<SimpleData name="region">Sidama</SimpleData>
+		<SimpleData name="declared_ha">2.04</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>38.3996025329473,6.98039216434281 38.399570151331,6.98061908705322 38.3993934395949,6.9808135927886 38.3991000678394,6.98086694880341 38.3988557179184,6.98068046046708 38.3989158381996,6.98039216434281 38.3988654056484,6.98011085459528 38.3991556847691,6.98008728243505 38.3993967563969,6.97996060349416 38.3996057139625,6.98013959538293 38.3996025329473,6.98039216434281</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><outerBoundaryIs><LinearRing><coordinates>38.4104242356452,6.9894327706227 38.4104560511679,6.9897228822822 38.4101917513851,6.98990578923714 38.4098412631031,6.98989085947696 38.409635283831,6.98960344583193 38.4097556346669,6.98930557400994 38.4098934587392,6.98906441542361 38.4102006020336,6.98890993050133 38.4104562374327,6.98914250382991 38.4104242356452,6.9894327706227</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><outerBoundaryIs><LinearRing><coordinates>38.4192254769407,6.98774279721405 38.4191977261713,6.98793527959455 38.4190891613051,6.98816267106373 38.4188446647054,6.98809702707948 38.4186050274667,6.98807607613278 38.4184345671068,6.98787727287473 38.4185783015599,6.98765021231207 38.418622239329,6.98742923430083 38.4188278625764,6.9872725739971 38.4190363992465,6.98743759800273 38.4192892797151,6.98749191397969 38.4192254769407,6.98774279721405</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.2">
+	<name>EA-COF-0002</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-0002</SimpleData>
+		<SimpleData name="producer">Producer 396</SimpleData>
+		<SimpleData name="country">ETH</SimpleData>
+		<SimpleData name="region">Jimma</SimpleData>
+		<SimpleData name="declared_ha">1.33</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>36.8849318654463,7.42612593123229 36.8849057623729,7.42631369343445 36.8848172161488,7.42648198728297 36.8846802470287,7.42661351293435 36.8845213760619,7.42673134369289 36.8843230017308,7.42665594889419 36.8841356895754,7.42669758338242 36.8840048000539,7.42656022474476 36.8838557529684,7.42646255991612 36.8837958808389,7.42629576661981 36.8837789612436,7.42612593123229 36.8838062166226,7.42595942597617 36.8838400655252,7.42577800055309 36.8839853394898,7.42566507721641 36.8841475932098,7.42559060741412 36.8843230017308,7.425562230917 36.8845228309076,7.42551607877338 36.8846926310111,7.42562144740934 36.8848425699822,7.4257516090496 36.884883851194,7.42594522868876 36.8849318654463,7.42612593123229</coordinates></LinearRing></outerBoundaryIs><innerBoundaryIs><LinearRing><coordinates>36.8844521995595,7.42612593123229 36.8844340183744,7.42620591300993 36.8843648001386,7.42625349449504 36.8842808951013,7.42625443514744 36.8842115799034,7.42620620492402 36.8841980475222,7.42612593123229 36.8842156879661,7.42604861718831 36.8842847750661,7.42600926846133 36.8843633390343,7.42600282706849 36.8844198572665,7.42605615180403 36.8844521995595,7.42612593123229</coordinates></LinearRing></innerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.3">
+	<name>EA-COF-0003</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-0003</SimpleData>
+		<SimpleData name="producer">Producer 154</SimpleData>
+		<SimpleData name="country">ETH</SimpleData>
+		<SimpleData name="region">Sidama</SimpleData>
+		<SimpleData name="declared_ha">1.67</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>38.546923394714,6.45644567944181 38.5467880840405,6.45672261920248 38.5466950017106,6.45707613588459 38.5463580324525,6.45727205854861 38.5459728681438,6.45719025657889 38.5456974661484,6.45693828448804 38.5456654891282,6.45659056168386 38.5457244013236,6.45631522565697 38.5457947390306,6.45603870408703 38.5460897245472,6.45600727307184 38.5463594759044,6.45560748783612 38.5465575356544,6.45601311385373 38.546683801094,6.45622312446315 38.546923394714,6.45644567944181</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.4">
+	<name>EA-COF-0004</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-0004</SimpleData>
+		<SimpleData name="producer">Producer 744</SimpleData>
+		<SimpleData name="country">ETH</SimpleData>
+		<SimpleData name="region">Jimma</SimpleData>
+		<SimpleData name="declared_ha">2.32</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>37.3470396423006,8.11042707540427 37.3469901357693,8.11067170003717 37.3469986726132,8.1110746452792 37.3466598404978,8.11121998581209 37.346298659902,8.11120077305865 37.3459357764946,8.11109900414254 37.3458989694014,8.11070267296738 37.345859849145,8.11042707540427 37.345727580478,8.11006976681639 37.3458967887617,8.10970674658376 37.3463154936312,8.1097263934549 37.3466019984982,8.10988505262416 37.3469680412883,8.10981753181439 37.3472858079164,8.11004148673678 37.3470396423006,8.11042707540427</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.5">
+	<name>EA-COF-0005</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-0005</SimpleData>
+		<SimpleData name="producer">Producer 210</SimpleData>
+		<SimpleData name="country">ETH</SimpleData>
+		<SimpleData name="region">Jimma</SimpleData>
+		<SimpleData name="declared_ha">1.6</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>36.8693701092733,7.81481331751846 36.8691833796557,7.81508723650501 36.8689678445761,7.81525880610361 36.8687611798928,7.81547278855785 36.8684223564935,7.81562454198162 36.8681733858836,7.81535479645176 36.868194100204,7.81501138583591 36.8678495412954,7.81481331751846 36.8680680408718,7.81455510602885 36.8681849680259,7.81428622724799 36.8684598166805,7.81416469259435 36.8687181183679,7.81434075916281 36.8690721491004,7.81423824991488 36.869161720298,7.81454973225696 36.8693701092733,7.81481331751846</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.6">
+	<name>EA-COF-0006</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-0006</SimpleData>
+		<SimpleData name="producer">Producer 209</SimpleData>
+		<SimpleData name="country">UGA</SimpleData>
+		<SimpleData name="region">Mt Elgon</SimpleData>
+		<SimpleData name="declared_ha">3.35</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>34.4710133302536,0.806075570773858 34.4706819435735,0.806246756897773 34.4705954481574,0.806412867035331 34.4704110204991,0.806446119749979 34.470226024237,0.806515463169074 34.470044147927,0.806429514722059 34.469833801343,0.806312788000848 34.4699318250953,0.806075570773858 34.4698649784911,0.805853366184242 34.4700500783466,0.80572906260078 34.4701925305353,0.805488947405366 34.4704289434865,0.805626503829919 34.4707469025538,0.805548375501004 34.4706802691917,0.805905190909927 34.4710133302536,0.806075570773858</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><outerBoundaryIs><LinearRing><coordinates>34.4768007057802,0.811246641468726 34.4766952086004,0.811442913454284 34.4765821214998,0.81161591675306 34.4764408257813,0.811917879308994 34.4761514716108,0.811843020008713 34.4760153953399,0.811587947078418 34.4758347539607,0.811464701063187 34.4758248991651,0.811246641468726 34.4759351960708,0.811076947396686 34.4760423109419,0.810939083573345 34.4761873293623,0.810807350255733 34.4763842943107,0.810823059358036 34.4766548903532,0.810786126074925 34.476807044616,0.810996517495029 34.4768007057802,0.811246641468726</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><outerBoundaryIs><LinearRing><coordinates>34.5085065937318,0.814903318416741 34.5084984272628,0.815080820373741 34.5085509486491,0.815368884296191 34.5082852073822,0.815395318742201 34.5080947561558,0.815492061582829 34.5079194748009,0.815327564922843 34.5076785483263,0.815382168298524 34.507567560776,0.81519593188018 34.5075707253079,0.814991068738192 34.5073972872791,0.814783150187949 34.507587942361,0.814623323420077 34.5076651438365,0.814406719917094 34.5079276282957,0.814507725573963 34.5080828648898,0.814442889468805 34.5082375929618,0.814506931066652 34.5085390385065,0.814448608968677 34.5085903925255,0.814690192530592 34.5085065937318,0.814903318416741</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.7">
+	<name>EA-COF-0007</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-0007</SimpleData>
+		<SimpleData name="producer">Producer 974</SimpleData>
+		<SimpleData name="country">UGA</SimpleData>
+		<SimpleData name="region">Mt Elgon</SimpleData>
+		<SimpleData name="declared_ha">2.16</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>34.3273731929755,1.43477553893428 34.3270607580859,1.43507817753026 34.3269251870702,1.43539362477356 34.3266292987883,1.43563914082019 34.3262552582017,1.43555020213857 34.3259643290186,1.43536195322439 34.3256570205636,1.43514869275731 34.3255579607165,1.43477553893428 34.3257028225346,1.43442443526252 34.325995823074,1.43422860455883 34.3262169049721,1.43383289193552 34.3265906489314,1.43408122004499 34.3268482541847,1.43425389363619 34.3272383006156,1.4343874271685 34.3273731929755,1.43477553893428</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.8">
+	<name>EA-COF-0008</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-0008</SimpleData>
+		<SimpleData name="producer">Producer 614</SimpleData>
+		<SimpleData name="country">ETH</SimpleData>
+		<SimpleData name="region">Jimma</SimpleData>
+		<SimpleData name="declared_ha">0.71</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>36.8135335878333,7.89020292977849 36.8134489411437,7.89038645898305 36.8132705790087,7.8904693349013 36.8131334422665,7.89051814558227 36.8130016277106,7.89062878243134 36.8128789186259,7.89049637114016 36.8127463411673,7.89045579951142 36.8125772953682,7.89037703002118 36.8126330092578,7.89020292977849 36.8125760310526,7.890028310797 36.8126109276641,7.88981592850865 36.812876100239,7.88990274864471 36.8130016277106,7.88983460702734 36.8131714842483,7.88979674197401 36.8132194198918,7.88998719944663 36.8133748312224,7.89004980729526 36.8135335878333,7.89020292977849</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.9">
+	<name>EA-COF-0009</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-0009</SimpleData>
+		<SimpleData name="producer">Producer 113</SimpleData>
+		<SimpleData name="country">ETH</SimpleData>
+		<SimpleData name="region">Jimma</SimpleData>
+		<SimpleData name="declared_ha">0.36</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>36.7075928104553,7.8465151159781 36.7075011452495,7.84668461991772 36.7073723046323,7.84681317490896 36.7071950430833,7.8467897259664 36.7070483969005,7.8467283359291 36.7070240085418,7.84657645929686 36.707021644683,7.84645308506633 36.7069768910816,7.84622014654 36.7071889806167,7.84619873538889 36.70734003578,7.8462870544217 36.7074642137742,7.84636912423908 36.7075928104553,7.8465151159781</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.10">
+	<name>EA-COF-0010</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-0010</SimpleData>
+		<SimpleData name="producer">Producer 556</SimpleData>
+		<SimpleData name="country">ETH</SimpleData>
+		<SimpleData name="region">Sidama</SimpleData>
+		<SimpleData name="declared_ha">2.02</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>38.5698555773759,6.83078591262094 38.5698451843503,6.83115013396074 38.5695884135256,6.83154412909814 38.5690634831146,6.83163179810156 38.568776860192,6.83119236467101 38.5685114603544,6.83078591262094 38.568924262956,6.83048579476442 38.5690853993709,6.83000699965512 38.5695792027554,6.83005584275957 38.5697973717901,6.83045618256131 38.5698555773759,6.83078591262094</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.11">
+	<name>EA-COF-0011</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-0011</SimpleData>
+		<SimpleData name="producer">Producer 973</SimpleData>
+		<SimpleData name="country">ETH</SimpleData>
+		<SimpleData name="region">Jimma</SimpleData>
+		<SimpleData name="declared_ha">1.85</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>36.7629172887348,8.09271213811879 36.7626724840173,8.09304656578802 36.7624100251789,8.09328262898737 36.7620414621995,8.09343796549239 36.7615820422782,8.09335749283242 36.7615371802753,8.09288937644049 36.7613470444631,8.09247962685356 36.7618244720974,8.09234377617263 36.7620320178089,8.0919212777064 36.7625151299985,8.09191379170501 36.7628529080344,8.09226291366884 36.7629172887348,8.09271213811879</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.12">
+	<name>EA-COF-0012</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-0012</SimpleData>
+		<SimpleData name="producer">Producer 620</SimpleData>
+		<SimpleData name="country">UGA</SimpleData>
+		<SimpleData name="region">Mt Elgon</SimpleData>
+		<SimpleData name="declared_ha">0.35</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>34.356284543745,0.988935959020715 34.3563211455955,0.989035598917435 34.3562479971474,0.989105623060823 34.3561951697371,0.989184675329757 34.3561138617388,0.989241902580932 34.3560144398409,0.98923135727582 34.3559195214494,0.989228044278024 34.3558449150928,0.989169255063629 34.3557851935301,0.989102491405617 34.3557202497829,0.989031532926827 34.3556974015778,0.988935959020715 34.3557579770868,0.988852641632811 34.3557797454165,0.988765468939129 34.3558444399137,0.9887020090472 34.3559179711386,0.988639103108096 34.3560144398409,0.988619078699323 34.3561072839278,0.988650256865702 34.3562029729692,0.988676504083979 34.3562668260811,0.988752616997186 34.3563077502679,0.988840670881471 34.356284543745,0.988935959020715</coordinates></LinearRing></outerBoundaryIs><innerBoundaryIs><LinearRing><coordinates>34.3561194937884,0.988935959020715 34.3561137546853,0.989008104730909 34.3560466440482,0.989035058615895 34.3559822191119,0.98903510945688 34.3559308191326,0.988996703971996 34.3558993393884,0.988935959020715 34.355922309993,0.988869032738464 34.3559760993669,0.988817976751498 34.3560480687891,0.988832475177175 34.3561016388055,0.988872614701322 34.3561194937884,0.988935959020715</coordinates></LinearRing></innerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.13">
+	<name>EA-COF-0013</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-0013</SimpleData>
+		<SimpleData name="producer">Producer 577</SimpleData>
+		<SimpleData name="country">KEN</SimpleData>
+		<SimpleData name="region">Nyeri</SimpleData>
+		<SimpleData name="declared_ha">0.34</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>36.9369662307894,-0.405356883415895 36.9369841542462,-0.405251048065389 36.9369901033903,-0.405086272587376 36.9368318453243,-0.405094033917707 36.9367187546457,-0.405093498508098 36.9365927324322,-0.405090663865774 36.9365520657251,-0.405215667075144 36.9364959157633,-0.405303634559136 36.9364612147136,-0.405417508023881 36.9364575282228,-0.405566783553589 36.9366059837159,-0.405600151643756 36.936723968827,-0.405570659943576 36.9368251893891,-0.405599248564264 36.9370004645445,-0.405639001183924 36.9369586917338,-0.405451382409218 36.9369662307894,-0.405356883415895</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.14">
+	<name>EA-COF-0014</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-0014</SimpleData>
+		<SimpleData name="producer">Producer 792</SimpleData>
+		<SimpleData name="country">UGA</SimpleData>
+		<SimpleData name="region">Mt Elgon</SimpleData>
+		<SimpleData name="declared_ha">0.59</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>34.5509852646385,1.25260422087073 34.5509736801562,1.25272099472184 34.5508983751453,1.25281063592117 34.55085014463,1.25292889140914 34.5507336720078,1.25297182605372 34.550614201294,1.25303082301607 34.5504950265284,1.25297091543641 34.550367075568,1.25294427897044 34.5503027833362,1.25283042519313 34.5502514451362,1.25272205932526 34.5501871353362,1.25260422087073 34.550222350928,1.25247693139391 34.5502920114646,1.25237019219572 34.5503740687896,1.25227378581464 34.550493852193,1.25223391293587 34.550614201294,1.25220147506843 34.5507327743213,1.25223937782232 34.5508342600331,1.2523014083798 34.550928957164,1.25237559199273 34.5509831473573,1.25248437167459 34.5509852646385,1.25260422087073</coordinates></LinearRing></outerBoundaryIs><innerBoundaryIs><LinearRing><coordinates>34.550738459144,1.25260422087073 34.5507079405604,1.25267231015946 34.5506506821466,1.25271647055996 34.5505758096519,1.25272234995994 34.5505216660565,1.25267143559026 34.5504834281993,1.25260422087073 34.5505247077556,1.25253921554688 34.5505767705048,1.25248904827597 34.5506492532134,1.2524963679347 34.5507111489335,1.25253380111955 34.550738459144,1.25260422087073</coordinates></LinearRing></innerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.15">
+	<name>EA-COF-0015</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-0015</SimpleData>
+		<SimpleData name="producer">Producer 614</SimpleData>
+		<SimpleData name="country">TZA</SimpleData>
+		<SimpleData name="region">Kilimanjaro</SimpleData>
+		<SimpleData name="declared_ha">1.77</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>37.2958457679948,-3.2839423825867 37.2958322580792,-3.2836258865667 37.2956839169284,-3.28331736969169 37.2953350839529,-3.28328220722495 37.2950455679284,-3.28323321387373 37.2947839922198,-3.28336096289936 37.2944601296246,-3.2834635811821 37.2943356063316,-3.28377588014271 37.2945883881766,-3.28405524282107 37.2944628042777,-3.28441924393303 37.2946952483872,-3.28467725869724 37.2950420011944,-3.2846854307814 37.295378192691,-3.28473501513766 37.2955396991205,-3.28440748839306 37.2956685189912,-3.28418609697838 37.2958457679948,-3.2839423825867</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.16">
+	<name>EA-COF-0016</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-0016</SimpleData>
+		<SimpleData name="producer">Producer 172</SimpleData>
+		<SimpleData name="country">KEN</SimpleData>
+		<SimpleData name="region">Nyeri</SimpleData>
+		<SimpleData name="declared_ha">0.54</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>37.2684145168815,-0.398283401146151 37.2683057906433,-0.398157194341475 37.2682133961096,-0.398070642593257 37.2681208136563,-0.39800062699143 37.2680224247117,-0.397825635532619 37.2678804977607,-0.397933676323983 37.2678208567678,-0.398072659315711 37.2677035729863,-0.398112245542643 37.2676481125431,-0.398221361107333 37.2675823397102,-0.398357735961234 37.2676997975213,-0.398456894362134 37.2678090469669,-0.398509781302469 37.2678580480639,-0.3987120265622 37.2680183343716,-0.398697026027214 37.2681698097749,-0.398664570394027 37.2682531828235,-0.398532429204813 37.2683976020021,-0.398445175001381 37.2684145168815,-0.398283401146151</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.17">
+	<name>EA-COF-0017</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-0017</SimpleData>
+		<SimpleData name="producer">Producer 908</SimpleData>
+		<SimpleData name="country">KEN</SimpleData>
+		<SimpleData name="region">Nyeri</SimpleData>
+		<SimpleData name="declared_ha">2.52</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>36.8737208145816,-0.746699296643425 36.873574270248,-0.746334739134147 36.8733140035238,-0.746056381023948 36.8729427844939,-0.745712656791656 36.8724259015438,-0.745804105138549 36.8723321295573,-0.746346764790986 36.8722419794818,-0.746699296643425 36.8723623486003,-0.747034383004871 36.8725848666812,-0.747319175835354 36.8729427844939,-0.747377021305709 36.873349174027,-0.747403124188426 36.8737667525292,-0.747174974412457 36.8737208145816,-0.746699296643425</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.18">
+	<name>EA-COF-0018</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-0018</SimpleData>
+		<SimpleData name="producer">Producer 560</SimpleData>
+		<SimpleData name="country">KEN</SimpleData>
+		<SimpleData name="region">Nyeri</SimpleData>
+		<SimpleData name="declared_ha">0.46</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>37.1148975868714,-0.52834916306411 37.1149055311275,-0.528201827830967 37.1147894997817,-0.528110557657987 37.1146563818987,-0.528089035563585 37.1145093366193,-0.528044736332443 37.1143529582958,-0.528108346680298 37.1142978699601,-0.528268586616493 37.1143465054643,-0.528417752446248 37.1143018885723,-0.528635221351255 37.114470258839,-0.528756625053189 37.1146690341884,-0.528713487114772 37.1148259007979,-0.528640502204373 37.1149863271948,-0.528538901541649 37.1148975868714,-0.52834916306411</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.19">
+	<name>EA-COF-0019</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-0019</SimpleData>
+		<SimpleData name="producer">Producer 665</SimpleData>
+		<SimpleData name="country">TZA</SimpleData>
+		<SimpleData name="region">Kilimanjaro</SimpleData>
+		<SimpleData name="declared_ha">1.23</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>37.1531571975812,-3.41430412337689 37.1527996236336,-3.41411584881719 37.152833713231,-3.41373511765699 37.1524964761448,-3.41384195168744 37.1522298490212,-3.41375030381586 37.1520815684742,-3.41398691574205 37.1520337792496,-3.41420411306123 37.1519118063604,-3.41443414394642 37.1520825328107,-3.41462047820062 37.15228163094,-3.41472164759499 37.1524918178566,-3.41472799870852 37.152670566332,-3.41463718954811 37.1528216795349,-3.41450395321936 37.1531571975812,-3.41430412337689</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.20">
+	<name>EA-COF-0020</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-0020</SimpleData>
+		<SimpleData name="producer">Producer 579</SimpleData>
+		<SimpleData name="country">UGA</SimpleData>
+		<SimpleData name="region">Mt Elgon</SimpleData>
+		<SimpleData name="declared_ha">3.29</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>34.3879906988891,1.22954735903397 34.387578467946,1.23001091111542 34.3871592656836,1.23020907460766 34.3866968511838,1.23066096699149 34.3861346101366,1.23038085024291 34.3861632256781,1.22975102285931 34.3861546581213,1.22934118012619 34.3861297052439,1.22870820858043 34.3867364903124,1.22870938379281 34.3871917528604,1.22881452284512 34.3877828190792,1.2289525086919 34.3879906988891,1.22954735903397</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.21">
+	<name>EA-COF-0021</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-0021</SimpleData>
+		<SimpleData name="producer">Producer 776</SimpleData>
+		<SimpleData name="country">ETH</SimpleData>
+		<SimpleData name="region">Sidama</SimpleData>
+		<SimpleData name="declared_ha">1.55</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>38.88282689735,6.78702407294757 38.8827840016692,6.78724337093176 38.8828106909191,6.78758000733476 38.8825250592519,6.78768147378238 38.8822508332159,6.78770354498219 38.8820365335421,6.78753781258534 38.881684945619,6.78758599497275 38.8817978641702,6.78721038404305 38.8816000795097,6.78702407294757 38.8815658716812,6.78674234081797 38.8819271477964,6.78670265581912 38.8819506827601,6.7863045236188 38.8822508332159,6.78625866541406 38.8824590241758,6.78652497770182 38.8827428149723,6.78653553885269 38.8828729037092,6.78676820858735 38.88282689735,6.78702407294757</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.22">
+	<name>EA-COF-0022</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-0022</SimpleData>
+		<SimpleData name="producer">Producer 270</SimpleData>
+		<SimpleData name="country">ETH</SimpleData>
+		<SimpleData name="region">Sidama</SimpleData>
+		<SimpleData name="declared_ha">0.37</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>38.6637960711833,6.40342653675139 38.6637761244895,6.40353326752088 38.6637251506276,6.40364092995892 38.6636088514153,6.4036692566242 38.6634860445942,6.40371851194717 38.6633474776628,6.40368277587248 38.6632355501044,6.40357850877116 38.6632662175471,6.40342653675139 38.6632616369607,6.40328704912355 38.6633929901827,6.40322701247417 38.6634927264274,6.40316365394003 38.6636352008275,6.40306909278909 38.663780298551,6.40314342166534 38.6637733487484,6.40332113436884 38.6637960711833,6.40342653675139</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.23">
+	<name>EA-COF-0023</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-0023</SimpleData>
+		<SimpleData name="producer">Producer 620</SimpleData>
+		<SimpleData name="country">TZA</SimpleData>
+		<SimpleData name="region">Kilimanjaro</SimpleData>
+		<SimpleData name="declared_ha">2.66</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>37.3801028551695,-3.2233358863474 37.3800984668659,-3.22295241687899 37.3797283596006,-3.22282550836274 37.3794332258162,-3.22267044958465 37.3790466266906,-3.22266733637795 37.3785712515932,-3.22283901262444 37.3784865294845,-3.2233358863474 37.3789274370155,-3.22362744166047 37.3790562791786,-3.22398774416689 37.3794332258162,-3.22409517699154 37.3799433300901,-3.22421801508023 37.3800175682337,-3.22367272286147 37.3801028551695,-3.2233358863474</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.24">
+	<name>EA-COF-0024</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-0024</SimpleData>
+		<SimpleData name="producer">Producer 761</SimpleData>
+		<SimpleData name="country">KEN</SimpleData>
+		<SimpleData name="region">Nyeri</SimpleData>
+		<SimpleData name="declared_ha">3.22</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>36.8398754383903,-0.179645741101716 36.8398870982813,-0.179166562891275 36.8394145814823,-0.178975222783543 36.8390149206375,-0.179017651984485 36.8387341775787,-0.178916339917418 36.8383823201917,-0.178903524748872 36.8381484298986,-0.17916447355184 36.8378903735562,-0.17945009064522 36.8381248171637,-0.179791559276041 36.8379510207182,-0.180270434111568 36.8383537556583,-0.180437432434647 36.838697690367,-0.180722293209688 36.8391594986247,-0.18071879332268 36.8393430717933,-0.18023684025475 36.8398469075608,-0.180107025338438 36.8398754383903,-0.179645741101716</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.25">
+	<name>EA-COF-0025</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-0025</SimpleData>
+		<SimpleData name="producer">Producer 240</SimpleData>
+		<SimpleData name="country">UGA</SimpleData>
+		<SimpleData name="region">Mt Elgon</SimpleData>
+		<SimpleData name="declared_ha">2.25</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>34.3442533054357,1.20583125584547 34.3442644280704,1.20639520373747 34.3437003552627,1.20668466920702 34.3430371825209,1.20649428172564 34.3428041204741,1.20583125584547 34.3432251460953,1.20535615191457 34.3437003552627,1.20498859820368 34.3442716474824,1.20526009014019 34.3442533054357,1.20583125584547</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.26">
+	<name>EA-COF-0026</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-0026</SimpleData>
+		<SimpleData name="producer">Producer 414</SimpleData>
+		<SimpleData name="country">KEN</SimpleData>
+		<SimpleData name="region">Nyeri</SimpleData>
+		<SimpleData name="declared_ha">3.08</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>36.9682981400026,-0.701789254449427 36.96824941587,-0.701399360178493 36.9679635630866,-0.701114646041463 36.9675740485223,-0.700766342309236 36.9671756471883,-0.70109925485952 36.9667732749135,-0.701326962271049 36.9669015726882,-0.701789254449427 36.9667069407924,-0.702289841777652 36.9672446479901,-0.702359750109857 36.9675740485223,-0.702450600931045 36.9679833389427,-0.702498113075525 36.9682727923977,-0.702192644152538 36.9682981400026,-0.701789254449427</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.27">
+	<name>EA-COF-0027</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-0027</SimpleData>
+		<SimpleData name="producer">Producer 685</SimpleData>
+		<SimpleData name="country">KEN</SimpleData>
+		<SimpleData name="region">Nyeri</SimpleData>
+		<SimpleData name="declared_ha">0.39</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>37.0588921792079,-0.712363884512928 37.0588397145244,-0.712250796770082 37.0587704231434,-0.712158739717315 37.0587114721939,-0.71197681407092 37.0585550998832,-0.712072807619791 37.0584424539409,-0.71211580174966 37.058294485057,-0.712152323976391 37.0582290690716,-0.712288087049876 37.0582370877302,-0.712437977689213 37.0583298220547,-0.712549773202128 37.0584678225485,-0.712568030954997 37.0585581861993,-0.712625599338821 37.0587121460933,-0.712753028843838 37.0587403127175,-0.712535590877355 37.0589214190151,-0.712513346627155 37.0588921792079,-0.712363884512928</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.28">
+	<name>EA-COF-0028</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-0028</SimpleData>
+		<SimpleData name="producer">Producer 271</SimpleData>
+		<SimpleData name="country">TZA</SimpleData>
+		<SimpleData name="region">Kilimanjaro</SimpleData>
+		<SimpleData name="declared_ha">0.36</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>37.3991591649398,-3.31103469618487 37.3992459166573,-3.31083788246709 37.3990940660249,-3.31070682899752 37.3989044553011,-3.31074454457123 37.3987787724899,-3.310817370556 37.3985816327745,-3.31084862563698 37.3985176488267,-3.31103469618487 37.3986182993233,-3.31119963262882 37.3987910595099,-3.31123077559623 37.3989044553011,-3.31130459327961 37.3990821287016,-3.31134192183603 37.3991363669954,-3.31116836695588 37.3991591649398,-3.31103469618487</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.29">
+	<name>EA-COF-0029</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-0029</SimpleData>
+		<SimpleData name="producer">Producer 766</SimpleData>
+		<SimpleData name="country">ETH</SimpleData>
+		<SimpleData name="region">Jimma</SimpleData>
+		<SimpleData name="declared_ha">1.21</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>36.3725533129076,7.76799338123305 36.3724305906992,7.76815317648777 36.3724034329274,7.76833114407299 36.3722483183424,7.76842171058534 36.3720995946719,7.76849763069716 36.3719342366815,7.76858203594058 36.3717433638416,7.76857543672951 36.3715938489128,7.76845758558046 36.371485029897,7.7683167541512 36.3714013237273,7.76816494620123 36.3714014192863,7.76799338123305 36.3713456683815,7.76780389869023 36.3714431095542,7.7676398308909 36.3716235728737,7.76756971298343 36.3717651368315,7.76747772118818 36.3719342366815,7.76739433530197 36.3720936694942,7.76750720024952 36.3722926972616,7.76750453006093 36.3723895860272,7.76766558643609 36.3724382769241,7.76783111148989 36.3725533129076,7.76799338123305</coordinates></LinearRing></outerBoundaryIs><innerBoundaryIs><LinearRing><coordinates>36.372110557676,7.76799338123305 36.3720875024037,7.76810371345769 36.3719912156094,7.76816713512171 36.3718803145744,7.76815781352646 36.371793034109,7.76809502949282 36.3717659560296,7.76799338123305 36.3718022575215,7.76789837268112 36.3718821372375,7.76783450704366 36.3719884139661,7.76782817079057 36.3720807015288,7.76788794479098 36.372110557676,7.76799338123305</coordinates></LinearRing></innerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.30">
+	<name>EA-COF-0030</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-0030</SimpleData>
+		<SimpleData name="producer">Producer 737</SimpleData>
+		<SimpleData name="country">ETH</SimpleData>
+		<SimpleData name="region">Jimma</SimpleData>
+		<SimpleData name="declared_ha">3</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>36.9609827495915,7.47832742698712 36.9607321892168,7.47890691008456 36.9601477348457,7.47927159412967 36.9594500330488,7.47901919424632 36.9590295105177,7.47832742698712 36.9595157780015,7.47770084546477 36.9601477348457,7.47747354855025 36.9607693751028,7.47771107430074 36.9609827495915,7.47832742698712</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.31">
+	<name>EA-COF-0031</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-0031</SimpleData>
+		<SimpleData name="producer">Producer 403</SimpleData>
+		<SimpleData name="country">ETH</SimpleData>
+		<SimpleData name="region">Jimma</SimpleData>
+		<SimpleData name="declared_ha">0.52</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>36.68968675447,7.56176526543006 36.6896639632529,7.56185650225772 36.6897145005062,7.56201764048947 36.6895982142751,7.56208655033596 36.6894635816643,7.56206035434963 36.6893479386643,7.56212031705711 36.6892371870009,7.56206386007984 36.6890740336026,7.56204563232039 36.6890184185477,7.56190694435667 36.6889496036383,7.56176526543006 36.6891033351951,7.56165422485399 36.6892065545577,7.56159512979691 36.6892678221915,7.56151927103981 36.6893379612145,7.56135412095973 36.6894765076632,7.56139750703664 36.6896042762228,7.56143357223179 36.6896883573489,7.56153463631335 36.68978524415,7.56163026984894 36.68968675447,7.56176526543006</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.32">
+	<name>EA-COF-0032</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-0032</SimpleData>
+		<SimpleData name="producer">Producer 627</SimpleData>
+		<SimpleData name="country">ETH</SimpleData>
+		<SimpleData name="region">Sidama</SimpleData>
+		<SimpleData name="declared_ha">0.36</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>38.5411922205296,6.53936784374434 38.5410550941371,6.53951175098887 38.5408966658947,6.53955464113206 38.5407864682418,6.53944109893655 38.5407350099573,6.53926996877754 38.5408902929187,6.53915330618847 38.5410425217179,6.53923959924312 38.5411922205296,6.53936784374434</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><outerBoundaryIs><LinearRing><coordinates>38.5553341652097,6.54514359193694 38.5553922767971,6.54522203606964 38.5553840948702,6.54531761690699 38.5552938058957,6.54534744458347 38.5552167263863,6.54537677943751 38.5551289403456,6.54540501894235 38.5550416566729,6.54537362806953 38.5550072768023,6.54528369406785 38.5550172180508,6.54520076829874 38.5550221296934,6.54514359193694 38.55494356424,6.5450597825041 38.5550243040658,6.54501768425518 38.5550714783295,6.54496487177507 38.5551459613816,6.54497806686841 38.5552161636164,6.54491357526157 38.5552735429918,6.54497460692385 38.5553146879071,6.54502742674054 38.5553453182432,6.54508212792366 38.5553341652097,6.54514359193694</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.33">
+	<name>EA-COF-0033</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-0033</SimpleData>
+		<SimpleData name="producer">Producer 869</SimpleData>
+		<SimpleData name="country">ETH</SimpleData>
+		<SimpleData name="region">Jimma</SimpleData>
+		<SimpleData name="declared_ha">0.85</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>36.6945843092382,7.44144348118504 36.6945388899351,7.44166959551197 36.6943394846831,7.44177935301776 36.6941439219099,7.44198141995808 36.6938438252619,7.44195888608292 36.6937191084915,7.44168668163171 36.6935323084796,7.44144348118504 36.6936942971226,7.44118607653541 36.6939465876008,7.44110456680497 36.6941439219099,7.44108032038669 36.6944289916465,7.44095388445187 36.6945767652302,7.44119568371841 36.6945843092382,7.44144348118504</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.34">
+	<name>EA-COF-0034</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-0034</SimpleData>
+		<SimpleData name="producer">Producer 489</SimpleData>
+		<SimpleData name="country">UGA</SimpleData>
+		<SimpleData name="region">Mt Elgon</SimpleData>
+		<SimpleData name="declared_ha">1.32</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>34.1810547272324,1.20817720969779 34.1809414004597,1.20843745499279 34.1807418196126,1.20862700165978 34.1804747213739,1.20860582621964 34.1803088684527,1.20843969152948 34.1801258086712,1.20829773188831 34.1800887331696,1.20804580357795 34.180222525202,1.20781510459572 34.180470322708,1.20771800658404 34.1807103948177,1.20779621314061 34.180823200118,1.2079929102622 34.1810547272324,1.20817720969779</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><outerBoundaryIs><LinearRing><coordinates>34.1978071218507,1.21468972325685 34.197808118956,1.21486431621421 34.1977563765341,1.21506778842712 34.1975368149073,1.21506181249157 34.1973630594801,1.21519224591765 34.1971875933937,1.21508505331566 34.1970723928929,1.21493923142307 34.1969782668571,1.21478272172913 34.1970510810927,1.21461219845011 34.1969948724487,1.21438390584773 34.1971624638639,1.21425087735677 34.1973788607627,1.21433750597307 34.1975544074919,1.21426350178129 34.1976307402245,1.21445115998856 34.1977837974861,1.21452595648212 34.1978071218507,1.21468972325685</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.35">
+	<name>EA-COF-0035</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-0035</SimpleData>
+		<SimpleData name="producer">Producer 351</SimpleData>
+		<SimpleData name="country">ETH</SimpleData>
+		<SimpleData name="region">Jimma</SimpleData>
+		<SimpleData name="declared_ha">0.48</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>36.4613786518234,7.54037425056521 36.4613445615044,7.54048156275416 36.461277856345,7.54056616286628 36.4612265528581,7.54066781187253 36.4611186961862,7.54070159538101 36.4610114076452,7.54072006706485 36.4609009059262,7.54071139901136 36.4607921765739,7.54067338694406 36.4607412143444,7.54056885995206 36.4606787584918,7.54048140018339 36.4606325763318,7.54037425056521 36.4606689950595,7.5402639560479 36.4607027700053,7.5401519512644 36.4607919301311,7.54007477792015 36.4609090673228,7.54006200310914 36.4610114076452,7.54001708027434 36.4611154694503,7.54005675074548 36.4612272316444,7.54007976306767 36.4613151026399,7.54015551125332 36.4613321051917,7.54027095067915 36.4613786518234,7.54037425056521</coordinates></LinearRing></outerBoundaryIs><innerBoundaryIs><LinearRing><coordinates>36.4611074109891,7.54037425056521 36.4611030966361,7.54044029046421 36.4610444062031,7.54047493146508 36.4609793212571,7.5404721483717 36.4609343984785,7.54042971717624 36.4609102332182,7.54037425056521 36.4609250530809,7.54031205283952 36.4609801725516,7.54027895011783 36.4610418461083,7.54028138069296 36.4610916343676,7.54031646647799 36.4611074109891,7.54037425056521</coordinates></LinearRing></innerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.36">
+	<name>EA-COF-0036</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-0036</SimpleData>
+		<SimpleData name="producer">Producer 751</SimpleData>
+		<SimpleData name="country">TZA</SimpleData>
+		<SimpleData name="region">Kilimanjaro</SimpleData>
+		<SimpleData name="declared_ha">0.97</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>37.2191648862678,-3.12726259344523 37.2188494719857,-3.12705442555432 37.2186851531531,-3.12691258953991 37.218438596802,-3.12666203159829 37.2181474986552,-3.12682749793166 37.2180447443599,-3.12712176616098 37.2181320760998,-3.12737781600376 37.2181629583025,-3.12767987414373 37.2184693326386,-3.12764970119776 37.2187123468983,-3.12767205467219 37.2188571554119,-3.12747569182105 37.2191648862678,-3.12726259344523</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.37">
+	<name>EA-COF-0037</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-0037</SimpleData>
+		<SimpleData name="producer">Producer 246</SimpleData>
+		<SimpleData name="country">UGA</SimpleData>
+		<SimpleData name="region">Mt Elgon</SimpleData>
+		<SimpleData name="declared_ha">0.5</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>34.6157544833394,1.45019403263571 34.615647135089,1.45045735411089 34.6154035431206,1.45059272583265 34.6151379303299,1.45053217632146 34.6150363810506,1.45030203865577 34.6150305252898,1.45008389597568 34.6151251538301,1.44983376649133 34.6153796178226,1.44993098308638 34.6156758320346,1.4499066392767 34.6157544833394,1.45019403263571</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.38">
+	<name>EA-COF-0038</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-0038</SimpleData>
+		<SimpleData name="producer">Producer 814</SimpleData>
+		<SimpleData name="country">TZA</SimpleData>
+		<SimpleData name="region">Kilimanjaro</SimpleData>
+		<SimpleData name="declared_ha">2</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>37.2721129838038,-3.00687260928606 37.2719911365774,-3.00639460326769 37.2715874170416,-3.00608855362657 37.2711703048298,-3.00637469294638 37.2706875070592,-3.00640477699694 37.2705375644742,-3.00687260928606 37.2709094916854,-3.00717938234767 37.2711377772882,-3.00747049727912 37.2716068359794,-3.0077163480089 37.2719372751254,-3.00731153654482 37.2721129838038,-3.00687260928606</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.39">
+	<name>EA-COF-0039</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-0039</SimpleData>
+		<SimpleData name="producer">Producer 180</SimpleData>
+		<SimpleData name="country">ETH</SimpleData>
+		<SimpleData name="region">Sidama</SimpleData>
+		<SimpleData name="declared_ha">0.71</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>39.1083354943447,6.44439464035652 39.1083812699346,6.44453428574451 39.1083335123303,6.44467998709603 39.1081883484035,6.44473356373574 39.1080652763751,6.44489612529531 39.1079319468773,6.44469696085938 39.1078019816189,6.444679560414 39.1077216821116,6.44457726798952 39.1076796977526,6.44445757541474 39.1076198649095,6.44432059127479 39.1076779611094,6.44418511287925 39.1076922346151,6.44396531007373 39.1079307364244,6.44408809243486 39.1080530808227,6.44402393477169 39.1082563075005,6.44392009909676 39.1083869165015,6.44406091690643 39.1083393419067,6.44427113533759 39.1083354943447,6.44439464035652</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.40">
+	<name>EA-COF-0040</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-0040</SimpleData>
+		<SimpleData name="producer">Producer 402</SimpleData>
+		<SimpleData name="country">ETH</SimpleData>
+		<SimpleData name="region">Jimma</SimpleData>
+		<SimpleData name="declared_ha">0.81</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>36.3872766490888,8.43632423642556 36.3871436135235,8.43645655733196 36.3871664978981,8.43667944848671 36.3870099949302,8.43683213067627 36.3868094569194,8.43664147623737 36.3866257638767,8.43669671160263 36.3864688619975,8.43659324080868 36.3863477715194,8.43642839615314 36.3863644091917,8.43622357487837 36.3863819440106,8.43599276573763 36.3866294202332,8.43595802571771 36.3867985814115,8.4359046427013 36.3870071489038,8.43582500656508 36.3872254071268,8.43590430697116 36.3871969956978,8.4361684054172 36.3872766490888,8.43632423642556</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.41">
+	<name>EA-COF-0041</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-0041</SimpleData>
+		<SimpleData name="producer">Producer 544</SimpleData>
+		<SimpleData name="country">KEN</SimpleData>
+		<SimpleData name="region">Nyeri</SimpleData>
+		<SimpleData name="declared_ha">1.47</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>36.816860420902,-0.263060494882823 36.8168556679726,-0.262522756766485 36.8163113976388,-0.262554750919652 36.8157811502133,-0.262749554385329 36.815963371546,-0.26328368313639 36.8163113731006,-0.263566346353869 36.8168856828776,-0.263635870102861 36.816860420902,-0.263060494882823</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.42">
+	<name>EA-COF-0042</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-0042</SimpleData>
+		<SimpleData name="producer">Producer 140</SimpleData>
+		<SimpleData name="country">TZA</SimpleData>
+		<SimpleData name="region">Kilimanjaro</SimpleData>
+		<SimpleData name="declared_ha">1.08</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>37.3613489685638,-3.10282784855904 37.3614363636945,-3.10268095378913 37.3613754337989,-3.10253405378565 37.3612396412814,-3.10244591676827 37.3610812076901,-3.10241012415857 37.3609502088057,-3.10251205291193 37.3608643838959,-3.10261134262853 37.3607154257928,-3.10267655885263 37.3607338867023,-3.10282784855904 37.3607800108652,-3.10295242547098 37.3608411951576,-3.1030675092332 37.3609462496357,-3.10315318847571 37.3610812076901,-3.10326503263947 37.3612327143645,-3.10319308180911 37.3614034714823,-3.10314963991257 37.3614786565368,-3.10299223591601 37.3613489685638,-3.10282784855904</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><outerBoundaryIs><LinearRing><coordinates>37.3758006207764,-3.09733117124686 37.3756914972412,-3.09720861051842 37.3756362813812,-3.09709488277612 37.3755818419703,-3.0969375839207 37.3754252386931,-3.09692928584579 37.375273260306,-3.09687240347581 37.3751772547465,-3.09702501663185 37.3750505875677,-3.09707672217858 37.3749656410485,-3.09718992785871 37.374899937784,-3.09733117124686 37.3750583372248,-3.09743872527183 37.3750475865398,-3.09758813479795 37.3751283707941,-3.09772187166487 37.3752730197839,-3.09779130109393 37.3754062325894,-3.09762542513738 37.3755164482566,-3.0976116587976 37.3756221850548,-3.09755564877409 37.3757422627045,-3.09747218210128 37.3758006207764,-3.09733117124686</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.43">
+	<name>EA-COF-0043</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-0043</SimpleData>
+		<SimpleData name="producer">Producer 581</SimpleData>
+		<SimpleData name="country">KEN</SimpleData>
+		<SimpleData name="region">Nyeri</SimpleData>
+		<SimpleData name="declared_ha">2.48</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>37.0807325686305,-0.344966743137701 37.0807856195638,-0.344614273328587 37.0805504681605,-0.344350952885351 37.0802688383381,-0.344159996172222 37.0799346667468,-0.344273958235485 37.0795440865445,-0.344023816207091 37.0793387203375,-0.344370807529996 37.0793145552247,-0.344709889190639 37.0790336024224,-0.344966743137701 37.0793614353055,-0.345204179071455 37.0793018009581,-0.345599597455627 37.0797044905758,-0.345522427499367 37.0799346667468,-0.345937930691134 37.080220227335,-0.345656134887203 37.0806552977327,-0.345687361062175 37.0807351718541,-0.345298317200041 37.0807325686305,-0.344966743137701</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.44">
+	<name>EA-COF-0044</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-0044</SimpleData>
+		<SimpleData name="producer">Producer 247</SimpleData>
+		<SimpleData name="country">ETH</SimpleData>
+		<SimpleData name="region">Sidama</SimpleData>
+		<SimpleData name="declared_ha">0.3</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>38.3846093080399,7.21489109396895 38.3844793943521,7.21515711367751 38.3842107007823,7.21512953426161 38.3840006037027,7.21501767874285 38.3840431789654,7.21478485001882 38.3842103513674,7.21465113491102 38.3844176131818,7.21470193198829 38.3846093080399,7.21489109396895</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.45">
+	<name>EA-COF-0045</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-0045</SimpleData>
+		<SimpleData name="producer">Producer 251</SimpleData>
+		<SimpleData name="country">ETH</SimpleData>
+		<SimpleData name="region">Jimma</SimpleData>
+		<SimpleData name="declared_ha">0.99</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>36.5244131131772,7.86173994319178 36.5246140198677,7.86198719637817 36.5242820237606,7.86200798950444 36.5242339346373,7.86227205801842 36.5240114341827,7.86217494612466 36.5237880149243,7.86227425535826 36.5235649334708,7.86218224725366 36.5234676068084,7.86196308664589 36.5234404750502,7.86173994319178 36.5235986250551,7.86157055919427 36.5235935840787,7.86132602045132 36.5237953935995,7.86122327729248 36.5240114341827,7.86123710501572 36.5241809683165,7.86133449850901 36.5242811274325,7.86147278478266 36.5246099423129,7.8614943631092 36.5244131131772,7.86173994319178</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.46">
+	<name>EA-COF-0046</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-0046</SimpleData>
+		<SimpleData name="producer">Producer 623</SimpleData>
+		<SimpleData name="country">KEN</SimpleData>
+		<SimpleData name="region">Nyeri</SimpleData>
+		<SimpleData name="declared_ha">2.41</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>36.8365256431226,-0.476432565904475 36.8359521138752,-0.476077618873402 36.8356904767618,-0.475517326893934 36.8352340189597,-0.475921505798102 36.8347332078315,-0.476142898554165 36.8349124822093,-0.476656984973346 36.8350871378945,-0.477198022683234 36.8356812938677,-0.477295727935237 36.8361957327045,-0.476991926338094 36.8365256431226,-0.476432565904475</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.47">
+	<name>EA-COF-0047</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-0047</SimpleData>
+		<SimpleData name="producer">Producer 772</SimpleData>
+		<SimpleData name="country">UGA</SimpleData>
+		<SimpleData name="region">Mt Elgon</SimpleData>
+		<SimpleData name="declared_ha">0.76</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>34.9197732837554,0.984337214586466 34.9197362582632,0.984485740464087 34.9197086609439,0.984677063500142 34.919571915358,0.984858192329776 34.919347688762,0.984859720424059 34.9191263583971,0.984815633484146 34.9191381967159,0.984529296961044 34.9189766453185,0.984427743757661 34.9190982086299,0.984272520681661 34.9190032408484,0.984047095504341 34.9191483796084,0.983896931916941 34.9193507454267,0.98384378667953 34.9195665752229,0.983832669663641 34.9196682406304,0.984042250354153 34.9197269334255,0.984192839781402 34.9197732837554,0.984337214586466</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.48">
+	<name>EA-COF-0048</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-0048</SimpleData>
+		<SimpleData name="producer">Producer 108</SimpleData>
+		<SimpleData name="country">TZA</SimpleData>
+		<SimpleData name="region">Kilimanjaro</SimpleData>
+		<SimpleData name="declared_ha">1.27</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>37.4603764262948,-3.38937586333087 37.4603724264296,-3.38913815385202 37.4601880925035,-3.38898599337374 37.4599750365185,-3.38894809692227 37.4597975393939,-3.38869416929783 37.4596017875004,-3.38890410309991 37.4593671993358,-3.38894627602029 37.4594019167478,-3.38921227770935 37.4591021214207,-3.38937586333087 37.4592179318394,-3.38961552469242 37.4595075636309,-3.38966533187051 37.4595616061151,-3.38994446032421 37.4597975393939,-3.38978964976729 37.4600057258501,-3.38987759074149 37.4603014717267,-3.38987891418909 37.4603618576846,-3.38960920274967 37.4603764262948,-3.38937586333087</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.49">
+	<name>EA-COF-0049</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-0049</SimpleData>
+		<SimpleData name="producer">Producer 744</SimpleData>
+		<SimpleData name="country">UGA</SimpleData>
+		<SimpleData name="region">Mt Elgon</SimpleData>
+		<SimpleData name="declared_ha">1.97</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>34.4653771179654,1.3139728984874 34.4655011899923,1.31430734566839 34.4652210202706,1.31450022935747 34.4650106839157,1.31473832447202 34.4646935507007,1.31455675024428 34.4643665997159,1.31476202043233 34.4642527509412,1.31441358233719 34.4642050788246,1.31417517695954 34.4639654842504,1.3139728984874 34.464025155,1.31369611272399 34.4640438608809,1.31332337950563 34.4644793025179,1.31345579362887 34.4646935507007,1.31338823511875 34.4650198009615,1.31318546779499 34.4653439565056,1.31332266370883 34.4652004195057,1.31376300176157 34.4653771179654,1.3139728984874</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.50">
+	<name>EA-COF-0050</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-0050</SimpleData>
+		<SimpleData name="producer">Producer 513</SimpleData>
+		<SimpleData name="country">KEN</SimpleData>
+		<SimpleData name="region">Nyeri</SimpleData>
+		<SimpleData name="declared_ha">1.07</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>36.7643863553699,-0.636117829777638 36.7643397385594,-0.635889325034396 36.7641683154141,-0.635735407799472 36.7639608220235,-0.635652623822323 36.7637364287593,-0.635675131779277 36.7634847197071,-0.635746108358932 36.763384703852,-0.635989760758606 36.7634780411771,-0.636222894630082 36.7635753561688,-0.636409259246783 36.7637043396015,-0.636645134716683 36.7639855656261,-0.636786805075493 36.7641367159145,-0.636454474798712 36.7642489442286,-0.636298684916887 36.7643863553699,-0.636117829777638</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.51">
+	<name>EA-COF-0051</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-0051</SimpleData>
+		<SimpleData name="producer">Producer 990</SimpleData>
+		<SimpleData name="country">ETH</SimpleData>
+		<SimpleData name="region">Jimma</SimpleData>
+		<SimpleData name="declared_ha">0.41</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>37.068433005532,7.69087049852488 37.0683968716157,7.6910099315687 37.068256172922,7.69105698876655 37.0681080508668,7.69101728815351 37.0680234985085,7.69087049852488 37.0681138835541,7.69072948911585 37.068256172922,7.69065180321053 37.0683854828975,7.69074235175255 37.068433005532,7.69087049852488</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><outerBoundaryIs><LinearRing><coordinates>37.0860545797881,7.69112104950438 37.0861040515161,7.69121844226805 37.0859762337085,7.69122331445634 37.0859372298242,7.6912854802037 37.0858612488464,7.69132913509016 37.0857958906578,7.69127111594428 37.0857230407946,7.69123645017872 37.0856500723786,7.69117018139892 37.085666028021,7.69107527857644 37.0857599079183,7.69103219339933 37.0857908025528,7.69096224948892 37.0858603287948,7.69090428896076 37.0859562062868,7.69089874065975 37.0860214304217,7.69096904008315 37.0860874770445,7.69103096978521 37.0860545797881,7.69112104950438</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><outerBoundaryIs><LinearRing><coordinates>37.1028468733717,7.70650135521682 37.1028158341505,7.70659922514918 37.1027416065381,7.70668955315705 37.1026046256311,7.70673093340902 37.1025252203706,7.70661272150665 37.1025231776033,7.70650135521682 37.1024896897757,7.7063644075955 37.1026124611394,7.70629567443062 37.1027358617666,7.70633067817394 37.1028404965579,7.70638572883481 37.1028468733717,7.70650135521682</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.52">
+	<name>EA-COF-0052</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-0052</SimpleData>
+		<SimpleData name="producer">Producer 689</SimpleData>
+		<SimpleData name="country">ETH</SimpleData>
+		<SimpleData name="region">Jimma</SimpleData>
+		<SimpleData name="declared_ha">2.51</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>36.5072621705664,8.36112862409627 36.5070878845868,8.36154470932258 36.5067545788542,8.36179854836682 36.5064001736299,8.36193306528409 36.5060536233039,8.36182638102056 36.5057800615342,8.36166771745105 36.5053330780238,8.36154862709932 36.5052151199629,8.36112862409627 36.5053219713372,8.36070332924504 36.5056909180397,8.36047893644638 36.5059826232852,8.36012310207679 36.5064378575593,8.36016083368223 36.5065811598722,8.36067384900934 36.5067529383596,8.36087212603127 36.5072621705664,8.36112862409627</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.53">
+	<name>EA-COF-0053</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-0053</SimpleData>
+		<SimpleData name="producer">Producer 110</SimpleData>
+		<SimpleData name="country">ETH</SimpleData>
+		<SimpleData name="region">Jimma</SimpleData>
+		<SimpleData name="declared_ha">2.91</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>37.1411888940355,7.28493082210358 37.1411244186537,7.28520781236755 37.1409866656155,7.28545091561312 37.1408247071147,7.28569498406001 37.1405405800218,7.28577214564572 37.1402649928447,7.28588232280775 37.1400161025044,7.285690644476 37.1397784124284,7.28559513649181 37.1395820490115,7.28542300452942 37.1393894295208,7.28521301343836 37.139478954327,7.28493082210358 37.1394045938146,7.2846535181735 37.1395141312182,7.2843896928352 37.1397799614824,7.28426862259458 37.1399894891192,7.28408975332584 37.1402649928447,7.28404135568888 37.1405115011426,7.28417827172535 37.1408207744785,7.28417202926336 37.1410306899707,7.28437900122074 37.1411130215316,7.28465750509662 37.1411888940355,7.28493082210358</coordinates></LinearRing></outerBoundaryIs><innerBoundaryIs><LinearRing><coordinates>37.1404742226043,7.28493082210358 37.1404448153172,7.28506041615867 37.1403318518769,7.28513493202783 37.1402024777695,7.28512167062207 37.1400754051347,7.28506745374805 37.1400486411492,7.28493082210358 37.1400992743661,7.28481139248311 37.1401958702409,7.2847198018577 37.1403361876714,7.2847134756928 37.1404274586205,7.28481373663364 37.1404742226043,7.28493082210358</coordinates></LinearRing></innerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.54">
+	<name>EA-COF-0054</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-0054</SimpleData>
+		<SimpleData name="producer">Producer 337</SimpleData>
+		<SimpleData name="country">KEN</SimpleData>
+		<SimpleData name="region">Nyeri</SimpleData>
+		<SimpleData name="declared_ha">3.26</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>36.6666689686317,-0.361958812385006 36.6669405633205,-0.361471878101842 36.6664007341837,-0.361367806967752 36.6661458069652,-0.361010750399868 36.6657074156826,-0.360986194990775 36.6652147567843,-0.361062678857843 36.6651462533904,-0.361581669790128 36.6647677651501,-0.361958812385006 36.6649637045435,-0.362423864117016 36.6652336769508,-0.362831221247323 36.6657823696519,-0.362603041535917 36.6661574133995,-0.362957724466436 36.6665524132622,-0.362740013555449 36.6669127093424,-0.362432333166955 36.6666689686317,-0.361958812385006</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.55">
+	<name>EA-COF-0055</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-0055</SimpleData>
+		<SimpleData name="producer">Producer 449</SimpleData>
+		<SimpleData name="country">ETH</SimpleData>
+		<SimpleData name="region">Sidama</SimpleData>
+		<SimpleData name="declared_ha">0.76</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>37.9969308626734,6.98590657526013 37.9967513333254,6.98604920887693 37.9966806382068,6.98617652397975 37.9966123764006,6.9863464422398 37.9964216840888,6.98627339767147 37.996257807894,6.98646224124737 37.9960818379564,6.98637880585314 37.9960434196363,6.98616734692315 37.9960511142952,6.98601690848054 37.9957813056118,6.98590657526013 37.9959266991142,6.9857512947968 37.9960152906408,6.98562237579395 37.9960850698025,6.98543990083195 37.996266156343,6.98539790418486 37.9964323059895,6.98547996027051 37.9965883048065,6.98550809197796 37.9967552931038,6.98557444869867 37.9967504818445,6.98576424925627 37.9969308626734,6.98590657526013</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.56">
+	<name>EA-COF-0056</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-0056</SimpleData>
+		<SimpleData name="producer">Producer 601</SimpleData>
+		<SimpleData name="country">ETH</SimpleData>
+		<SimpleData name="region">Jimma</SimpleData>
+		<SimpleData name="declared_ha">1.17</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>36.9959458500888,7.89616193590662 36.995828942483,7.89624404541942 36.9958131920708,7.89633814091771 36.9957748971344,7.89645995448357 36.9956482384638,7.89642623651286 36.9955527214628,7.89643420305759 36.995484586873,7.8963619819341 36.9954120142559,7.89631916736874 36.9953870864797,7.89623912401599 36.9952077573576,7.89616193590662 36.995293639291,7.89605105828113 36.9953779046315,7.89597635444002 36.9954169215582,7.89584580132584 36.9955501033425,7.89587496143748 36.9956494856689,7.89589062911239 36.995758315172,7.89589236581957 36.9958941665476,7.89591842945722 36.9958823525389,7.89606057103724 36.9959458500888,7.89616193590662</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><outerBoundaryIs><LinearRing><coordinates>37.0067948335866,7.89385623492702 37.0068693650172,7.8940071670649 37.0067337957253,7.89408359337744 37.0066143499469,7.89412214843018 37.0064951014337,7.89415801156655 37.0063783786127,7.89411142625398 37.0062796375315,7.89403433971585 37.0063005860751,7.89390393053046 37.006243430465,7.89379650564327 37.0062924515553,7.8936873518523 37.0063278518628,7.89351435797615 37.0064896281983,7.89350287737748 37.0066019359265,7.89362816581318 37.0066780057735,7.89369025036481 37.0068056263537,7.89373341216345 37.0067948335866,7.89385623492702</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><outerBoundaryIs><LinearRing><coordinates>37.0061309366092,7.90394580212782 37.0062038524876,7.90416181619854 37.005991137906,7.9042204569684 37.0058149430673,7.90428723283091 37.0056136675491,7.90423253301019 37.0055560666688,7.90403550719295 37.0055909328992,7.90386623745394 37.0056358184156,7.90368439185505 37.0058146249173,7.90360217966439 37.0059747672094,7.90370665356749 37.0062104848675,7.90372556617792 37.0061309366092,7.90394580212782</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.57">
+	<name>EA-COF-0057</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-0057</SimpleData>
+		<SimpleData name="producer">Producer 409</SimpleData>
+		<SimpleData name="country">ETH</SimpleData>
+		<SimpleData name="region">Jimma</SimpleData>
+		<SimpleData name="declared_ha">2.03</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>37.1388736460791,7.81886577719004 37.1385043939141,7.81913829601177 37.1383693682874,7.81942422823755 37.1380653570607,7.81955993535778 37.1377136797064,7.81956220909715 37.1374762819732,7.81930812942407 37.1372731810124,7.81903844114563 37.1372346347777,7.81868370076884 37.1373954414249,7.81835247230959 37.1376642885825,7.8180403223622 37.1380863024635,7.81800072183426 37.1384640677943,7.81817140571809 37.13861231849,7.81853714178734 37.1388736460791,7.81886577719004</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.58">
+	<name>EA-COF-0058</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-0058</SimpleData>
+		<SimpleData name="producer">Producer 719</SimpleData>
+		<SimpleData name="country">TZA</SimpleData>
+		<SimpleData name="region">Kilimanjaro</SimpleData>
+		<SimpleData name="declared_ha">2.49</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>37.5180897880052,-2.91507950725377 37.5177239374867,-2.9147325592458 37.5176425201424,-2.91423960566437 37.5171788133607,-2.91411892782199 37.5168249745348,-2.91445526067068 37.5165410139658,-2.91461852745537 37.5161201912172,-2.9148476660265 37.516146480052,-2.9153048772498 37.5164583029748,-2.9156136677781 37.5167559301653,-2.91588557329911 37.5171559647015,-2.91585215454544 37.5176434257939,-2.91592071920808 37.5176919268429,-2.91540967651956 37.5180897880052,-2.91507950725377</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.59">
+	<name>EA-COF-0059</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-0059</SimpleData>
+		<SimpleData name="producer">Producer 647</SimpleData>
+		<SimpleData name="country">KEN</SimpleData>
+		<SimpleData name="region">Nyeri</SimpleData>
+		<SimpleData name="declared_ha">0.79</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>37.1158741839175,-0.440748310654978 37.1157289927798,-0.440391435015775 37.1153600618998,-0.440428519205446 37.1150983257161,-0.440392650339479 37.1149145153225,-0.440606673263781 37.114864785868,-0.440908047551862 37.1150927504328,-0.441113627358633 37.1153789279238,-0.441175093477736 37.115660667147,-0.441047855977233 37.1158741839175,-0.440748310654978</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.60">
+	<name>EA-COF-0060</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-0060</SimpleData>
+		<SimpleData name="producer">Producer 251</SimpleData>
+		<SimpleData name="country">KEN</SimpleData>
+		<SimpleData name="region">Nyeri</SimpleData>
+		<SimpleData name="declared_ha">2.78</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>37.0160282388703,-0.453147664517089 37.0161512467137,-0.452529217615038 37.0155505623493,-0.452374267621185 37.0150543189624,-0.452524373689328 37.0146426676565,-0.45286686309792 37.0148011438182,-0.453370787134559 37.0149032869527,-0.454032542277614 37.0155808304839,-0.454092715165963 37.0162031183449,-0.453809635524498 37.0160282388703,-0.453147664517089</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.61">
+	<name>EA-COF-P001</name>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-P001</SimpleData>
+		<SimpleData name="producer">Producer 595</SimpleData>
+		<SimpleData name="country">UGA</SimpleData>
+		<SimpleData name="region">Mt Elgon</SimpleData>
+		<SimpleData name="declared_ha">2.49</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>34.5546440407166,1.19286513973341</coordinates></Point>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.62">
+	<name>EA-COF-P002</name>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-P002</SimpleData>
+		<SimpleData name="producer">Producer 793</SimpleData>
+		<SimpleData name="country">KEN</SimpleData>
+		<SimpleData name="region">Nyeri</SimpleData>
+		<SimpleData name="declared_ha">1.49</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>36.610964012783,-0.534518896316611</coordinates></Point>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.63">
+	<name>EA-COF-P003</name>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-P003</SimpleData>
+		<SimpleData name="producer">Producer 738</SimpleData>
+		<SimpleData name="country">TZA</SimpleData>
+		<SimpleData name="region">Kilimanjaro</SimpleData>
+		<SimpleData name="declared_ha">0.68</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>37.3204508050001,-3.17251165814345</coordinates></Point>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.64">
+	<name>EA-COF-P004</name>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-P004</SimpleData>
+		<SimpleData name="producer">Producer 980</SimpleData>
+		<SimpleData name="country">ETH</SimpleData>
+		<SimpleData name="region">Jimma</SimpleData>
+		<SimpleData name="declared_ha">1.32</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>36.7217517889652,7.81620259497754</coordinates></Point>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.65">
+	<name>EA-COF-P005</name>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-P005</SimpleData>
+		<SimpleData name="producer">Producer 411</SimpleData>
+		<SimpleData name="country">TZA</SimpleData>
+		<SimpleData name="region">Kilimanjaro</SimpleData>
+		<SimpleData name="declared_ha">3.49</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>37.4395538252915,-3.31619925508574</coordinates></Point>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.66">
+	<name>EA-COF-P006</name>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-P006</SimpleData>
+		<SimpleData name="producer">Producer 476</SimpleData>
+		<SimpleData name="country">ETH</SimpleData>
+		<SimpleData name="region">Jimma</SimpleData>
+		<SimpleData name="declared_ha">1.73</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>36.8979591776134,7.50733185657316</coordinates></Point>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.67">
+	<name>EA-COF-P007</name>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-P007</SimpleData>
+		<SimpleData name="producer">Producer 487</SimpleData>
+		<SimpleData name="country">ETH</SimpleData>
+		<SimpleData name="region">Jimma</SimpleData>
+		<SimpleData name="declared_ha">1.7</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>36.5113541590456,7.73092948864294</coordinates></Point>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.68">
+	<name>EA-COF-P008</name>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-P008</SimpleData>
+		<SimpleData name="producer">Producer 248</SimpleData>
+		<SimpleData name="country">KEN</SimpleData>
+		<SimpleData name="region">Nyeri</SimpleData>
+		<SimpleData name="declared_ha">0.54</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>36.8942507172439,-0.309307571778009</coordinates></Point>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.69">
+	<name>EA-COF-P009</name>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-P009</SimpleData>
+		<SimpleData name="producer">Producer 402</SimpleData>
+		<SimpleData name="country">UGA</SimpleData>
+		<SimpleData name="region">Mt Elgon</SimpleData>
+		<SimpleData name="declared_ha">3.84</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>34.5819662716917,0.980105524759302</coordinates></Point>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.70">
+	<name>EA-COF-P010</name>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-P010</SimpleData>
+		<SimpleData name="producer">Producer 327</SimpleData>
+		<SimpleData name="country">TZA</SimpleData>
+		<SimpleData name="region">Kilimanjaro</SimpleData>
+		<SimpleData name="declared_ha">1.79</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>37.3109296230185,-3.17755869058443</coordinates></Point>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.71">
+	<name>EA-COF-P011</name>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-P011</SimpleData>
+		<SimpleData name="producer">Producer 292</SimpleData>
+		<SimpleData name="country">TZA</SimpleData>
+		<SimpleData name="region">Kilimanjaro</SimpleData>
+		<SimpleData name="declared_ha">0.96</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>37.4851597529556,-3.30794744938421</coordinates></Point>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.72">
+	<name>EA-COF-P012</name>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-P012</SimpleData>
+		<SimpleData name="producer">Producer 499</SimpleData>
+		<SimpleData name="country">ETH</SimpleData>
+		<SimpleData name="region">Sidama</SimpleData>
+		<SimpleData name="declared_ha">0.47</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>38.5547127240934,6.42371494350365</coordinates></Point>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.73">
+	<name>EA-COF-P013</name>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-P013</SimpleData>
+		<SimpleData name="producer">Producer 358</SimpleData>
+		<SimpleData name="country">TZA</SimpleData>
+		<SimpleData name="region">Kilimanjaro</SimpleData>
+		<SimpleData name="declared_ha">3.54</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>37.286381722016,-3.29688887658066</coordinates></Point>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.74">
+	<name>EA-COF-P014</name>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-P014</SimpleData>
+		<SimpleData name="producer">Producer 644</SimpleData>
+		<SimpleData name="country">TZA</SimpleData>
+		<SimpleData name="region">Kilimanjaro</SimpleData>
+		<SimpleData name="declared_ha">0.95</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>37.6877708380206,-3.07725724558698</coordinates></Point>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.75">
+	<name>EA-COF-P015</name>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-P015</SimpleData>
+		<SimpleData name="producer">Producer 121</SimpleData>
+		<SimpleData name="country">TZA</SimpleData>
+		<SimpleData name="region">Kilimanjaro</SimpleData>
+		<SimpleData name="declared_ha">3.72</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>37.2838291643166,-3.35928022904629</coordinates></Point>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.76">
+	<name>EA-COF-P016</name>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-P016</SimpleData>
+		<SimpleData name="producer">Producer 440</SimpleData>
+		<SimpleData name="country">TZA</SimpleData>
+		<SimpleData name="region">Kilimanjaro</SimpleData>
+		<SimpleData name="declared_ha">1.19</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>37.5724507847691,-3.61187561026884</coordinates></Point>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.77">
+	<name>EA-COF-P017</name>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-P017</SimpleData>
+		<SimpleData name="producer">Producer 797</SimpleData>
+		<SimpleData name="country">ETH</SimpleData>
+		<SimpleData name="region">Sidama</SimpleData>
+		<SimpleData name="declared_ha">3.34</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>38.0079091161557,6.97060251647622</coordinates></Point>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.78">
+	<name>EA-COF-P018</name>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-P018</SimpleData>
+		<SimpleData name="producer">Producer 455</SimpleData>
+		<SimpleData name="country">UGA</SimpleData>
+		<SimpleData name="region">Mt Elgon</SimpleData>
+		<SimpleData name="declared_ha">0.58</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>34.4402019560423,0.776238405669194</coordinates></Point>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.79">
+	<name>EA-COF-P019</name>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-P019</SimpleData>
+		<SimpleData name="producer">Producer 784</SimpleData>
+		<SimpleData name="country">UGA</SimpleData>
+		<SimpleData name="region">Mt Elgon</SimpleData>
+		<SimpleData name="declared_ha">1.93</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>34.3277383589361,1.09685928974193</coordinates></Point>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.80">
+	<name>EA-COF-P020</name>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-P020</SimpleData>
+		<SimpleData name="producer">Producer 273</SimpleData>
+		<SimpleData name="country">ETH</SimpleData>
+		<SimpleData name="region">Jimma</SimpleData>
+		<SimpleData name="declared_ha">2.48</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>36.5269032685701,7.27805201878067</coordinates></Point>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.81">
+	<name>EA-COF-P021</name>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-P021</SimpleData>
+		<SimpleData name="producer">Producer 737</SimpleData>
+		<SimpleData name="country">ETH</SimpleData>
+		<SimpleData name="region">Jimma</SimpleData>
+		<SimpleData name="declared_ha">3.69</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>36.7427819043332,7.66177620775451</coordinates></Point>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.82">
+	<name>EA-COF-P022</name>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-P022</SimpleData>
+		<SimpleData name="producer">Producer 353</SimpleData>
+		<SimpleData name="country">UGA</SimpleData>
+		<SimpleData name="region">Mt Elgon</SimpleData>
+		<SimpleData name="declared_ha">2.75</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>34.1740272579241,1.06511942782871</coordinates></Point>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.83">
+	<name>EA-COF-P023</name>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-P023</SimpleData>
+		<SimpleData name="producer">Producer 349</SimpleData>
+		<SimpleData name="country">ETH</SimpleData>
+		<SimpleData name="region">Sidama</SimpleData>
+		<SimpleData name="declared_ha">3.66</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>38.7772426603797,6.42844848076365</coordinates></Point>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.84">
+	<name>EA-COF-P024</name>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-P024</SimpleData>
+		<SimpleData name="producer">Producer 474</SimpleData>
+		<SimpleData name="country">KEN</SimpleData>
+		<SimpleData name="region">Nyeri</SimpleData>
+		<SimpleData name="declared_ha">0.36</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>36.6829988133592,-0.554161934541279</coordinates></Point>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.85">
+	<name>EA-COF-P025</name>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-P025</SimpleData>
+		<SimpleData name="producer">Producer 835</SimpleData>
+		<SimpleData name="country">KEN</SimpleData>
+		<SimpleData name="region">Nyeri</SimpleData>
+		<SimpleData name="declared_ha">2.02</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>36.7877660414953,-0.353962391957442</coordinates></Point>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.86">
+	<name>EA-COF-P026</name>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-P026</SimpleData>
+		<SimpleData name="producer">Producer 378</SimpleData>
+		<SimpleData name="country">ETH</SimpleData>
+		<SimpleData name="region">Sidama</SimpleData>
+		<SimpleData name="declared_ha">1.2</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>38.575704206538,6.99854130831416</coordinates></Point>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.87">
+	<name>EA-COF-P027</name>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-P027</SimpleData>
+		<SimpleData name="producer">Producer 978</SimpleData>
+		<SimpleData name="country">ETH</SimpleData>
+		<SimpleData name="region">Sidama</SimpleData>
+		<SimpleData name="declared_ha">0.89</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>38.4912768831967,6.46756075080425</coordinates></Point>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.88">
+	<name>EA-COF-P028</name>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-P028</SimpleData>
+		<SimpleData name="producer">Producer 769</SimpleData>
+		<SimpleData name="country">ETH</SimpleData>
+		<SimpleData name="region">Jimma</SimpleData>
+		<SimpleData name="declared_ha">1.1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>37.4132562914164,7.86152941651328</coordinates></Point>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.89">
+	<name>EA-COF-P029</name>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-P029</SimpleData>
+		<SimpleData name="producer">Producer 643</SimpleData>
+		<SimpleData name="country">TZA</SimpleData>
+		<SimpleData name="region">Kilimanjaro</SimpleData>
+		<SimpleData name="declared_ha">2.89</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>37.4668664243401,-3.3867415226834</coordinates></Point>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.90">
+	<name>EA-COF-P030</name>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-P030</SimpleData>
+		<SimpleData name="producer">Producer 584</SimpleData>
+		<SimpleData name="country">UGA</SimpleData>
+		<SimpleData name="region">Mt Elgon</SimpleData>
+		<SimpleData name="declared_ha">3.82</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>34.3591332482982,1.25690671465201</coordinates></Point>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.91">
+	<name>EA-COF-P031</name>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-P031</SimpleData>
+		<SimpleData name="producer">Producer 114</SimpleData>
+		<SimpleData name="country">TZA</SimpleData>
+		<SimpleData name="region">Kilimanjaro</SimpleData>
+		<SimpleData name="declared_ha">0.74</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>37.5057893442071,-3.23294197027549</coordinates></Point>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.92">
+	<name>EA-COF-P032</name>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-P032</SimpleData>
+		<SimpleData name="producer">Producer 983</SimpleData>
+		<SimpleData name="country">ETH</SimpleData>
+		<SimpleData name="region">Jimma</SimpleData>
+		<SimpleData name="declared_ha">0.89</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>36.6952376219369,8.05528836766439</coordinates></Point>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.93">
+	<name>EA-COF-P033</name>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-P033</SimpleData>
+		<SimpleData name="producer">Producer 930</SimpleData>
+		<SimpleData name="country">UGA</SimpleData>
+		<SimpleData name="region">Mt Elgon</SimpleData>
+		<SimpleData name="declared_ha">0.45</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>34.5895257689927,1.28884653415183</coordinates></Point>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.94">
+	<name>EA-COF-P034</name>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-P034</SimpleData>
+		<SimpleData name="producer">Producer 423</SimpleData>
+		<SimpleData name="country">ETH</SimpleData>
+		<SimpleData name="region">Sidama</SimpleData>
+		<SimpleData name="declared_ha">2.02</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>38.4086230484568,6.79255949958709</coordinates></Point>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.95">
+	<name>EA-COF-P035</name>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-P035</SimpleData>
+		<SimpleData name="producer">Producer 781</SimpleData>
+		<SimpleData name="country">ETH</SimpleData>
+		<SimpleData name="region">Sidama</SimpleData>
+		<SimpleData name="declared_ha">0.33</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>38.2699225592894,7.40501948033585</coordinates></Point>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.96">
+	<name>EA-COF-P036</name>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-P036</SimpleData>
+		<SimpleData name="producer">Producer 203</SimpleData>
+		<SimpleData name="country">ETH</SimpleData>
+		<SimpleData name="region">Sidama</SimpleData>
+		<SimpleData name="declared_ha">2.03</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>38.3182004662469,6.23989709521586</coordinates></Point>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.97">
+	<name>EA-COF-P037</name>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-P037</SimpleData>
+		<SimpleData name="producer">Producer 852</SimpleData>
+		<SimpleData name="country">UGA</SimpleData>
+		<SimpleData name="region">Mt Elgon</SimpleData>
+		<SimpleData name="declared_ha">3</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>34.6455569865028,1.14276827263686</coordinates></Point>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.98">
+	<name>EA-COF-P038</name>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-P038</SimpleData>
+		<SimpleData name="producer">Producer 734</SimpleData>
+		<SimpleData name="country">KEN</SimpleData>
+		<SimpleData name="region">Nyeri</SimpleData>
+		<SimpleData name="declared_ha">1.9</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>36.9494625849524,-0.301268761616677</coordinates></Point>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.99">
+	<name>EA-COF-P039</name>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-P039</SimpleData>
+		<SimpleData name="producer">Producer 897</SimpleData>
+		<SimpleData name="country">KEN</SimpleData>
+		<SimpleData name="region">Nyeri</SimpleData>
+		<SimpleData name="declared_ha">1.6</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>36.710600260764,-0.471490662797765</coordinates></Point>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.100">
+	<name>EA-COF-P040</name>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-P040</SimpleData>
+		<SimpleData name="producer">Producer 868</SimpleData>
+		<SimpleData name="country">TZA</SimpleData>
+		<SimpleData name="region">Kilimanjaro</SimpleData>
+		<SimpleData name="declared_ha">1.19</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>37.2561655151586,-3.25940658944013</coordinates></Point>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.101">
+	<name>EA-COF-P041</name>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-P041</SimpleData>
+		<SimpleData name="producer">Producer 158</SimpleData>
+		<SimpleData name="country">ETH</SimpleData>
+		<SimpleData name="region">Jimma</SimpleData>
+		<SimpleData name="declared_ha">3.16</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>36.4406007028915,7.39522512668062</coordinates></Point>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.102">
+	<name>EA-COF-P042</name>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-P042</SimpleData>
+		<SimpleData name="producer">Producer 678</SimpleData>
+		<SimpleData name="country">ETH</SimpleData>
+		<SimpleData name="region">Sidama</SimpleData>
+		<SimpleData name="declared_ha">1.5</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>38.3974322744923,6.48830601391116</coordinates></Point>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.103">
+	<name>EA-COF-P043</name>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-P043</SimpleData>
+		<SimpleData name="producer">Producer 223</SimpleData>
+		<SimpleData name="country">ETH</SimpleData>
+		<SimpleData name="region">Jimma</SimpleData>
+		<SimpleData name="declared_ha">0.79</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>36.8130067203056,7.56416751842267</coordinates></Point>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.104">
+	<name>EA-COF-P044</name>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-P044</SimpleData>
+		<SimpleData name="producer">Producer 207</SimpleData>
+		<SimpleData name="country">KEN</SimpleData>
+		<SimpleData name="region">Nyeri</SimpleData>
+		<SimpleData name="declared_ha">1.53</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>37.09425413335,-0.427046531595014</coordinates></Point>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.105">
+	<name>EA-COF-P045</name>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-P045</SimpleData>
+		<SimpleData name="producer">Producer 783</SimpleData>
+		<SimpleData name="country">TZA</SimpleData>
+		<SimpleData name="region">Kilimanjaro</SimpleData>
+		<SimpleData name="declared_ha">2.61</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>37.2589441021404,-3.17881325878865</coordinates></Point>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.106">
+	<name>EA-COF-P046</name>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-P046</SimpleData>
+		<SimpleData name="producer">Producer 640</SimpleData>
+		<SimpleData name="country">UGA</SimpleData>
+		<SimpleData name="region">Mt Elgon</SimpleData>
+		<SimpleData name="declared_ha">1.62</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>34.4318856534367,1.35132207287003</coordinates></Point>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.107">
+	<name>EA-COF-P047</name>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-P047</SimpleData>
+		<SimpleData name="producer">Producer 753</SimpleData>
+		<SimpleData name="country">TZA</SimpleData>
+		<SimpleData name="region">Kilimanjaro</SimpleData>
+		<SimpleData name="declared_ha">2.14</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>37.479909185108,-3.18659420775963</coordinates></Point>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.108">
+	<name>EA-COF-P048</name>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-P048</SimpleData>
+		<SimpleData name="producer">Producer 158</SimpleData>
+		<SimpleData name="country">ETH</SimpleData>
+		<SimpleData name="region">Sidama</SimpleData>
+		<SimpleData name="declared_ha">2.55</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>38.2876899726439,6.52866661971276</coordinates></Point>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.109">
+	<name>EA-COF-P049</name>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-P049</SimpleData>
+		<SimpleData name="producer">Producer 861</SimpleData>
+		<SimpleData name="country">TZA</SimpleData>
+		<SimpleData name="region">Kilimanjaro</SimpleData>
+		<SimpleData name="declared_ha">3.86</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>37.41178091045,-3.13032569370767</coordinates></Point>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.110">
+	<name>EA-COF-P050</name>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-P050</SimpleData>
+		<SimpleData name="producer">Producer 758</SimpleData>
+		<SimpleData name="country">TZA</SimpleData>
+		<SimpleData name="region">Kilimanjaro</SimpleData>
+		<SimpleData name="declared_ha">2.27</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>37.1928563949091,-3.0944022337597</coordinates></Point>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.111">
+	<name>EA-COF-P051</name>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-P051</SimpleData>
+		<SimpleData name="producer">Producer 298</SimpleData>
+		<SimpleData name="country">KEN</SimpleData>
+		<SimpleData name="region">Nyeri</SimpleData>
+		<SimpleData name="declared_ha">0.51</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>37.1092939361674,-0.478007009858929</coordinates></Point>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.112">
+	<name>EA-COF-P052</name>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-P052</SimpleData>
+		<SimpleData name="producer">Producer 332</SimpleData>
+		<SimpleData name="country">KEN</SimpleData>
+		<SimpleData name="region">Nyeri</SimpleData>
+		<SimpleData name="declared_ha">3.14</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>36.9753524239041,-0.24751322518246</coordinates></Point>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.113">
+	<name>EA-COF-P053</name>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-P053</SimpleData>
+		<SimpleData name="producer">Producer 209</SimpleData>
+		<SimpleData name="country">KEN</SimpleData>
+		<SimpleData name="region">Nyeri</SimpleData>
+		<SimpleData name="declared_ha">1.89</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>36.878515518998,-0.349823165869679</coordinates></Point>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.114">
+	<name>EA-COF-P054</name>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-P054</SimpleData>
+		<SimpleData name="producer">Producer 604</SimpleData>
+		<SimpleData name="country">UGA</SimpleData>
+		<SimpleData name="region">Mt Elgon</SimpleData>
+		<SimpleData name="declared_ha">2.84</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>34.6571880755311,1.30097239032235</coordinates></Point>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.115">
+	<name>EA-COF-P055</name>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-P055</SimpleData>
+		<SimpleData name="producer">Producer 475</SimpleData>
+		<SimpleData name="country">UGA</SimpleData>
+		<SimpleData name="region">Mt Elgon</SimpleData>
+		<SimpleData name="declared_ha">2.3</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>34.566166187064,0.828816381048463</coordinates></Point>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.116">
+	<name>EA-COF-P056</name>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-P056</SimpleData>
+		<SimpleData name="producer">Producer 272</SimpleData>
+		<SimpleData name="country">TZA</SimpleData>
+		<SimpleData name="region">Kilimanjaro</SimpleData>
+		<SimpleData name="declared_ha">1.7</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>37.3752857450294,-3.5019248207305</coordinates></Point>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.117">
+	<name>EA-COF-P057</name>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-P057</SimpleData>
+		<SimpleData name="producer">Producer 855</SimpleData>
+		<SimpleData name="country">UGA</SimpleData>
+		<SimpleData name="region">Mt Elgon</SimpleData>
+		<SimpleData name="declared_ha">2.15</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>34.4330959424819,0.940044733510549</coordinates></Point>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.118">
+	<name>EA-COF-P058</name>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-P058</SimpleData>
+		<SimpleData name="producer">Producer 381</SimpleData>
+		<SimpleData name="country">UGA</SimpleData>
+		<SimpleData name="region">Mt Elgon</SimpleData>
+		<SimpleData name="declared_ha">2.32</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>34.6940728192032,1.42577402513018</coordinates></Point>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.119">
+	<name>EA-COF-P059</name>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-P059</SimpleData>
+		<SimpleData name="producer">Producer 101</SimpleData>
+		<SimpleData name="country">ETH</SimpleData>
+		<SimpleData name="region">Jimma</SimpleData>
+		<SimpleData name="declared_ha">3.3</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>36.9319588325409,7.51961698637599</coordinates></Point>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.120">
+	<name>EA-COF-P060</name>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-P060</SimpleData>
+		<SimpleData name="producer">Producer 580</SimpleData>
+		<SimpleData name="country">TZA</SimpleData>
+		<SimpleData name="region">Kilimanjaro</SimpleData>
+		<SimpleData name="declared_ha">0.96</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>37.4101206212034,-3.29370907154691</coordinates></Point>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.121">
+	<name>EA-COF-P061</name>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-P061</SimpleData>
+		<SimpleData name="producer">Producer 209</SimpleData>
+		<SimpleData name="country">TZA</SimpleData>
+		<SimpleData name="region">Kilimanjaro</SimpleData>
+		<SimpleData name="declared_ha">3.71</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>37.3222644814544,-3.22810703434</coordinates></Point>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.122">
+	<name>EA-COF-P062</name>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-P062</SimpleData>
+		<SimpleData name="producer">Producer 833</SimpleData>
+		<SimpleData name="country">ETH</SimpleData>
+		<SimpleData name="region">Jimma</SimpleData>
+		<SimpleData name="declared_ha">2.48</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>36.7962937840155,7.79613916727025</coordinates></Point>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.123">
+	<name>EA-COF-P063</name>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-P063</SimpleData>
+		<SimpleData name="producer">Producer 731</SimpleData>
+		<SimpleData name="country">ETH</SimpleData>
+		<SimpleData name="region">Jimma</SimpleData>
+		<SimpleData name="declared_ha">0.41</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>36.9418341477322,7.66240803375108</coordinates></Point>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.124">
+	<name>EA-COF-P064</name>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-P064</SimpleData>
+		<SimpleData name="producer">Producer 415</SimpleData>
+		<SimpleData name="country">ETH</SimpleData>
+		<SimpleData name="region">Sidama</SimpleData>
+		<SimpleData name="declared_ha">1.86</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>38.5902527416879,6.7129021989389</coordinates></Point>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.125">
+	<name>EA-COF-P065</name>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-P065</SimpleData>
+		<SimpleData name="producer">Producer 894</SimpleData>
+		<SimpleData name="country">KEN</SimpleData>
+		<SimpleData name="region">Nyeri</SimpleData>
+		<SimpleData name="declared_ha">3.09</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>37.1428551351032,-0.417012520317618</coordinates></Point>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.126">
+	<name>EA-COF-P066</name>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-P066</SimpleData>
+		<SimpleData name="producer">Producer 847</SimpleData>
+		<SimpleData name="country">KEN</SimpleData>
+		<SimpleData name="region">Nyeri</SimpleData>
+		<SimpleData name="declared_ha">1.41</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>36.7692281776069,-0.602138824214694</coordinates></Point>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.127">
+	<name>EA-COF-P067</name>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-P067</SimpleData>
+		<SimpleData name="producer">Producer 239</SimpleData>
+		<SimpleData name="country">ETH</SimpleData>
+		<SimpleData name="region">Sidama</SimpleData>
+		<SimpleData name="declared_ha">2.18</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>38.5822738326218,6.64838500290913</coordinates></Point>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.128">
+	<name>EA-COF-P068</name>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-P068</SimpleData>
+		<SimpleData name="producer">Producer 877</SimpleData>
+		<SimpleData name="country">UGA</SimpleData>
+		<SimpleData name="region">Mt Elgon</SimpleData>
+		<SimpleData name="declared_ha">2.05</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>34.3502780885259,1.21212451251079</coordinates></Point>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.129">
+	<name>EA-COF-P069</name>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-P069</SimpleData>
+		<SimpleData name="producer">Producer 897</SimpleData>
+		<SimpleData name="country">ETH</SimpleData>
+		<SimpleData name="region">Sidama</SimpleData>
+		<SimpleData name="declared_ha">2.04</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>38.4539148590328,6.22459930191564</coordinates></Point>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.130">
+	<name>EA-COF-P070</name>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-P070</SimpleData>
+		<SimpleData name="producer">Producer 705</SimpleData>
+		<SimpleData name="country">ETH</SimpleData>
+		<SimpleData name="region">Jimma</SimpleData>
+		<SimpleData name="declared_ha">2.03</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>36.9081339933499,7.73737963662549</coordinates></Point>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.131">
+	<name>EA-COF-P071</name>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-P071</SimpleData>
+		<SimpleData name="producer">Producer 264</SimpleData>
+		<SimpleData name="country">TZA</SimpleData>
+		<SimpleData name="region">Kilimanjaro</SimpleData>
+		<SimpleData name="declared_ha">3.7</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>37.4211348850263,-3.1791313195551</coordinates></Point>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.132">
+	<name>EA-COF-P072</name>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-P072</SimpleData>
+		<SimpleData name="producer">Producer 730</SimpleData>
+		<SimpleData name="country">ETH</SimpleData>
+		<SimpleData name="region">Jimma</SimpleData>
+		<SimpleData name="declared_ha">2.51</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>37.1664911453942,7.68325527844953</coordinates></Point>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.133">
+	<name>EA-COF-P073</name>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-P073</SimpleData>
+		<SimpleData name="producer">Producer 144</SimpleData>
+		<SimpleData name="country">KEN</SimpleData>
+		<SimpleData name="region">Nyeri</SimpleData>
+		<SimpleData name="declared_ha">1.79</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>36.980385207306,-0.554215765403861</coordinates></Point>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.134">
+	<name>EA-COF-P074</name>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-P074</SimpleData>
+		<SimpleData name="producer">Producer 131</SimpleData>
+		<SimpleData name="country">KEN</SimpleData>
+		<SimpleData name="region">Nyeri</SimpleData>
+		<SimpleData name="declared_ha">1.91</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>36.6979593314449,-0.327210206665831</coordinates></Point>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.135">
+	<name>EA-COF-P075</name>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-P075</SimpleData>
+		<SimpleData name="producer">Producer 163</SimpleData>
+		<SimpleData name="country">UGA</SimpleData>
+		<SimpleData name="region">Mt Elgon</SimpleData>
+		<SimpleData name="declared_ha">1.09</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>34.6398440358528,1.53071066134809</coordinates></Point>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.136">
+	<name>EA-COF-P076</name>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-P076</SimpleData>
+		<SimpleData name="producer">Producer 757</SimpleData>
+		<SimpleData name="country">ETH</SimpleData>
+		<SimpleData name="region">Jimma</SimpleData>
+		<SimpleData name="declared_ha">3.74</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>35.9456775398677,7.57443290686777</coordinates></Point>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.137">
+	<name>EA-COF-P077</name>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-P077</SimpleData>
+		<SimpleData name="producer">Producer 512</SimpleData>
+		<SimpleData name="country">KEN</SimpleData>
+		<SimpleData name="region">Nyeri</SimpleData>
+		<SimpleData name="declared_ha">2.3</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>36.9196105378369,-0.45031610175612</coordinates></Point>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.138">
+	<name>EA-COF-P078</name>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-P078</SimpleData>
+		<SimpleData name="producer">Producer 767</SimpleData>
+		<SimpleData name="country">ETH</SimpleData>
+		<SimpleData name="region">Jimma</SimpleData>
+		<SimpleData name="declared_ha">1.99</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>36.7276650860984,7.65466848304863</coordinates></Point>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.139">
+	<name>EA-COF-P079</name>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-P079</SimpleData>
+		<SimpleData name="producer">Producer 883</SimpleData>
+		<SimpleData name="country">UGA</SimpleData>
+		<SimpleData name="region">Mt Elgon</SimpleData>
+		<SimpleData name="declared_ha">2.74</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>34.2369435335755,1.14352931054789</coordinates></Point>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.140">
+	<name>EA-COF-P080</name>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-P080</SimpleData>
+		<SimpleData name="producer">Producer 334</SimpleData>
+		<SimpleData name="country">UGA</SimpleData>
+		<SimpleData name="region">Mt Elgon</SimpleData>
+		<SimpleData name="declared_ha">0.63</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>34.3112707683756,1.03848946860192</coordinates></Point>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.141">
+	<name>EA-COF-P081</name>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-P081</SimpleData>
+		<SimpleData name="producer">Producer 676</SimpleData>
+		<SimpleData name="country">TZA</SimpleData>
+		<SimpleData name="region">Kilimanjaro</SimpleData>
+		<SimpleData name="declared_ha">2.64</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>37.5951986601013,-3.4641996456674</coordinates></Point>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.142">
+	<name>EA-COF-P082</name>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-P082</SimpleData>
+		<SimpleData name="producer">Producer 464</SimpleData>
+		<SimpleData name="country">ETH</SimpleData>
+		<SimpleData name="region">Jimma</SimpleData>
+		<SimpleData name="declared_ha">2.31</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>37.5294048757852,7.99251597405077</coordinates></Point>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.143">
+	<name>EA-COF-P083</name>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-P083</SimpleData>
+		<SimpleData name="producer">Producer 759</SimpleData>
+		<SimpleData name="country">ETH</SimpleData>
+		<SimpleData name="region">Jimma</SimpleData>
+		<SimpleData name="declared_ha">0.6</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>36.3836964708167,7.19067705023925</coordinates></Point>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.144">
+	<name>EA-COF-P084</name>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-P084</SimpleData>
+		<SimpleData name="producer">Producer 358</SimpleData>
+		<SimpleData name="country">TZA</SimpleData>
+		<SimpleData name="region">Kilimanjaro</SimpleData>
+		<SimpleData name="declared_ha">0.67</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>37.4676514082298,-3.63600800879291</coordinates></Point>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.145">
+	<name>EA-COF-P085</name>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-P085</SimpleData>
+		<SimpleData name="producer">Producer 793</SimpleData>
+		<SimpleData name="country">KEN</SimpleData>
+		<SimpleData name="region">Nyeri</SimpleData>
+		<SimpleData name="declared_ha">3.78</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>36.9284953066766,-0.468436635682851</coordinates></Point>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.146">
+	<name>EA-COF-P086</name>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-P086</SimpleData>
+		<SimpleData name="producer">Producer 586</SimpleData>
+		<SimpleData name="country">ETH</SimpleData>
+		<SimpleData name="region">Jimma</SimpleData>
+		<SimpleData name="declared_ha">1.05</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>36.7283800767407,7.60063098332585</coordinates></Point>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.147">
+	<name>EA-COF-P087</name>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-P087</SimpleData>
+		<SimpleData name="producer">Producer 257</SimpleData>
+		<SimpleData name="country">ETH</SimpleData>
+		<SimpleData name="region">Jimma</SimpleData>
+		<SimpleData name="declared_ha">0.62</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>36.8483217022402,7.46099043618042</coordinates></Point>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.148">
+	<name>EA-COF-P088</name>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-P088</SimpleData>
+		<SimpleData name="producer">Producer 243</SimpleData>
+		<SimpleData name="country">UGA</SimpleData>
+		<SimpleData name="region">Mt Elgon</SimpleData>
+		<SimpleData name="declared_ha">2.27</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>34.6614737002156,1.3044242831462</coordinates></Point>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.149">
+	<name>EA-COF-P089</name>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-P089</SimpleData>
+		<SimpleData name="producer">Producer 662</SimpleData>
+		<SimpleData name="country">ETH</SimpleData>
+		<SimpleData name="region">Jimma</SimpleData>
+		<SimpleData name="declared_ha">2.2</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>36.725224203597,7.60504438397401</coordinates></Point>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.150">
+	<name>EA-COF-P090</name>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-P090</SimpleData>
+		<SimpleData name="producer">Producer 933</SimpleData>
+		<SimpleData name="country">UGA</SimpleData>
+		<SimpleData name="region">Mt Elgon</SimpleData>
+		<SimpleData name="declared_ha">0.99</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>34.3523703073157,1.29567072484309</coordinates></Point>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.151">
+	<name>EA-COF-P091</name>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-P091</SimpleData>
+		<SimpleData name="producer">Producer 352</SimpleData>
+		<SimpleData name="country">ETH</SimpleData>
+		<SimpleData name="region">Jimma</SimpleData>
+		<SimpleData name="declared_ha">3.06</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>36.920180520203,7.70247332958456</coordinates></Point>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.152">
+	<name>EA-COF-P092</name>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-P092</SimpleData>
+		<SimpleData name="producer">Producer 469</SimpleData>
+		<SimpleData name="country">ETH</SimpleData>
+		<SimpleData name="region">Sidama</SimpleData>
+		<SimpleData name="declared_ha">2.43</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>38.8093198737123,6.77942815080996</coordinates></Point>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.153">
+	<name>EA-COF-P093</name>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-P093</SimpleData>
+		<SimpleData name="producer">Producer 759</SimpleData>
+		<SimpleData name="country">KEN</SimpleData>
+		<SimpleData name="region">Nyeri</SimpleData>
+		<SimpleData name="declared_ha">1.43</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>37.0419203116283,-0.308004737628199</coordinates></Point>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.154">
+	<name>EA-COF-P094</name>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-P094</SimpleData>
+		<SimpleData name="producer">Producer 887</SimpleData>
+		<SimpleData name="country">ETH</SimpleData>
+		<SimpleData name="region">Jimma</SimpleData>
+		<SimpleData name="declared_ha">0.47</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>36.8994849405441,7.37700659447587</coordinates></Point>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.155">
+	<name>EA-COF-P095</name>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-P095</SimpleData>
+		<SimpleData name="producer">Producer 103</SimpleData>
+		<SimpleData name="country">ETH</SimpleData>
+		<SimpleData name="region">Jimma</SimpleData>
+		<SimpleData name="declared_ha">0.53</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>37.2254406140431,7.50308317948726</coordinates></Point>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.156">
+	<name>EA-COF-P096</name>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-P096</SimpleData>
+		<SimpleData name="producer">Producer 766</SimpleData>
+		<SimpleData name="country">UGA</SimpleData>
+		<SimpleData name="region">Mt Elgon</SimpleData>
+		<SimpleData name="declared_ha">3.38</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>34.7983334178649,1.00498887691307</coordinates></Point>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.157">
+	<name>EA-COF-P097</name>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-P097</SimpleData>
+		<SimpleData name="producer">Producer 207</SimpleData>
+		<SimpleData name="country">ETH</SimpleData>
+		<SimpleData name="region">Jimma</SimpleData>
+		<SimpleData name="declared_ha">1.62</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>36.5280152387472,7.73767555133193</coordinates></Point>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.158">
+	<name>EA-COF-P098</name>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-P098</SimpleData>
+		<SimpleData name="producer">Producer 253</SimpleData>
+		<SimpleData name="country">ETH</SimpleData>
+		<SimpleData name="region">Sidama</SimpleData>
+		<SimpleData name="declared_ha">3.69</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>38.2353954359621,6.90966632645382</coordinates></Point>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.159">
+	<name>EA-COF-P099</name>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-P099</SimpleData>
+		<SimpleData name="producer">Producer 905</SimpleData>
+		<SimpleData name="country">ETH</SimpleData>
+		<SimpleData name="region">Jimma</SimpleData>
+		<SimpleData name="declared_ha">2.07</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>37.5935510314581,7.810689330726</coordinates></Point>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.160">
+	<name>EA-COF-P100</name>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-P100</SimpleData>
+		<SimpleData name="producer">Producer 845</SimpleData>
+		<SimpleData name="country">ETH</SimpleData>
+		<SimpleData name="region">Jimma</SimpleData>
+		<SimpleData name="declared_ha">1.47</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>37.0727193262854,7.46326703756584</coordinates></Point>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.161">
+	<name>EA-COF-P101</name>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-P101</SimpleData>
+		<SimpleData name="producer">Producer 716</SimpleData>
+		<SimpleData name="country">KEN</SimpleData>
+		<SimpleData name="region">Nyeri</SimpleData>
+		<SimpleData name="declared_ha">0.45</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>37.0110390673436,-0.406945432741361</coordinates></Point>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.162">
+	<name>EA-COF-P102</name>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-P102</SimpleData>
+		<SimpleData name="producer">Producer 959</SimpleData>
+		<SimpleData name="country">ETH</SimpleData>
+		<SimpleData name="region">Jimma</SimpleData>
+		<SimpleData name="declared_ha">1.1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>36.5892134707213,7.82738184140814</coordinates></Point>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.163">
+	<name>EA-COF-P103</name>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-P103</SimpleData>
+		<SimpleData name="producer">Producer 400</SimpleData>
+		<SimpleData name="country">ETH</SimpleData>
+		<SimpleData name="region">Sidama</SimpleData>
+		<SimpleData name="declared_ha">0.9</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>38.9112432577009,6.86635015277988</coordinates></Point>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.164">
+	<name>EA-COF-P104</name>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-P104</SimpleData>
+		<SimpleData name="producer">Producer 958</SimpleData>
+		<SimpleData name="country">UGA</SimpleData>
+		<SimpleData name="region">Mt Elgon</SimpleData>
+		<SimpleData name="declared_ha">1.39</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>34.1460859271286,1.27528307557561</coordinates></Point>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.165">
+	<name>EA-COF-P105</name>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-P105</SimpleData>
+		<SimpleData name="producer">Producer 932</SimpleData>
+		<SimpleData name="country">TZA</SimpleData>
+		<SimpleData name="region">Kilimanjaro</SimpleData>
+		<SimpleData name="declared_ha">1.8</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>37.1583796379305,-3.37026860429032</coordinates></Point>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.166">
+	<name>EA-COF-P106</name>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-P106</SimpleData>
+		<SimpleData name="producer">Producer 606</SimpleData>
+		<SimpleData name="country">UGA</SimpleData>
+		<SimpleData name="region">Mt Elgon</SimpleData>
+		<SimpleData name="declared_ha">0.5</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>34.5785681219232,1.07098069739836</coordinates></Point>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.167">
+	<name>EA-COF-P107</name>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-P107</SimpleData>
+		<SimpleData name="producer">Producer 971</SimpleData>
+		<SimpleData name="country">UGA</SimpleData>
+		<SimpleData name="region">Mt Elgon</SimpleData>
+		<SimpleData name="declared_ha">0.82</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>34.719962597557,0.880709397461586</coordinates></Point>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.168">
+	<name>EA-COF-P108</name>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-P108</SimpleData>
+		<SimpleData name="producer">Producer 874</SimpleData>
+		<SimpleData name="country">UGA</SimpleData>
+		<SimpleData name="region">Mt Elgon</SimpleData>
+		<SimpleData name="declared_ha">2.68</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>34.1073398674983,1.35213763379514</coordinates></Point>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.169">
+	<name>EA-COF-P109</name>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-P109</SimpleData>
+		<SimpleData name="producer">Producer 322</SimpleData>
+		<SimpleData name="country">TZA</SimpleData>
+		<SimpleData name="region">Kilimanjaro</SimpleData>
+		<SimpleData name="declared_ha">1.57</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>37.5354406206829,-3.32297594483658</coordinates></Point>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.170">
+	<name>EA-COF-P110</name>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-P110</SimpleData>
+		<SimpleData name="producer">Producer 458</SimpleData>
+		<SimpleData name="country">ETH</SimpleData>
+		<SimpleData name="region">Jimma</SimpleData>
+		<SimpleData name="declared_ha">2.24</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>36.5869332288732,7.59701924095316</coordinates></Point>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.171">
+	<name>EA-COF-P111</name>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-P111</SimpleData>
+		<SimpleData name="producer">Producer 866</SimpleData>
+		<SimpleData name="country">ETH</SimpleData>
+		<SimpleData name="region">Sidama</SimpleData>
+		<SimpleData name="declared_ha">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>38.2541553093724,6.69660296848119</coordinates></Point>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.172">
+	<name>EA-COF-P112</name>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-P112</SimpleData>
+		<SimpleData name="producer">Producer 661</SimpleData>
+		<SimpleData name="country">ETH</SimpleData>
+		<SimpleData name="region">Jimma</SimpleData>
+		<SimpleData name="declared_ha">0.36</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>36.6610176876556,7.75921371304025</coordinates></Point>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.173">
+	<name>EA-COF-P113</name>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-P113</SimpleData>
+		<SimpleData name="producer">Producer 155</SimpleData>
+		<SimpleData name="country">UGA</SimpleData>
+		<SimpleData name="region">Mt Elgon</SimpleData>
+		<SimpleData name="declared_ha">0.99</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>34.4083648048275,1.44707992089072</coordinates></Point>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.174">
+	<name>EA-COF-P114</name>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-P114</SimpleData>
+		<SimpleData name="producer">Producer 154</SimpleData>
+		<SimpleData name="country">UGA</SimpleData>
+		<SimpleData name="region">Mt Elgon</SimpleData>
+		<SimpleData name="declared_ha">3.04</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>34.405835914109,1.2724994197096</coordinates></Point>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.175">
+	<name>EA-COF-P115</name>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-P115</SimpleData>
+		<SimpleData name="producer">Producer 831</SimpleData>
+		<SimpleData name="country">UGA</SimpleData>
+		<SimpleData name="region">Mt Elgon</SimpleData>
+		<SimpleData name="declared_ha">2.1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>34.4998235583771,1.36226566664408</coordinates></Point>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.176">
+	<name>EA-COF-P116</name>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-P116</SimpleData>
+		<SimpleData name="producer">Producer 110</SimpleData>
+		<SimpleData name="country">TZA</SimpleData>
+		<SimpleData name="region">Kilimanjaro</SimpleData>
+		<SimpleData name="declared_ha">2.53</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>37.1987587759714,-3.4211894773414</coordinates></Point>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.177">
+	<name>EA-COF-P117</name>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-P117</SimpleData>
+		<SimpleData name="producer">Producer 443</SimpleData>
+		<SimpleData name="country">KEN</SimpleData>
+		<SimpleData name="region">Nyeri</SimpleData>
+		<SimpleData name="declared_ha">1.38</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>36.6651143235285,-0.544086775063579</coordinates></Point>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.178">
+	<name>EA-COF-P118</name>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-P118</SimpleData>
+		<SimpleData name="producer">Producer 406</SimpleData>
+		<SimpleData name="country">TZA</SimpleData>
+		<SimpleData name="region">Kilimanjaro</SimpleData>
+		<SimpleData name="declared_ha">2.23</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>37.2666337047858,-3.37999669904697</coordinates></Point>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.179">
+	<name>EA-COF-P119</name>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-P119</SimpleData>
+		<SimpleData name="producer">Producer 228</SimpleData>
+		<SimpleData name="country">UGA</SimpleData>
+		<SimpleData name="region">Mt Elgon</SimpleData>
+		<SimpleData name="declared_ha">2.25</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>34.4003803699906,1.01670137414759</coordinates></Point>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.180">
+	<name>EA-COF-P120</name>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-P120</SimpleData>
+		<SimpleData name="producer">Producer 263</SimpleData>
+		<SimpleData name="country">TZA</SimpleData>
+		<SimpleData name="region">Kilimanjaro</SimpleData>
+		<SimpleData name="declared_ha">1.7</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>37.4372713013997,-3.20292166517621</coordinates></Point>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.181">
+	<name>EA-COF-P121</name>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-P121</SimpleData>
+		<SimpleData name="producer">Producer 279</SimpleData>
+		<SimpleData name="country">ETH</SimpleData>
+		<SimpleData name="region">Jimma</SimpleData>
+		<SimpleData name="declared_ha">1.06</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>36.7366352206487,7.42868550757351</coordinates></Point>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.182">
+	<name>EA-COF-P122</name>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-P122</SimpleData>
+		<SimpleData name="producer">Producer 956</SimpleData>
+		<SimpleData name="country">ETH</SimpleData>
+		<SimpleData name="region">Jimma</SimpleData>
+		<SimpleData name="declared_ha">2.7</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>36.998379581594,7.69192771507079</coordinates></Point>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.183">
+	<name>EA-COF-P123</name>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-P123</SimpleData>
+		<SimpleData name="producer">Producer 964</SimpleData>
+		<SimpleData name="country">UGA</SimpleData>
+		<SimpleData name="region">Mt Elgon</SimpleData>
+		<SimpleData name="declared_ha">3.16</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>34.0680128053321,0.914947143962964</coordinates></Point>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.184">
+	<name>EA-COF-P124</name>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-P124</SimpleData>
+		<SimpleData name="producer">Producer 105</SimpleData>
+		<SimpleData name="country">UGA</SimpleData>
+		<SimpleData name="region">Mt Elgon</SimpleData>
+		<SimpleData name="declared_ha">0.61</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>34.0069085649795,1.26137289952396</coordinates></Point>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.185">
+	<name>EA-COF-P125</name>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-P125</SimpleData>
+		<SimpleData name="producer">Producer 553</SimpleData>
+		<SimpleData name="country">ETH</SimpleData>
+		<SimpleData name="region">Sidama</SimpleData>
+		<SimpleData name="declared_ha">1.12</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>38.3998708905631,6.97418061971294</coordinates></Point>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.186">
+	<name>EA-COF-P126</name>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-P126</SimpleData>
+		<SimpleData name="producer">Producer 511</SimpleData>
+		<SimpleData name="country">TZA</SimpleData>
+		<SimpleData name="region">Kilimanjaro</SimpleData>
+		<SimpleData name="declared_ha">0.68</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>37.4050670615865,-3.37802891727536</coordinates></Point>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.187">
+	<name>EA-COF-P127</name>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-P127</SimpleData>
+		<SimpleData name="producer">Producer 947</SimpleData>
+		<SimpleData name="country">KEN</SimpleData>
+		<SimpleData name="region">Nyeri</SimpleData>
+		<SimpleData name="declared_ha">0.47</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>36.7558607599365,-0.457980027171814</coordinates></Point>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.188">
+	<name>EA-COF-P128</name>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-P128</SimpleData>
+		<SimpleData name="producer">Producer 697</SimpleData>
+		<SimpleData name="country">TZA</SimpleData>
+		<SimpleData name="region">Kilimanjaro</SimpleData>
+		<SimpleData name="declared_ha">1.91</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>37.5870794761219,-3.19045040367357</coordinates></Point>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.189">
+	<name>EA-COF-P129</name>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-P129</SimpleData>
+		<SimpleData name="producer">Producer 990</SimpleData>
+		<SimpleData name="country">ETH</SimpleData>
+		<SimpleData name="region">Sidama</SimpleData>
+		<SimpleData name="declared_ha">2.81</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>38.8556369075791,6.80592445902228</coordinates></Point>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.190">
+	<name>EA-COF-P130</name>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-P130</SimpleData>
+		<SimpleData name="producer">Producer 490</SimpleData>
+		<SimpleData name="country">ETH</SimpleData>
+		<SimpleData name="region">Sidama</SimpleData>
+		<SimpleData name="declared_ha">1.16</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>38.4969200681311,6.47491031282838</coordinates></Point>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.191">
+	<name>EA-COF-P131</name>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-P131</SimpleData>
+		<SimpleData name="producer">Producer 990</SimpleData>
+		<SimpleData name="country">ETH</SimpleData>
+		<SimpleData name="region">Jimma</SimpleData>
+		<SimpleData name="declared_ha">2.5</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>36.3719035720574,7.59629762429002</coordinates></Point>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.192">
+	<name>EA-COF-P132</name>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-P132</SimpleData>
+		<SimpleData name="producer">Producer 247</SimpleData>
+		<SimpleData name="country">TZA</SimpleData>
+		<SimpleData name="region">Kilimanjaro</SimpleData>
+		<SimpleData name="declared_ha">2.97</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>37.464994756667,-3.09006825383496</coordinates></Point>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.193">
+	<name>EA-COF-P133</name>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-P133</SimpleData>
+		<SimpleData name="producer">Producer 663</SimpleData>
+		<SimpleData name="country">UGA</SimpleData>
+		<SimpleData name="region">Mt Elgon</SimpleData>
+		<SimpleData name="declared_ha">3.49</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>34.7182571158643,1.44017978781959</coordinates></Point>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.194">
+	<name>EA-COF-P134</name>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-P134</SimpleData>
+		<SimpleData name="producer">Producer 274</SimpleData>
+		<SimpleData name="country">TZA</SimpleData>
+		<SimpleData name="region">Kilimanjaro</SimpleData>
+		<SimpleData name="declared_ha">1.37</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>37.4060978107568,-3.19970950188044</coordinates></Point>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.195">
+	<name>EA-COF-P135</name>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-P135</SimpleData>
+		<SimpleData name="producer">Producer 687</SimpleData>
+		<SimpleData name="country">KEN</SimpleData>
+		<SimpleData name="region">Nyeri</SimpleData>
+		<SimpleData name="declared_ha">1.85</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>36.8065839144718,-0.604233234931683</coordinates></Point>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.196">
+	<name>EA-COF-P136</name>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-P136</SimpleData>
+		<SimpleData name="producer">Producer 714</SimpleData>
+		<SimpleData name="country">TZA</SimpleData>
+		<SimpleData name="region">Kilimanjaro</SimpleData>
+		<SimpleData name="declared_ha">0.69</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>37.1314353751753,-3.28162374651568</coordinates></Point>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.197">
+	<name>EA-COF-P137</name>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-P137</SimpleData>
+		<SimpleData name="producer">Producer 457</SimpleData>
+		<SimpleData name="country">KEN</SimpleData>
+		<SimpleData name="region">Nyeri</SimpleData>
+		<SimpleData name="declared_ha">3.3</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>37.0421679139576,-0.185509811523922</coordinates></Point>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.198">
+	<name>EA-COF-P138</name>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-P138</SimpleData>
+		<SimpleData name="producer">Producer 919</SimpleData>
+		<SimpleData name="country">TZA</SimpleData>
+		<SimpleData name="region">Kilimanjaro</SimpleData>
+		<SimpleData name="declared_ha">3.36</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>37.4031967669436,-3.15296443363476</coordinates></Point>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.199">
+	<name>EA-COF-P139</name>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-P139</SimpleData>
+		<SimpleData name="producer">Producer 548</SimpleData>
+		<SimpleData name="country">KEN</SimpleData>
+		<SimpleData name="region">Nyeri</SimpleData>
+		<SimpleData name="declared_ha">2.11</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>37.0598421714104,-0.455142444827703</coordinates></Point>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.200">
+	<name>EA-COF-P140</name>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-P140</SimpleData>
+		<SimpleData name="producer">Producer 312</SimpleData>
+		<SimpleData name="country">ETH</SimpleData>
+		<SimpleData name="region">Jimma</SimpleData>
+		<SimpleData name="declared_ha">2.42</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>36.5702220205537,8.16026832256663</coordinates></Point>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.201">
+	<name>EA-COF-P141</name>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-P141</SimpleData>
+		<SimpleData name="producer">Producer 776</SimpleData>
+		<SimpleData name="country">ETH</SimpleData>
+		<SimpleData name="region">Jimma</SimpleData>
+		<SimpleData name="declared_ha">2.1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>36.7924648119787,7.2281471513896</coordinates></Point>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.202">
+	<name>EA-COF-P142</name>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-P142</SimpleData>
+		<SimpleData name="producer">Producer 270</SimpleData>
+		<SimpleData name="country">KEN</SimpleData>
+		<SimpleData name="region">Nyeri</SimpleData>
+		<SimpleData name="declared_ha">2.07</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>36.8982445685646,-0.385928467743402</coordinates></Point>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.203">
+	<name>EA-COF-P143</name>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-P143</SimpleData>
+		<SimpleData name="producer">Producer 854</SimpleData>
+		<SimpleData name="country">ETH</SimpleData>
+		<SimpleData name="region">Sidama</SimpleData>
+		<SimpleData name="declared_ha">3.4</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>38.2072202026885,7.10412258850462</coordinates></Point>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.204">
+	<name>EA-COF-P144</name>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-P144</SimpleData>
+		<SimpleData name="producer">Producer 442</SimpleData>
+		<SimpleData name="country">KEN</SimpleData>
+		<SimpleData name="region">Nyeri</SimpleData>
+		<SimpleData name="declared_ha">3.05</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>37.0845311965482,-0.465903517545842</coordinates></Point>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.205">
+	<name>EA-COF-P145</name>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-P145</SimpleData>
+		<SimpleData name="producer">Producer 453</SimpleData>
+		<SimpleData name="country">ETH</SimpleData>
+		<SimpleData name="region">Sidama</SimpleData>
+		<SimpleData name="declared_ha">0.78</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>38.6126603171161,6.95512416454138</coordinates></Point>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.206">
+	<name>EA-COF-P146</name>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-P146</SimpleData>
+		<SimpleData name="producer">Producer 481</SimpleData>
+		<SimpleData name="country">ETH</SimpleData>
+		<SimpleData name="region">Jimma</SimpleData>
+		<SimpleData name="declared_ha">1.33</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>36.6248959287396,7.04276106812867</coordinates></Point>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.207">
+	<name>EA-COF-P147</name>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-P147</SimpleData>
+		<SimpleData name="producer">Producer 506</SimpleData>
+		<SimpleData name="country">ETH</SimpleData>
+		<SimpleData name="region">Jimma</SimpleData>
+		<SimpleData name="declared_ha">2.17</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>36.7583905028558,7.66009200429276</coordinates></Point>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.208">
+	<name>EA-COF-P148</name>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-P148</SimpleData>
+		<SimpleData name="producer">Producer 595</SimpleData>
+		<SimpleData name="country">UGA</SimpleData>
+		<SimpleData name="region">Mt Elgon</SimpleData>
+		<SimpleData name="declared_ha">0.85</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>34.4331846311191,1.30476083608293</coordinates></Point>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.209">
+	<name>EA-COF-P149</name>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-P149</SimpleData>
+		<SimpleData name="producer">Producer 651</SimpleData>
+		<SimpleData name="country">TZA</SimpleData>
+		<SimpleData name="region">Kilimanjaro</SimpleData>
+		<SimpleData name="declared_ha">1.94</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>37.4049889242492,-3.38231440902576</coordinates></Point>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.210">
+	<name>EA-COF-P150</name>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-P150</SimpleData>
+		<SimpleData name="producer">Producer 949</SimpleData>
+		<SimpleData name="country">ETH</SimpleData>
+		<SimpleData name="region">Sidama</SimpleData>
+		<SimpleData name="declared_ha">2.79</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>38.561664893559,6.95256571959755</coordinates></Point>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.211">
+	<name>EA-COF-P151</name>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-P151</SimpleData>
+		<SimpleData name="producer">Producer 293</SimpleData>
+		<SimpleData name="country">UGA</SimpleData>
+		<SimpleData name="region">Mt Elgon</SimpleData>
+		<SimpleData name="declared_ha">2.22</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>34.6090016865658,0.801069770848058</coordinates></Point>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.212">
+	<name>EA-COF-P152</name>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-P152</SimpleData>
+		<SimpleData name="producer">Producer 427</SimpleData>
+		<SimpleData name="country">ETH</SimpleData>
+		<SimpleData name="region">Jimma</SimpleData>
+		<SimpleData name="declared_ha">3.13</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>36.8920842182041,6.96642106533404</coordinates></Point>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.213">
+	<name>EA-COF-P153</name>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-P153</SimpleData>
+		<SimpleData name="producer">Producer 102</SimpleData>
+		<SimpleData name="country">TZA</SimpleData>
+		<SimpleData name="region">Kilimanjaro</SimpleData>
+		<SimpleData name="declared_ha">2.52</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>37.3260842880932,-3.42903208870296</coordinates></Point>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.214">
+	<name>EA-COF-P154</name>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-P154</SimpleData>
+		<SimpleData name="producer">Producer 499</SimpleData>
+		<SimpleData name="country">UGA</SimpleData>
+		<SimpleData name="region">Mt Elgon</SimpleData>
+		<SimpleData name="declared_ha">2.18</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>34.2998686888442,1.51080738308878</coordinates></Point>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.215">
+	<name>EA-COF-P155</name>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-P155</SimpleData>
+		<SimpleData name="producer">Producer 622</SimpleData>
+		<SimpleData name="country">TZA</SimpleData>
+		<SimpleData name="region">Kilimanjaro</SimpleData>
+		<SimpleData name="declared_ha">1.14</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>37.6154801413156,-3.12496820395843</coordinates></Point>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.216">
+	<name>EA-COF-P156</name>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-P156</SimpleData>
+		<SimpleData name="producer">Producer 782</SimpleData>
+		<SimpleData name="country">TZA</SimpleData>
+		<SimpleData name="region">Kilimanjaro</SimpleData>
+		<SimpleData name="declared_ha">2.75</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>37.3682006094471,-3.20978021786411</coordinates></Point>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.217">
+	<name>EA-COF-P157</name>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-P157</SimpleData>
+		<SimpleData name="producer">Producer 474</SimpleData>
+		<SimpleData name="country">KEN</SimpleData>
+		<SimpleData name="region">Nyeri</SimpleData>
+		<SimpleData name="declared_ha">2.84</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>36.8617028797422,-0.21970148598796</coordinates></Point>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.218">
+	<name>EA-COF-P158</name>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-P158</SimpleData>
+		<SimpleData name="producer">Producer 314</SimpleData>
+		<SimpleData name="country">TZA</SimpleData>
+		<SimpleData name="region">Kilimanjaro</SimpleData>
+		<SimpleData name="declared_ha">1.31</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>37.5355750091112,-3.15621145595852</coordinates></Point>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.219">
+	<name>EA-COF-P159</name>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-P159</SimpleData>
+		<SimpleData name="producer">Producer 705</SimpleData>
+		<SimpleData name="country">TZA</SimpleData>
+		<SimpleData name="region">Kilimanjaro</SimpleData>
+		<SimpleData name="declared_ha">0.95</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>37.1275576432145,-3.33737647863717</coordinates></Point>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.220">
+	<name>EA-COF-P160</name>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-P160</SimpleData>
+		<SimpleData name="producer">Producer 573</SimpleData>
+		<SimpleData name="country">ETH</SimpleData>
+		<SimpleData name="region">Sidama</SimpleData>
+		<SimpleData name="declared_ha">2.89</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>38.1883855780875,6.73878268220584</coordinates></Point>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.221">
+	<name>EA-COF-P161</name>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-P161</SimpleData>
+		<SimpleData name="producer">Producer 449</SimpleData>
+		<SimpleData name="country">ETH</SimpleData>
+		<SimpleData name="region">Jimma</SimpleData>
+		<SimpleData name="declared_ha">0.4</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>37.0910414907982,7.78302762109601</coordinates></Point>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.222">
+	<name>EA-COF-P162</name>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-P162</SimpleData>
+		<SimpleData name="producer">Producer 376</SimpleData>
+		<SimpleData name="country">TZA</SimpleData>
+		<SimpleData name="region">Kilimanjaro</SimpleData>
+		<SimpleData name="declared_ha">2.85</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>37.4102461628171,-3.29206185772647</coordinates></Point>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.223">
+	<name>EA-COF-P163</name>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-P163</SimpleData>
+		<SimpleData name="producer">Producer 335</SimpleData>
+		<SimpleData name="country">TZA</SimpleData>
+		<SimpleData name="region">Kilimanjaro</SimpleData>
+		<SimpleData name="declared_ha">1.22</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>37.2416905193358,-3.41311882594835</coordinates></Point>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.224">
+	<name>EA-COF-P164</name>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-P164</SimpleData>
+		<SimpleData name="producer">Producer 521</SimpleData>
+		<SimpleData name="country">ETH</SimpleData>
+		<SimpleData name="region">Jimma</SimpleData>
+		<SimpleData name="declared_ha">0.52</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>36.5665015361086,7.44818297128702</coordinates></Point>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.225">
+	<name>EA-COF-P165</name>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-P165</SimpleData>
+		<SimpleData name="producer">Producer 880</SimpleData>
+		<SimpleData name="country">ETH</SimpleData>
+		<SimpleData name="region">Jimma</SimpleData>
+		<SimpleData name="declared_ha">3.5</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>36.8949134018541,7.06148420519742</coordinates></Point>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.226">
+	<name>EA-COF-P166</name>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-P166</SimpleData>
+		<SimpleData name="producer">Producer 230</SimpleData>
+		<SimpleData name="country">UGA</SimpleData>
+		<SimpleData name="region">Mt Elgon</SimpleData>
+		<SimpleData name="declared_ha">1.95</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>34.2474233746955,0.992465282359607</coordinates></Point>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.227">
+	<name>EA-COF-P167</name>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-P167</SimpleData>
+		<SimpleData name="producer">Producer 314</SimpleData>
+		<SimpleData name="country">KEN</SimpleData>
+		<SimpleData name="region">Nyeri</SimpleData>
+		<SimpleData name="declared_ha">0.45</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>36.7034900602768,-0.331006285298163</coordinates></Point>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.228">
+	<name>EA-COF-P168</name>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-P168</SimpleData>
+		<SimpleData name="producer">Producer 683</SimpleData>
+		<SimpleData name="country">KEN</SimpleData>
+		<SimpleData name="region">Nyeri</SimpleData>
+		<SimpleData name="declared_ha">3.55</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>36.7450170683377,-0.594923201452264</coordinates></Point>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.229">
+	<name>EA-COF-P169</name>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-P169</SimpleData>
+		<SimpleData name="producer">Producer 892</SimpleData>
+		<SimpleData name="country">TZA</SimpleData>
+		<SimpleData name="region">Kilimanjaro</SimpleData>
+		<SimpleData name="declared_ha">3.61</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>37.4861369138235,-3.27302077542074</coordinates></Point>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.230">
+	<name>EA-COF-P170</name>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-P170</SimpleData>
+		<SimpleData name="producer">Producer 822</SimpleData>
+		<SimpleData name="country">ETH</SimpleData>
+		<SimpleData name="region">Jimma</SimpleData>
+		<SimpleData name="declared_ha">2.64</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>36.7486881330185,7.7538746136708</coordinates></Point>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.231">
+	<name>EA-COF-P171</name>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-P171</SimpleData>
+		<SimpleData name="producer">Producer 313</SimpleData>
+		<SimpleData name="country">ETH</SimpleData>
+		<SimpleData name="region">Jimma</SimpleData>
+		<SimpleData name="declared_ha">1.62</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>36.8971246664906,7.20513703198156</coordinates></Point>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.232">
+	<name>EA-COF-P172</name>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-P172</SimpleData>
+		<SimpleData name="producer">Producer 299</SimpleData>
+		<SimpleData name="country">UGA</SimpleData>
+		<SimpleData name="region">Mt Elgon</SimpleData>
+		<SimpleData name="declared_ha">1.1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>34.6622469825323,1.42624836734976</coordinates></Point>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.233">
+	<name>EA-COF-P173</name>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-P173</SimpleData>
+		<SimpleData name="producer">Producer 810</SimpleData>
+		<SimpleData name="country">KEN</SimpleData>
+		<SimpleData name="region">Nyeri</SimpleData>
+		<SimpleData name="declared_ha">0.4</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>36.9859815509113,-0.228698397738195</coordinates></Point>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.234">
+	<name>EA-COF-P174</name>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-P174</SimpleData>
+		<SimpleData name="producer">Producer 973</SimpleData>
+		<SimpleData name="country">ETH</SimpleData>
+		<SimpleData name="region">Jimma</SimpleData>
+		<SimpleData name="declared_ha">1.26</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>36.8403737050646,7.98982248455759</coordinates></Point>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.235">
+	<name>EA-COF-P175</name>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-P175</SimpleData>
+		<SimpleData name="producer">Producer 475</SimpleData>
+		<SimpleData name="country">ETH</SimpleData>
+		<SimpleData name="region">Jimma</SimpleData>
+		<SimpleData name="declared_ha">1.84</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>36.2178673989338,7.60894849130562</coordinates></Point>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.236">
+	<name>EA-COF-P176</name>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-P176</SimpleData>
+		<SimpleData name="producer">Producer 926</SimpleData>
+		<SimpleData name="country">ETH</SimpleData>
+		<SimpleData name="region">Sidama</SimpleData>
+		<SimpleData name="declared_ha">3.79</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>38.5354740147292,6.99154642113269</coordinates></Point>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.237">
+	<name>EA-COF-P177</name>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-P177</SimpleData>
+		<SimpleData name="producer">Producer 328</SimpleData>
+		<SimpleData name="country">KEN</SimpleData>
+		<SimpleData name="region">Nyeri</SimpleData>
+		<SimpleData name="declared_ha">2.91</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>36.9714785509112,-0.285914711244438</coordinates></Point>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.238">
+	<name>EA-COF-P178</name>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-P178</SimpleData>
+		<SimpleData name="producer">Producer 312</SimpleData>
+		<SimpleData name="country">ETH</SimpleData>
+		<SimpleData name="region">Jimma</SimpleData>
+		<SimpleData name="declared_ha">1.45</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>37.0627157731353,7.74676027917613</coordinates></Point>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.239">
+	<name>EA-COF-P179</name>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-P179</SimpleData>
+		<SimpleData name="producer">Producer 778</SimpleData>
+		<SimpleData name="country">UGA</SimpleData>
+		<SimpleData name="region">Mt Elgon</SimpleData>
+		<SimpleData name="declared_ha">2.78</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>34.7651855638171,0.90565725976535</coordinates></Point>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.240">
+	<name>EA-COF-P180</name>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-P180</SimpleData>
+		<SimpleData name="producer">Producer 687</SimpleData>
+		<SimpleData name="country">ETH</SimpleData>
+		<SimpleData name="region">Sidama</SimpleData>
+		<SimpleData name="declared_ha">1.36</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>38.2768646675417,6.94681337586868</coordinates></Point>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.241">
+	<name>EA-COF-P181</name>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-P181</SimpleData>
+		<SimpleData name="producer">Producer 937</SimpleData>
+		<SimpleData name="country">UGA</SimpleData>
+		<SimpleData name="region">Mt Elgon</SimpleData>
+		<SimpleData name="declared_ha">2.82</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>34.2672884938382,1.23490161967222</coordinates></Point>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.242">
+	<name>EA-COF-P182</name>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-P182</SimpleData>
+		<SimpleData name="producer">Producer 810</SimpleData>
+		<SimpleData name="country">UGA</SimpleData>
+		<SimpleData name="region">Mt Elgon</SimpleData>
+		<SimpleData name="declared_ha">2.6</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>34.6987790956609,0.848839368536469</coordinates></Point>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.243">
+	<name>EA-COF-P183</name>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-P183</SimpleData>
+		<SimpleData name="producer">Producer 757</SimpleData>
+		<SimpleData name="country">UGA</SimpleData>
+		<SimpleData name="region">Mt Elgon</SimpleData>
+		<SimpleData name="declared_ha">3.84</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>34.3392599553929,1.27766301146792</coordinates></Point>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.244">
+	<name>EA-COF-P184</name>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-P184</SimpleData>
+		<SimpleData name="producer">Producer 985</SimpleData>
+		<SimpleData name="country">UGA</SimpleData>
+		<SimpleData name="region">Mt Elgon</SimpleData>
+		<SimpleData name="declared_ha">0.72</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>34.2536802910418,0.929255263393774</coordinates></Point>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.245">
+	<name>EA-COF-P185</name>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-P185</SimpleData>
+		<SimpleData name="producer">Producer 434</SimpleData>
+		<SimpleData name="country">UGA</SimpleData>
+		<SimpleData name="region">Mt Elgon</SimpleData>
+		<SimpleData name="declared_ha">1.12</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>34.5194740358525,1.26053959569279</coordinates></Point>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.246">
+	<name>EA-COF-P186</name>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-P186</SimpleData>
+		<SimpleData name="producer">Producer 310</SimpleData>
+		<SimpleData name="country">KEN</SimpleData>
+		<SimpleData name="region">Nyeri</SimpleData>
+		<SimpleData name="declared_ha">3.31</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>36.8105422559877,-0.167888593088468</coordinates></Point>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.247">
+	<name>EA-COF-P187</name>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-P187</SimpleData>
+		<SimpleData name="producer">Producer 840</SimpleData>
+		<SimpleData name="country">UGA</SimpleData>
+		<SimpleData name="region">Mt Elgon</SimpleData>
+		<SimpleData name="declared_ha">3.14</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>34.3740968565062,1.35473510531863</coordinates></Point>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.248">
+	<name>EA-COF-P188</name>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-P188</SimpleData>
+		<SimpleData name="producer">Producer 785</SimpleData>
+		<SimpleData name="country">ETH</SimpleData>
+		<SimpleData name="region">Sidama</SimpleData>
+		<SimpleData name="declared_ha">3.24</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>38.2446425369244,6.63775121610694</coordinates></Point>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.249">
+	<name>EA-COF-P189</name>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-P189</SimpleData>
+		<SimpleData name="producer">Producer 183</SimpleData>
+		<SimpleData name="country">KEN</SimpleData>
+		<SimpleData name="region">Nyeri</SimpleData>
+		<SimpleData name="declared_ha">3.36</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>36.986331274404,-0.532273929836186</coordinates></Point>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.250">
+	<name>EA-COF-P190</name>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-P190</SimpleData>
+		<SimpleData name="producer">Producer 366</SimpleData>
+		<SimpleData name="country">UGA</SimpleData>
+		<SimpleData name="region">Mt Elgon</SimpleData>
+		<SimpleData name="declared_ha">2.83</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>34.4292145978991,1.20023219641101</coordinates></Point>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.251">
+	<name>EA-COF-P191</name>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-P191</SimpleData>
+		<SimpleData name="producer">Producer 289</SimpleData>
+		<SimpleData name="country">ETH</SimpleData>
+		<SimpleData name="region">Sidama</SimpleData>
+		<SimpleData name="declared_ha">3.53</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>38.3563542443249,6.73478193180911</coordinates></Point>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.252">
+	<name>EA-COF-P192</name>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-P192</SimpleData>
+		<SimpleData name="producer">Producer 672</SimpleData>
+		<SimpleData name="country">ETH</SimpleData>
+		<SimpleData name="region">Sidama</SimpleData>
+		<SimpleData name="declared_ha">3.72</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>38.7070423359756,7.27937203220102</coordinates></Point>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.253">
+	<name>EA-COF-P193</name>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-P193</SimpleData>
+		<SimpleData name="producer">Producer 374</SimpleData>
+		<SimpleData name="country">ETH</SimpleData>
+		<SimpleData name="region">Sidama</SimpleData>
+		<SimpleData name="declared_ha">3.76</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>38.4280863733864,6.41840939754789</coordinates></Point>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.254">
+	<name>EA-COF-P194</name>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-P194</SimpleData>
+		<SimpleData name="producer">Producer 352</SimpleData>
+		<SimpleData name="country">KEN</SimpleData>
+		<SimpleData name="region">Nyeri</SimpleData>
+		<SimpleData name="declared_ha">1.58</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>37.199396470931,-0.51696492082239</coordinates></Point>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.255">
+	<name>EA-COF-P195</name>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-P195</SimpleData>
+		<SimpleData name="producer">Producer 952</SimpleData>
+		<SimpleData name="country">UGA</SimpleData>
+		<SimpleData name="region">Mt Elgon</SimpleData>
+		<SimpleData name="declared_ha">3.23</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>34.6786246256349,1.41969305304937</coordinates></Point>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.256">
+	<name>EA-COF-P196</name>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-P196</SimpleData>
+		<SimpleData name="producer">Producer 871</SimpleData>
+		<SimpleData name="country">ETH</SimpleData>
+		<SimpleData name="region">Sidama</SimpleData>
+		<SimpleData name="declared_ha">2.83</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>38.5005007559956,6.72780572729204</coordinates></Point>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.257">
+	<name>EA-COF-P197</name>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-P197</SimpleData>
+		<SimpleData name="producer">Producer 382</SimpleData>
+		<SimpleData name="country">UGA</SimpleData>
+		<SimpleData name="region">Mt Elgon</SimpleData>
+		<SimpleData name="declared_ha">0.32</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>34.4763618668444,1.05913713061538</coordinates></Point>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.258">
+	<name>EA-COF-P198</name>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-P198</SimpleData>
+		<SimpleData name="producer">Producer 498</SimpleData>
+		<SimpleData name="country">KEN</SimpleData>
+		<SimpleData name="region">Nyeri</SimpleData>
+		<SimpleData name="declared_ha">3.87</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>36.6634892758342,-0.489017526140962</coordinates></Point>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.259">
+	<name>EA-COF-P199</name>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-P199</SimpleData>
+		<SimpleData name="producer">Producer 822</SimpleData>
+		<SimpleData name="country">TZA</SimpleData>
+		<SimpleData name="region">Kilimanjaro</SimpleData>
+		<SimpleData name="declared_ha">2.62</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>37.2669761781924,-3.10961752352553</coordinates></Point>
+  </Placemark>
+  <Placemark id="07_coffee_east_africa.260">
+	<name>EA-COF-P200</name>
+	<ExtendedData><SchemaData schemaUrl="#07_coffee_east_africa">
+		<SimpleData name="plot_id">EA-COF-P200</SimpleData>
+		<SimpleData name="producer">Producer 392</SimpleData>
+		<SimpleData name="country">UGA</SimpleData>
+		<SimpleData name="region">Mt Elgon</SimpleData>
+		<SimpleData name="declared_ha">0.44</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>34.5921641247067,1.2367509869838</coordinates></Point>
+  </Placemark>
+</Folder>
+</Document></kml>

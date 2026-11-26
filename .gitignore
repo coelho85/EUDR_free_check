@@ -1,0 +1,40 @@
+# --- not part of the repository ---------------------------------------------
+# macOS / editors
+.DS_Store
+._*
+.vscode/
+.idea/
+*.swp
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Node (browser tests)
+node_modules/
+package-lock.json
+
+# Cloudflare Worker: real settings (email, KV id) and local state
+worker-forms/wrangler.toml
+worker-forms/.wrangler/
+.dev.vars
+
+# Generated data: tiles, temporary rasters, VRTs, logs
+data/*
+!data/manifests/
+data/manifests/tiles.json
+data/manifests/*.log
+*.tif
+*.tiff
+*.vrt
+
+# Generated test results
+testdata/**/ref/
+testdata/**/out/
+*.plots.geojson
+
+# Local notes
+docs/STATUS.md
+*.local.*

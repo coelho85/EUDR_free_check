@@ -1,0 +1,7 @@
+{
+  "name": "eudr-free-check-browser-tests",
+  "private": true,
+  "type": "module",
+  "description": "Drops files on the EUDR Free Check page in Chrome and prints what the page shows.",
+  "dependencies": { "puppeteer-core": "23.11.1" }
+}

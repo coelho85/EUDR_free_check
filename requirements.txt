@@ -1,0 +1,8 @@
+# Python tools (tile builder, GDAL reference, test data). GDAL command-line tools and rclone are also needed for build_tiles.py.
+geopandas>=1.0
+pyogrio>=0.10
+shapely>=2.0
+pandas>=2.0
+numpy>=1.26
+rasterio>=1.4
+exactextract>=0.2

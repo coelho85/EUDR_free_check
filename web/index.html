@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>EUDR Free Check: in-browser deforestation screening</title>
+<meta name="description" content="Check plot geolocations (GeoJSON, Shapefile, GeoPackage, KML) for forest in 2020, the EUDR cut-off year, against the JRC Global Forest Cover 2020 map. Runs entirely in the browser.">
+<link rel="stylesheet" href="base.css">
+<link rel="stylesheet" href="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.css">
+<link rel="stylesheet" href="tool.css">
+</head>
+<body>
+<a class="skip" href="#top">Skip to content</a>
+
+<header class="demo-bar"><div class="wrap"><b>EUDR Free Check</b><span>open-source · <a href="https://github.com/coelho85/EUDR_free_check">GitHub</a></span></div></header>
+
+<main id="top">
+  <div class="page-hero fc-hero">
+    <div class="wrap">
+      <p class="eyebrow">Open-source · EUDR screening</p>
+      <h1>Free EUDR deforestation check</h1>
+      <p class="lead">Upload your plot geolocations and see in seconds which plots contain forest in the
+        JRC Global Forest Cover 2020 map, the EU's reference map for the EUDR cut-off date.
+        <strong>Your files never leave your computer</strong>: the whole analysis runs in your browser.</p>
+      <ul class="fc-usps" aria-label="Why use this tool">
+        <li>Free, no sign-up to check</li><li>Files stay on your computer</li><li>Official EU (JRC) forest map</li>
+        <li>GeoJSON · Shapefile · GeoPackage · KML</li><li>Polygons and points</li>
+      </ul>
+      <p class="fc-verdict">No forest in your plots in 2020? Then the EUDR deforestation requirement is likely met.
+        Forest found? Take a closer look with high-resolution imagery and time series.</p>
+    </div>
+  </div>
+
+  <section class="fc-section" id="check" aria-label="Forest check tool">
+    <div class="wrap fc-wrap">
+      <div class="fc-layout">
+      <ol class="fc-steps" aria-label="How it works">
+        <li data-step="1"><span class="fc-num" aria-hidden="true">1</span><div><h3>Upload your plots</h3>
+          <p>Polygons or points as GeoJSON, zipped Shapefile, GeoPackage or KML, in any coordinate system. Or try the example plots.</p></div></li>
+        <li data-step="2"><span class="fc-num" aria-hidden="true">2</span><div><h3>Check in your browser</h3>
+          <p>Your browser reads the parts of the 10 m JRC forest map that overlap your plots and counts the forest pixels in each one.</p></div></li>
+        <li data-step="3"><span class="fc-num" aria-hidden="true">3</span><div><h3>Review &amp; download</h3>
+          <p>See every plot on satellite imagery, click a row to zoom in, and download the results as CSV and GeoJSON, the format required by the EUDR.</p></div></li>
+      </ol>
+      <div class="fc-main">
+      <div class="fc-card">
+        <div class="fc-input">
+          <label class="fc-drop" id="drop">
+            <input type="file" id="file" multiple accept=".geojson,.json,.zip,.gpkg,.kml,.kmz">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 16V4M7 9l5-5 5 5"/><path d="M4 16v3a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1v-3"/></svg>
+            <span><b>Drop your plots here</b> or click to choose a file</span>
+            <small>GeoJSON · Shapefile (.zip with .shp, .dbf, .prj) · GeoPackage (.gpkg) · KML / KMZ · zipped files welcome · any coordinate system</small>
+          </label>
+          <div class="fc-side">
+            <button type="button" class="btn ghost" id="example">Try with example plots</button>
+            <label class="fc-thr">Flag a plot if forest ≥
+              <input type="number" id="thr" value="0" min="0" step="0.1" inputmode="decimal"> ha</label>
+            <p class="fc-privacy"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="4" y="11" width="16" height="10" rx="2"/><path d="M8 11V7a4 4 0 0 1 8 0v4"/></svg>
+              Processed locally. Nothing is uploaded.</p>
+          </div>
+        </div>
+
+        <div class="fc-body">
+          <div class="fc-map" id="map" role="region" aria-label="Map of plots and JRC forest 2020"></div>
+          <div class="fc-results">
+            <div class="fc-summary">
+              <div><b id="sTotal">–</b><span>plots</span></div>
+              <div class="is-forest"><b id="sForest">–</b><span>with forest</span></div>
+              <div class="is-clear"><b id="sClear">–</b><span>no forest</span></div>
+              <div><b id="sNa">–</b><span>not checked</span></div>
+            </div>
+            <p class="fc-status" id="log" role="status" aria-live="polite">Load a file, or try the example plots.</p>
+            <div class="fc-issues" id="issues" hidden></div>
+            <div class="fc-table-wrap">
+              <table id="tbl">
+                <thead><tr>
+                  <th scope="col" data-k="id">Plot</th>
+                  <th scope="col" class="n" data-k="totalHa">Area ha</th>
+                  <th scope="col" class="n" data-k="forestHa">Forest ha</th>
+                  <th scope="col" class="n" data-k="forestPct">Forest %</th>
+                  <th scope="col" data-k="status">Result</th>
+                </tr></thead>
+                <tbody></tbody>
+              </table>
+            </div>
+            <div class="fc-downloads">
+              <button type="button" class="btn" id="dl" disabled>Download results</button>
+              <span class="fc-dl-note">CSV + GeoJSON in one ZIP · free registration</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <p class="fc-legend"><span class="sw forest"></span>Plot with forest <span class="sw clear"></span>No forest
+        <span class="sw jrc"></span>JRC forest 2020</p>
+      </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <div class="prose">
+        <p class="eyebrow">Questions &amp; answers</p>
+        <h2>About the free EUDR forest check.</h2>
+        <details class="fc-faq" open><summary><h3>What is the EUDR cut-off date?</h3></summary><p>The EU Deforestation Regulation (Regulation (EU) 2023/1115) requires that cattle, cocoa, coffee, oil palm, rubber, soya and wood, and products made from them, placed on the EU market are deforestation-free: produced on land that was not deforested after 31 December 2020.</p></details>
+        <details class="fc-faq"><summary><h3>What do I need to do to comply with the EUDR?</h3></summary><p>Under Article 9 you collect information on each product: the commodity and quantity, the supplier, the country of production, the geolocation of every plot, and evidence that it is deforestation-free (such as this forest check) and was produced legally. Unless all your products come from countries classified as low risk, where a simplified procedure applies (Article 13), you must also assess the risk (Article 10) and, where it is not negligible, mitigate it (Article 11). Finally, you submit a due diligence statement (DDS) in the EU Information System, on the TRACES platform, before placing the products on the EU market or exporting them.</p></details>
+        <details class="fc-faq"><summary><h3>What does this free EUDR tool check?</h3></summary><p>For every plot it reports whether there was forest in 2020 according to the JRC Global Forest Cover 2020 map (version 4, 10 m resolution), the forest map published by the European Commission to support the EUDR, together with the forest area in hectares and its share of the plot.</p></details>
+        <details class="fc-faq"><summary><h3>Which file formats can I upload?</h3></summary><p>GeoJSON, zipped Shapefiles, GeoPackage and KML or KMZ (for example from Google Earth), also inside a ZIP file. Any coordinate system works, as long as the file says which one it uses. Plots can be polygons or points: under the EUDR, a single point is enough for plots smaller than 4 hectares.</p></details>
+        <details class="fc-faq"><summary><h3>Are my files uploaded anywhere?</h3></summary><p>No. The files are read and analysed by your own browser. Your plot locations are not sent to us or to anyone else.</p></details>
+        <details class="fc-faq"><summary><h3>Is the JRC forest map legally binding?</h3></summary><p>No. The map is an aid for risk assessment, not a legal reference, and it has known errors, for example with agroforestry. Forest in a plot in 2020 does not by itself mean non-compliance, and no forest in the map does not prove compliance.</p></details>
+        <details class="fc-faq"><summary><h3>What should I do if forest is found in my plots?</h3></summary><p>Take a closer look before drawing conclusions. We verify flagged plots with high-resolution satellite imagery and time series, separate forest from agroforestry and plantations, and document the evidence for your due diligence.</p></details>
+        <details class="fc-faq"><summary><h3>Is it free, and how many plots can I check?</h3></summary><p>Checking is free and needs no account; a free registration is only asked when you download the results. You can check thousands of plots at once, as long as each one is smaller than 100,000 ha.</p></details>
+        <details class="fc-faq"><summary><h3>Which regions are covered?</h3></summary><p>The tropics and subtropics, where EUDR commodities mainly come from. Not included: everything north of 60° N (northern Canada, Alaska, Greenland, northern Scandinavia and Russia), and Europe and Asia between 50° and 60° N. Plots there are marked “Outside coverage”.</p></details>
+        <p class="fc-cite">Forest map: European Commission, Joint Research Centre (JRC), Global Forest Cover 2020 (GFC2020), version 4,
+          <a href="https://forest-observatory.ec.europa.eu/" target="_blank" rel="noopener">EU Observatory on deforestation and forest degradation</a>.
+          Satellite imagery: Mapbox, Maxar; Sentinel-2 cloudless 2016 by EOX (Copernicus Sentinel data).</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="about">
+    <div class="wrap prose">
+      <p class="eyebrow">About</p>
+      <h2>Open-source tool by GeoAnalytics Lab.</h2>
+      <p>This is the open-source version of the free EUDR forest check at
+        <a href="https://geoanalyticslab.com/forest-check/">geoanalyticslab.com/forest-check</a>. Source code, tile builder and
+        validation scripts: <a href="https://github.com/coelho85/EUDR_free_check">github.com/coelho85/EUDR_free_check</a>.</p>
+    </div>
+  </section>
+</main>
+
+<dialog class="fc-dialog" id="reg" aria-labelledby="reg-title">
+  <form id="reg-form" method="dialog" novalidate>
+    <button type="button" class="fc-close" id="reg-close" aria-label="Close">×</button>
+    <p class="eyebrow">Free download</p>
+    <h2 id="reg-title">Get your results</h2>
+    <p class="fc-dialog-intro">Register once to download the CSV and GeoJSON files with the result for every plot.</p>
+    <label class="fc-field">Name<input type="text" id="reg-name" name="name" autocomplete="name" required maxlength="100"></label>
+    <label class="fc-field">Organization<input type="text" id="reg-org" name="org" autocomplete="organization" required maxlength="150"></label>
+    <label class="fc-field">Work email<input type="email" id="reg-email" name="email" autocomplete="email" required maxlength="254"></label>
+    <label class="fc-hp" aria-hidden="true">Website<input type="text" id="reg-website" name="website" tabindex="-1" autocomplete="off"></label>
+    <label class="fc-check"><input type="checkbox" id="reg-consent" required>
+      <span>I agree that GeoAnalytics Lab receives my name, organization and email, together with a summary of my results:
+        only the share of plots with and without forest. My plot locations and files are not shared.</span></label>
+    <label class="fc-check"><input type="checkbox" id="reg-marketing">
+      <span>Send me occasional updates from GeoAnalytics Lab (optional).</span></label>
+    <div id="reg-captcha" class="fc-captcha"></div>
+    <p class="fc-error" id="reg-error" role="alert"></p>
+    <button type="submit" class="btn" id="reg-submit">Register &amp; download</button>
+    <p class="fc-fineprint">Describe here who receives these details and how they are used (see README: registration).</p>
+  </form>
+</dialog>
+
+<footer><div class="wrap"><span>EUDR Free Check · Apache License 2.0 · Forest map © European Union, JRC</span></div></footer>
+
+<script src="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.js"></script>
+<script type="module" src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,24 @@
+# Cloudflare Worker for the forest-check registration form.
+# Deploy: cd worker-forms && npx wrangler deploy
+name = "geoanalyticslab-forms"
+main = "src/index.js"
+compatibility_date = "2025-10-01"
+workers_dev = false
+
+routes = [{ pattern = "forms.example.com", custom_domain = true }]
+
+[vars]
+MAIL_FROM = "forest-check@example.com"
+MAIL_TO = "you@example.com"     # a verified destination address in Email Routing
+
+# Email Routing: send only to the verified destination above
+[[send_email]]
+name = "MAILER"
+destination_address = "you@example.com"
+
+# Backup copy of every registration (create with: npx wrangler kv namespace create LEADS)
+[[kv_namespaces]]
+binding = "LEADS"
+id = "YOUR_KV_NAMESPACE_ID"
+
+# Optional spam protection: npx wrangler secret put TURNSTILE_SECRET

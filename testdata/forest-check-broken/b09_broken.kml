@@ -1,0 +1,754 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="04_coffee_colombia_peru" id="04_coffee_colombia_peru">
+	<SimpleField name="plot_id" type="string"></SimpleField>
+	<SimpleField name="producer" type="string"></SimpleField>
+	<SimpleField name="country" type="string"></SimpleField>
+	<SimpleField name="region" type="string"></SimpleField>
+	<SimpleField name="declared_ha" type="float"></SimpleField>
+</Schema>
+<Folder><name>04_coffee_colombia_peru</name>
+  <Placemark id="04_coffee_colombia_peru.1">
+	<name>CO-PE-COF-0001</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#04_coffee_colombia_peru">
+		<SimpleData name="plot_id">CO-PE-COF-0001</SimpleData>
+		<SimpleData name="producer">Producer 867</SimpleData>
+		<SimpleData name="country">PER</SimpleData>
+		<SimpleData name="region">Cajamarca</SimpleData>
+		<SimpleData name="declared_ha">1.13</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-78.8827461464995,-5.33812126627752 -78.8828805162354,-5.33776183730247 -78.8831823690466,-5.33752367904703 -78.8835145016114,-5.33770108783756 -78.8838793921619,-5.3377581168704 -78.8837764891001,-5.33812126627752 -78.8839169801232,-5.33851160649739 -78.883590280476,-5.33877365659617 -78.8832531381707,-5.33850199315571 -78.8830108187383,-5.33838643552596 -78.8827461464995,-5.33812126627752</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="04_coffee_colombia_peru.2">
+	<name>CO-PE-COF-0002</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#04_coffee_colombia_peru">
+		<SimpleData name="plot_id">CO-PE-COF-0002</SimpleData>
+		<SimpleData name="producer">Producer 942</SimpleData>
+		<SimpleData name="country">COL</SimpleData>
+		<SimpleData name="region">Cauca</SimpleData>
+		<SimpleData name="declared_ha">1.01</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-76.8741635152614,1.79069138974275 -76.8742815579679,1.79097591054439 -76.8745402949061,1.79109453971873 -76.8747917462603,1.7911588882165 -76.8750217762784,1.7910343004463 -76.8751834242349,1.79082607704657 -76.8751079618708,1.79057884936754 -76.8749640309433,1.79041508816407 -76.8747937450856,1.7902099959227 -76.874496747965,1.79019293183286 -76.8742360937781,1.7903776651491 -76.8741635152614,1.79069138974275</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="04_coffee_colombia_peru.3">
+	<name>CO-PE-COF-0003</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#04_coffee_colombia_peru">
+		<SimpleData name="plot_id">CO-PE-COF-0003</SimpleData>
+		<SimpleData name="producer">Producer 246</SimpleData>
+		<SimpleData name="country">COL</SimpleData>
+		<SimpleData name="region">Cauca</SimpleData>
+		<SimpleData name="declared_ha">0.44</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-76.703029769863,2.57207624767486 -76.703189370558,2.57218762749712 -76.7032295199563,2.57231597182943 -76.7033378150682,2.57243984020773 -76.7035018437604,2.57243058779497 -76.7036346295455,2.57234400310636 -76.7036807092651,2.57220124572634 -76.7038496896203,2.57207624767486 -76.7036352840614,2.57197310321017 -76.7036827290942,2.57174823808071 -76.7034887827299,2.57177907401869 -76.703352631829,2.57177750621312 -76.7032193270317,2.57182375487377 -76.7031511013069,2.57194645691922 -76.703029769863,2.57207624767486</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="04_coffee_colombia_peru.4">
+	<name>CO-PE-COF-0004</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#04_coffee_colombia_peru">
+		<SimpleData name="plot_id">CO-PE-COF-0004</SimpleData>
+		<SimpleData name="producer">Producer 454</SimpleData>
+		<SimpleData name="country">PER</SimpleData>
+		<SimpleData name="region">Junín</SimpleData>
+		<SimpleData name="declared_ha">1.01</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-74.546538145621,-10.4191550001022 -74.5467775411123,-10.4189132480596 -74.5470052983817,-10.4188217905 -74.5472470834633,-10.4185594541802 -74.5474926576691,-10.4187774471154 -74.547578464703,-10.4190341599711 -74.5475111495437,-10.4192564006315 -74.5474340625716,-10.4194660457622 -74.5472133365883,-10.4195197015479 -74.5468927170913,-10.4197306635141 -74.5466724101633,-10.4194632016522 -74.546538145621,-10.4191550001022</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="04_coffee_colombia_peru.5">
+	<name>CO-PE-COF-0005</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#04_coffee_colombia_peru">
+		<SimpleData name="plot_id">CO-PE-COF-0005</SimpleData>
+		<SimpleData name="producer">Producer 579</SimpleData>
+		<SimpleData name="country">COL</SimpleData>
+		<SimpleData name="region">Cauca</SimpleData>
+		<SimpleData name="declared_ha">2.39</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-76.570447603037,1.98750973652713 -76.5705903703057,1.98783269000599 -76.5708180818925,1.98808442619729 -76.5711500788539,1.98844883275401 -76.5715380617702,1.98818133837929 -76.5720311012364,1.98801808903355 -76.5719437997818,1.98750973652713 -76.5716673322578,1.98721127979149 -76.5715033263435,1.98689826200517 -76.5711500788539,1.98669860554539 -76.5706841977816,1.98670329227944 -76.5704980049082,1.98713348794221 -76.570447603037,1.98750973652713</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="04_coffee_colombia_peru.6">
+	<name>CO-PE-COF-0006</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#04_coffee_colombia_peru">
+		<SimpleData name="plot_id">CO-PE-COF-0006</SimpleData>
+		<SimpleData name="producer">Producer 956</SimpleData>
+		<SimpleData name="country">COL</SimpleData>
+		<SimpleData name="region">Huila</SimpleData>
+		<SimpleData name="declared_ha">6.05</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-75.6934144956428,2.02283074928435 -75.6935304434416,2.02334977615203 -75.6939763875921,2.02363812473109 -75.6943996035859,2.02375882894808 -75.6947842664757,2.02393255231067 -75.6952683000966,2.02399858161788 -75.6955366716009,2.0235826855417 -75.6956152021731,2.02317471963787 -75.6959029544509,2.02283074928435 -75.6959103739727,2.0223645909582 -75.6957862918896,2.02182934829137 -75.6952095574096,2.02180464596777 -75.6947842664757,2.02139156796735 -75.6943607362092,2.02180889394625 -75.6938302976745,2.02187737495719 -75.6938103906925,2.02242760810452 -75.6934144956428,2.02283074928435</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="04_coffee_colombia_peru.7">
+	<name>CO-PE-COF-0007</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#04_coffee_colombia_peru">
+		<SimpleData name="plot_id">CO-PE-COF-0007</SimpleData>
+		<SimpleData name="producer">Producer 338</SimpleData>
+		<SimpleData name="country">PER</SimpleData>
+		<SimpleData name="region">Junín</SimpleData>
+		<SimpleData name="declared_ha">0.47</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-75.1219596288175,-10.7894794568463 -75.1220252350349,-10.7893504689021 -75.1221013886251,-10.7892220630922 -75.1222526693738,-10.7892322681618 -75.1224438085024,-10.7891542468093 -75.122558709543,-10.7893058881035 -75.1225385496348,-10.7894794568463 -75.1226132987383,-10.7896839855054 -75.1224188469956,-10.7897621966022 -75.1222526693738,-10.7897995406688 -75.122065461145,-10.7897979787286 -75.1219638269671,-10.7896432719871 -75.1219596288175,-10.7894794568463</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="04_coffee_colombia_peru.8">
+	<name>CO-PE-COF-0008</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#04_coffee_colombia_peru">
+		<SimpleData name="plot_id">CO-PE-COF-0008</SimpleData>
+		<SimpleData name="producer">Producer 184</SimpleData>
+		<SimpleData name="country">PER</SimpleData>
+		<SimpleData name="region">Cajamarca</SimpleData>
+		<SimpleData name="declared_ha">0.45</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-78.4983418014852,-6.27471057179915 -78.4983538824907,-6.27450827631511 -78.4984999925113,-6.27430062087891 -78.4987596742486,-6.27432609239332 -78.4989698188809,-6.27446804416613 -78.4990077182942,-6.27471057179915 -78.498843190377,-6.27486164958977 -78.4987436378208,-6.27504599182683 -78.4985366612373,-6.27500834406474 -78.4983054927181,-6.27494781389425 -78.4983418014852,-6.27471057179915</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="04_coffee_colombia_peru.9">
+	<name>CO-PE-COF-0009</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#04_coffee_colombia_peru">
+		<SimpleData name="plot_id">CO-PE-COF-0009</SimpleData>
+		<SimpleData name="producer">Producer 428</SimpleData>
+		<SimpleData name="country">COL</SimpleData>
+		<SimpleData name="region">Cauca</SimpleData>
+		<SimpleData name="declared_ha">6.51</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-76.4730028213176,3.03721340357135 -76.4731120634067,3.0379586290762 -76.4735958001946,3.03861240030218 -76.4744046474956,3.0385101475234 -76.4751041068867,3.03842320102066 -76.4758539007347,3.03804895499591 -76.4759065688516,3.03721340357135 -76.4755558554873,3.03654968694029 -76.4748834471874,3.03638526307719 -76.4744046474956,3.03616867564284 -76.4735983273413,3.03581877783865 -76.4729714659415,3.03638711810462 -76.4730028213176,3.03721340357135</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="04_coffee_colombia_peru.10">
+	<name>CO-PE-COF-0010</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#04_coffee_colombia_peru">
+		<SimpleData name="plot_id">CO-PE-COF-0010</SimpleData>
+		<SimpleData name="producer">Producer 254</SimpleData>
+		<SimpleData name="country">PER</SimpleData>
+		<SimpleData name="region">Cajamarca</SimpleData>
+		<SimpleData name="declared_ha">0.98</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-79.1620153765121,-5.75553281851993 -79.161906925003,-5.75522244247768 -79.1621497990214,-5.75502023986702 -79.1624472358717,-5.75517920005259 -79.1627439244116,-5.7550215294448 -79.163011327856,-5.75520878165958 -79.1628053201099,-5.75553281851993 -79.162888691975,-5.75578640845507 -79.1626544295197,-5.75588987932419 -79.1624472358717,-5.755923695959 -79.1621665573062,-5.75601651729781 -79.1620603279755,-5.75575507379642 -79.1620153765121,-5.75553281851993</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="04_coffee_colombia_peru.11">
+	<name>CO-PE-COF-0011</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#04_coffee_colombia_peru">
+		<SimpleData name="plot_id">CO-PE-COF-0011</SimpleData>
+		<SimpleData name="producer">Producer 517</SimpleData>
+		<SimpleData name="country">PER</SimpleData>
+		<SimpleData name="region">Cajamarca</SimpleData>
+		<SimpleData name="declared_ha">0.72</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-79.6225557183954,-6.34083725467718 -79.6226571849634,-6.34051087093089 -79.6229782019902,-6.3404407424712 -79.6233055241556,-6.34039488202673 -79.6234025629906,-6.34070919205314 -79.6233427048883,-6.34094366401325 -79.623205797947,-6.34110795315017 -79.6229876879573,-6.34118029839746 -79.6227493693086,-6.34108675977407 -79.6225557183954,-6.34083725467718</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="04_coffee_colombia_peru.12">
+	<name>CO-PE-COF-0012</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#04_coffee_colombia_peru">
+		<SimpleData name="plot_id">CO-PE-COF-0012</SimpleData>
+		<SimpleData name="producer">Producer 768</SimpleData>
+		<SimpleData name="country">COL</SimpleData>
+		<SimpleData name="region">Huila</SimpleData>
+		<SimpleData name="declared_ha">4.49</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-75.3663766887234,1.80475735531036 -75.3664887474172,1.80520225192428 -75.3666515400029,1.80571177650658 -75.3671378971524,1.8059622511571 -75.3676632564862,1.80585306731303 -75.3680697631203,1.80558044747815 -75.368537848417,1.80529876422851 -75.3687939814069,1.80475735531036 -75.3682615642482,1.80434893183517 -75.3682709260073,1.8036821379899 -75.3676267365949,1.80382156803567 -75.3672402003794,1.80400045684756 -75.3665965905663,1.80373406388023 -75.3666593475907,1.80439457465604 -75.3663766887234,1.80475735531036</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="04_coffee_colombia_peru.13">
+	<name>CO-PE-COF-0013</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#04_coffee_colombia_peru">
+		<SimpleData name="plot_id">CO-PE-COF-0013</SimpleData>
+		<SimpleData name="producer">Producer 674</SimpleData>
+		<SimpleData name="country">PER</SimpleData>
+		<SimpleData name="region">Junín</SimpleData>
+		<SimpleData name="declared_ha">3.58</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-75.223240880978,-10.9542610268698 -75.2236551241896,-10.9536921683853 -75.2242345400999,-10.9534714474164 -75.2249295505252,-10.9535786800956 -75.2254871070141,-10.9542610268698 -75.2250538945408,-10.9550654520114 -75.2242345400999,-10.9553323029288 -75.2235340966371,-10.9549487076872 -75.223240880978,-10.9542610268698</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="04_coffee_colombia_peru.14">
+	<name>CO-PE-COF-0014</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#04_coffee_colombia_peru">
+		<SimpleData name="plot_id">CO-PE-COF-0014</SimpleData>
+		<SimpleData name="producer">Producer 755</SimpleData>
+		<SimpleData name="country">PER</SimpleData>
+		<SimpleData name="region">Junín</SimpleData>
+		<SimpleData name="declared_ha">1.2</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-75.2247132963557,-10.948792714588 -75.224709912424,-10.9486266117569 -75.2248120814709,-10.9484941763364 -75.2248659339015,-10.9482999279088 -75.2250449505441,-10.9482317377649 -75.2252306023222,-10.9481875121945 -75.2253892823459,-10.9483132372758 -75.225535791068,-10.9483803044642 -75.2257012477059,-10.9484569949949 -75.2258160616189,-10.9486059499762 -75.2257745259509,-10.948792714588 -75.2257933316955,-10.948972228234 -75.2256511648044,-10.9490927091705 -75.2255437508416,-10.9492158809775 -75.2253917749268,-10.9492797236358 -75.2252306023222,-10.9493675018633 -75.225067191542,-10.9492864866451 -75.2249093884557,-10.9492267799077 -75.2248162715963,-10.9490882639497 -75.2246608591174,-10.9489744656833 -75.2247132963557,-10.948792714588</coordinates></LinearRing></outerBoundaryIs><innerBoundaryIs><LinearRing><coordinates>-75.2250584652154,-10.948792714588 -75.2250940779023,-10.9486953293287 -75.225181733144,-10.9486450484756 -75.2252845262035,-10.9486297748741 -75.225372183565,-10.9486917222084 -75.225419339977,-10.948792714588 -75.2253816637701,-10.9489004693638 -75.2252819259291,-10.9489477971528 -75.225181079945,-10.9489423544466 -75.2250941310507,-10.9488900619355 -75.2250584652154,-10.948792714588</coordinates></LinearRing></innerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="04_coffee_colombia_peru.15">
+	<name>CO-PE-COF-0015</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#04_coffee_colombia_peru">
+		<SimpleData name="plot_id">CO-PE-COF-0015</SimpleData>
+		<SimpleData name="producer">Producer 448</SimpleData>
+		<SimpleData name="country">PER</SimpleData>
+		<SimpleData name="region">Junín</SimpleData>
+		<SimpleData name="declared_ha">4.1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-74.8136355862252,-10.9955692542261 -74.8142861161961,-10.9951099288573 -74.8145659682268,-10.994469005001 -74.8151604385815,-10.9948734995873 -74.8155261736293,-10.9951441649122 -74.8160021156375,-10.9955692542261 -74.8158149058086,-10.9962002686624 -74.815257578655,-10.9965584868256 -74.8145629790666,-10.9966785342516 -74.8141721310054,-10.9961098743588 -74.8136355862252,-10.9955692542261</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="04_coffee_colombia_peru.16">
+	<name>CO-PE-COF-0016</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#04_coffee_colombia_peru">
+		<SimpleData name="plot_id">CO-PE-COF-0016</SimpleData>
+		<SimpleData name="producer">Producer 429</SimpleData>
+		<SimpleData name="country">COL</SimpleData>
+		<SimpleData name="region">Cauca</SimpleData>
+		<SimpleData name="declared_ha">4.81</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-76.2862522201968,2.42260361184584 -76.2863884210026,2.42320318002944 -76.2870165789762,2.42331528729203 -76.2874278325519,2.42369592441385 -76.287987825266,2.423572680781 -76.2883020308429,2.4231078793632 -76.2884643772688,2.42260361184584 -76.288310914172,2.42209422012001 -76.2879149328279,2.42176068347566 -76.2874278325519,2.42167997509391 -76.2867992815121,2.42151590253909 -76.2862017620756,2.42189637239969 -76.2862522201968,2.42260361184584</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="04_coffee_colombia_peru.17">
+	<name>CO-PE-COF-0017</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#04_coffee_colombia_peru">
+		<SimpleData name="plot_id">CO-PE-COF-0017</SimpleData>
+		<SimpleData name="producer">Producer 438</SimpleData>
+		<SimpleData name="country">PER</SimpleData>
+		<SimpleData name="region">Junín</SimpleData>
+		<SimpleData name="declared_ha">0.47</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-75.2628751158006,-10.2936815647107 -75.2631122730994,-10.2934621020286 -75.2633669506583,-10.2933505024044 -75.2636588615518,-10.2935068613215 -75.2636415655167,-10.2938480728311 -75.26335770596,-10.2939727752639 -75.2631046601993,-10.2939104200179 -75.2628751158006,-10.2936815647107</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="04_coffee_colombia_peru.18">
+	<name>CO-PE-COF-0018</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#04_coffee_colombia_peru">
+		<SimpleData name="plot_id">CO-PE-COF-0018</SimpleData>
+		<SimpleData name="producer">Producer 212</SimpleData>
+		<SimpleData name="country">COL</SimpleData>
+		<SimpleData name="region">Antioquia</SimpleData>
+		<SimpleData name="declared_ha">6.43</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-75.6221450550956,5.78863466754489 -75.6224902693722,5.78945904569994 -75.6231782953383,5.79002006108696 -75.6239310933903,5.78955433381917 -75.6244501593333,5.78922697173211 -75.6250024524748,5.78863466754489 -75.6249258664424,5.78769850432742 -75.6239707476045,5.78759358047872 -75.6232535471771,5.78747969435162 -75.6225498569818,5.78785336156025 -75.6221450550956,5.78863466754489</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="04_coffee_colombia_peru.19">
+	<name>CO-PE-COF-0019</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#04_coffee_colombia_peru">
+		<SimpleData name="plot_id">CO-PE-COF-0019</SimpleData>
+		<SimpleData name="producer">Producer 537</SimpleData>
+		<SimpleData name="country">COL</SimpleData>
+		<SimpleData name="region">Huila</SimpleData>
+		<SimpleData name="declared_ha">1.04</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-76.0321851390055,2.54740203249136 -76.0321364200984,2.54776405715772 -76.0324691802293,2.5479076112483 -76.0327845598231,2.54798750230835 -76.0331095986988,2.54787392307845 -76.0331489106339,2.54753362666797 -76.0330984134782,2.54728525096502 -76.0330024129807,2.54705371857692 -76.032774891657,2.54688373979602 -76.0324415180461,2.54683594185988 -76.0321797770782,2.54706784412871 -76.0321851390055,2.54740203249136</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="04_coffee_colombia_peru.20">
+	<name>CO-PE-COF-0020</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#04_coffee_colombia_peru">
+		<SimpleData name="plot_id">CO-PE-COF-0020</SimpleData>
+		<SimpleData name="producer">Producer 685</SimpleData>
+		<SimpleData name="country">COL</SimpleData>
+		<SimpleData name="region">Antioquia</SimpleData>
+		<SimpleData name="declared_ha">0.98</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-75.7007600373874,5.50559115530505 -75.7008737759727,5.50585132066499 -75.7011351470792,5.50599749492079 -75.7013920289304,5.50584685211929 -75.7016196480951,5.50559115530505 -75.701553454268,5.50517477783399 -75.7011351470792,5.50500341436906 -75.7008184919493,5.50527596095572 -75.7007600373874,5.50559115530505</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="04_coffee_colombia_peru.21">
+	<name>CO-PE-COF-0021</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#04_coffee_colombia_peru">
+		<SimpleData name="plot_id">CO-PE-COF-0021</SimpleData>
+		<SimpleData name="producer">Producer 122</SimpleData>
+		<SimpleData name="country">PER</SimpleData>
+		<SimpleData name="region">Junín</SimpleData>
+		<SimpleData name="declared_ha">0.4</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-74.710130324661,-10.6367645425548 -74.7102472399789,-10.6366543093705 -74.7103088864635,-10.6365480347246 -74.710412129689,-10.6363694299496 -74.7105433944059,-10.6365508738425 -74.7106459237639,-10.6366034805144 -74.7108674691176,-10.636666064783 -74.7107085487602,-10.6368245230363 -74.7106593177922,-10.6369372667754 -74.7105659688363,-10.6370367123559 -74.7104141500527,-10.6371433018774 -74.7102705970971,-10.6370355689445 -74.7101820505067,-10.6369084019169 -74.710130324661,-10.6367645425548</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="04_coffee_colombia_peru.22">
+	<name>CO-PE-COF-0022</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#04_coffee_colombia_peru">
+		<SimpleData name="plot_id">CO-PE-COF-0022</SimpleData>
+		<SimpleData name="producer">Producer 391</SimpleData>
+		<SimpleData name="country">PER</SimpleData>
+		<SimpleData name="region">Junín</SimpleData>
+		<SimpleData name="declared_ha">3.54</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-75.3924954232502,-10.7530478798999 -75.3924702897914,-10.7524056894108 -75.3930980609237,-10.7522052121862 -75.3936256297802,-10.7524075061727 -75.393933205723,-10.7528033301197 -75.3938934095542,-10.7532781994022 -75.3937900880087,-10.7539681018035 -75.393095003308,-10.7539075837212 -75.392624818075,-10.7535626826126 -75.3924954232502,-10.7530478798999</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="04_coffee_colombia_peru.23">
+	<name>CO-PE-COF-0023</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#04_coffee_colombia_peru">
+		<SimpleData name="plot_id">CO-PE-COF-0023</SimpleData>
+		<SimpleData name="producer">Producer 687</SimpleData>
+		<SimpleData name="country">COL</SimpleData>
+		<SimpleData name="region">Antioquia</SimpleData>
+		<SimpleData name="declared_ha">4.06</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-75.5871230513047,6.07876497525011 -75.5876974282817,6.07931981400186 -75.5882554043882,6.07968153255595 -75.5888275408911,6.07933389477789 -75.5894182677308,6.07876497525011 -75.5889905378582,6.07803397524482 -75.5882554043882,6.07804607533174 -75.5873935885562,6.0779080051848 -75.5871230513047,6.07876497525011</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="04_coffee_colombia_peru.24">
+	<name>CO-PE-COF-0024</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#04_coffee_colombia_peru">
+		<SimpleData name="plot_id">CO-PE-COF-0024</SimpleData>
+		<SimpleData name="producer">Producer 824</SimpleData>
+		<SimpleData name="country">COL</SimpleData>
+		<SimpleData name="region">Cauca</SimpleData>
+		<SimpleData name="declared_ha">0.55</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-77.1256542197369,2.31282353453368 -77.1255179338932,2.3130026816225 -77.1257235957356,2.31304218819574 -77.1257977701436,2.31320135914202 -77.1259703092616,2.31329578865777 -77.1260689977756,2.31308030072504 -77.1262907309566,2.31309220747882 -77.1262581684725,2.31289522149271 -77.1263472012187,2.31273293849636 -77.1262713868095,2.31256890448525 -77.1260573636461,2.31258690283055 -77.1259549259379,2.3124975237289 -77.1258263006389,2.31253344623171 -77.1256354567472,2.31250707234901 -77.1256401592437,2.31269876134722 -77.1256542197369,2.31282353453368</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="04_coffee_colombia_peru.25">
+	<name>CO-PE-COF-0025</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#04_coffee_colombia_peru">
+		<SimpleData name="plot_id">CO-PE-COF-0025</SimpleData>
+		<SimpleData name="producer">Producer 281</SimpleData>
+		<SimpleData name="country">PER</SimpleData>
+		<SimpleData name="region">Cajamarca</SimpleData>
+		<SimpleData name="declared_ha">4.92</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-78.8271401854057,-5.3115377953734 -78.8270170605134,-5.31097137090046 -78.8275945763323,-5.31076350499812 -78.8280211675183,-5.31069938898492 -78.8284189394988,-5.31036135154192 -78.828876501618,-5.3105345108114 -78.829225052624,-5.31086479832727 -78.8295026154923,-5.31128215954794 -78.8291361166063,-5.31171586395987 -78.8293954833899,-5.31233408592319 -78.8289040783969,-5.31258863922108 -78.8284268267862,-5.31278895950494 -78.8279581842052,-5.3125692121221 -78.8276432669133,-5.31225824157991 -78.8270453530445,-5.31209167728897 -78.8271401854057,-5.3115377953734</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="04_coffee_colombia_peru.26">
+	<name>CO-PE-COF-0026</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#04_coffee_colombia_peru">
+		<SimpleData name="plot_id">CO-PE-COF-0026</SimpleData>
+		<SimpleData name="producer">Producer 387</SimpleData>
+		<SimpleData name="country">COL</SimpleData>
+		<SimpleData name="region">Huila</SimpleData>
+		<SimpleData name="declared_ha">0.99</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-75.8749822495119,2.02075740356653 -75.8748914739313,2.02099654967232 -75.8751357893229,2.02109058988227 -75.8752664045763,2.02124664947267 -75.8754691829702,2.02130356319923 -75.8757058182247,2.02132833633353 -75.8758399237521,2.02112791379134 -75.87591697733,2.02094277071526 -75.87591268479,2.02075740356653 -75.8760336108441,2.02052375527829 -75.8758830804379,2.02034376349429 -75.8757059786065,2.02018608384445 -75.8754691829702,2.02015003984118 -75.8752398339522,2.02020405039144 -75.8751023832809,2.02039083198338 -75.8748766508474,2.02051212135667 -75.8749822495119,2.02075740356653</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="04_coffee_colombia_peru.27">
+	<name>CO-PE-COF-0027</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#04_coffee_colombia_peru">
+		<SimpleData name="plot_id">CO-PE-COF-0027</SimpleData>
+		<SimpleData name="producer">Producer 638</SimpleData>
+		<SimpleData name="country">COL</SimpleData>
+		<SimpleData name="region">Huila</SimpleData>
+		<SimpleData name="declared_ha">4.77</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-76.2320242770193,2.59841308219643 -76.2320005876655,2.59887064040755 -76.2324634494126,2.59906827115124 -76.2326436191806,2.59949498488017 -76.2331040309486,2.59926330926233 -76.2335539481008,2.59971585007233 -76.2339463133976,2.59942296924149 -76.2341300747049,2.59899894670179 -76.2341017430827,2.59858466766286 -76.2343501014082,2.59819511824711 -76.2339530898017,2.59793668943182 -76.2339078165139,2.59745412084969 -76.2335141085538,2.59725019183788 -76.233060360632,2.59709206191555 -76.2326192862243,2.59728236259276 -76.2324751155148,2.5977685173643 -76.2319459717535,2.59793438742272 -76.2320242770193,2.59841308219643</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="04_coffee_colombia_peru.28">
+	<name>CO-PE-COF-0028</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#04_coffee_colombia_peru">
+		<SimpleData name="plot_id">CO-PE-COF-0028</SimpleData>
+		<SimpleData name="producer">Producer 800</SimpleData>
+		<SimpleData name="country">PER</SimpleData>
+		<SimpleData name="region">Junín</SimpleData>
+		<SimpleData name="declared_ha">2.11</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-75.0270444940764,-11.4340280548184 -75.0271136962582,-11.4334204283849 -75.0276917697499,-11.4331346001518 -75.0282926276718,-11.4332808603992 -75.028352266013,-11.4338497648601 -75.0287347261807,-11.4343427861948 -75.0282394763968,-11.4346850156015 -75.0277282815613,-11.4347185502801 -75.0271560197354,-11.4346008724548 -75.0270444940764,-11.4340280548184</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="04_coffee_colombia_peru.29">
+	<name>CO-PE-COF-0029</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#04_coffee_colombia_peru">
+		<SimpleData name="plot_id">CO-PE-COF-0029</SimpleData>
+		<SimpleData name="producer">Producer 411</SimpleData>
+		<SimpleData name="country">PER</SimpleData>
+		<SimpleData name="region">Junín</SimpleData>
+		<SimpleData name="declared_ha">0.56</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-75.0218568287733,-11.0644936471542 -75.0218520781965,-11.0642670716753 -75.0220769912504,-11.0642141106944 -75.0222763120569,-11.0642402031434 -75.0225001193059,-11.0643604438615 -75.0225632818191,-11.064649412392 -75.0223060720791,-11.0647976788898 -75.0220586127397,-11.0648754758831 -75.021914462519,-11.0646688490023 -75.0218568287733,-11.0644936471542</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="04_coffee_colombia_peru.30">
+	<name>CO-PE-COF-0030</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#04_coffee_colombia_peru">
+		<SimpleData name="plot_id">CO-PE-COF-0030</SimpleData>
+		<SimpleData name="producer">Producer 387</SimpleData>
+		<SimpleData name="country">PER</SimpleData>
+		<SimpleData name="region">Junín</SimpleData>
+		<SimpleData name="declared_ha">1.31</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-74.9019101763377,-11.395034287957 -74.902075279138,-11.3948063102743 -74.9022174971653,-11.3946233158119 -74.9023553318317,-11.3943683164411 -74.902636733164,-11.3944572264831 -74.9028887296959,-11.3944379065859 -74.903130867351,-11.3945498939941 -74.9032131571442,-11.3948002317436 -74.9031115827823,-11.395034287957 -74.9031151518968,-11.395228549266 -74.9029968320058,-11.395387288639 -74.9028922904285,-11.395639096248 -74.902636733164,-11.3954524698021 -74.902450658557,-11.3954746568317 -74.9022779210504,-11.3953860272743 -74.9021683242306,-11.3952244847999 -74.9019101763377,-11.395034287957</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="04_coffee_colombia_peru.31">
+	<name>CO-PE-COF-0031</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#04_coffee_colombia_peru">
+		<SimpleData name="plot_id">CO-PE-COF-0031</SimpleData>
+		<SimpleData name="producer">Producer 488</SimpleData>
+		<SimpleData name="country">COL</SimpleData>
+		<SimpleData name="region">Huila</SimpleData>
+		<SimpleData name="declared_ha">0.56</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-75.5192043805804,2.75333186923098 -75.5191795676866,2.7534943519663 -75.5192931131493,2.75361082682347 -75.5194134645738,2.75370498466797 -75.5195548970622,2.75381231863776 -75.5196972976923,2.75367530551699 -75.5198410371214,2.7536513882249 -75.5199281216008,2.75353512757211 -75.5198754620738,2.75338340177391 -75.5198838637997,2.75327876794635 -75.5199276819956,2.75312888276767 -75.5198873700085,2.75295106640713 -75.5196948585975,2.75299699557783 -75.5195556824723,2.75285988596439 -75.5194619582176,2.75305602973358 -75.5193827583265,2.75313453967482 -75.51928838614,2.75321149432345 -75.5192043805804,2.75333186923098</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="04_coffee_colombia_peru.32">
+	<name>CO-PE-COF-0032</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#04_coffee_colombia_peru">
+		<SimpleData name="plot_id">CO-PE-COF-0032</SimpleData>
+		<SimpleData name="producer">Producer 832</SimpleData>
+		<SimpleData name="country">COL</SimpleData>
+		<SimpleData name="region">Antioquia</SimpleData>
+		<SimpleData name="declared_ha">4.01</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-75.8612593513644,6.13937842257039 -75.8614905500044,6.14031867070539 -75.8625204419289,6.14057960606294 -75.8632303242219,6.1398503527818 -75.8632106598906,6.1389159078892 -75.8625344503931,6.1381162159918 -75.8615646562924,6.13853056781853 -75.8612593513644,6.13937842257039</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="04_coffee_colombia_peru.33">
+	<name>CO-PE-COF-0033</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#04_coffee_colombia_peru">
+		<SimpleData name="plot_id">CO-PE-COF-0033</SimpleData>
+		<SimpleData name="producer">Producer 897</SimpleData>
+		<SimpleData name="country">PER</SimpleData>
+		<SimpleData name="region">Junín</SimpleData>
+		<SimpleData name="declared_ha">1.47</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-75.0157037399461,-11.0273427397101 -75.0156285843338,-11.0271245674588 -75.015698540273,-11.0268919404562 -75.0158614929638,-11.0266708540807 -75.016130668295,-11.0265834990381 -75.0164018315001,-11.0266545655072 -75.0166332505081,-11.0267826653381 -75.0166512537776,-11.027069919734 -75.0168461127117,-11.0272246207826 -75.0167267830649,-11.0274389639291 -75.0168851715258,-11.0277577211789 -75.0165847995805,-11.0278398393234 -75.016342766437,-11.0278271547281 -75.0161416055099,-11.0279861283645 -75.0158867057046,-11.0279649262359 -75.0158692157056,-11.027640820583 -75.0157788066515,-11.0275037900638 -75.0157037399461,-11.0273427397101</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="04_coffee_colombia_peru.34">
+	<name>CO-PE-COF-0034</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#04_coffee_colombia_peru">
+		<SimpleData name="plot_id">CO-PE-COF-0034</SimpleData>
+		<SimpleData name="producer">Producer 909</SimpleData>
+		<SimpleData name="country">COL</SimpleData>
+		<SimpleData name="region">Cauca</SimpleData>
+		<SimpleData name="declared_ha">1.23</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-76.1841326370529,2.74139942555939 -76.1844887002877,2.7416509520222 -76.1846414182192,2.74199542918913 -76.1850365489489,2.74201811755334 -76.185235384145,2.74168977582723 -76.1853214898801,2.74139942555939 -76.1853665835639,2.74101386242273 -76.1849912725604,2.74091992049005 -76.184674283939,2.74090445645546 -76.1844399791299,2.74111254161363 -76.1841326370529,2.74139942555939</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="04_coffee_colombia_peru.35">
+	<name>CO-PE-COF-0035</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#04_coffee_colombia_peru">
+		<SimpleData name="plot_id">CO-PE-COF-0035</SimpleData>
+		<SimpleData name="producer">Producer 142</SimpleData>
+		<SimpleData name="country">PER</SimpleData>
+		<SimpleData name="region">Cajamarca</SimpleData>
+		<SimpleData name="declared_ha">1.14</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-78.6818406035676,-5.61194163738232 -78.6818700356098,-5.61170841120361 -78.6821033701427,-5.61162553532304 -78.6822155265061,-5.61132622360801 -78.6824854360871,-5.61138016793635 -78.6826800855074,-5.61153802741224 -78.6828127919071,-5.61172303209629 -78.6829816409899,-5.61194163738232 -78.6828033934532,-5.61215573830469 -78.6827342480822,-5.61241283954595 -78.6825061952632,-5.61259362279282 -78.6822554467382,-5.61238298749021 -78.6820278629159,-5.61235196869704 -78.6817334792476,-5.61224031044409 -78.6818406035676,-5.61194163738232</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="04_coffee_colombia_peru.36">
+	<name>CO-PE-COF-0036</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#04_coffee_colombia_peru">
+		<SimpleData name="plot_id">CO-PE-COF-0036</SimpleData>
+		<SimpleData name="producer">Producer 264</SimpleData>
+		<SimpleData name="country">PER</SimpleData>
+		<SimpleData name="region">Cajamarca</SimpleData>
+		<SimpleData name="declared_ha">5.41</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-78.830979913255,-5.52628785047079 -78.8310649665964,-5.52576282275587 -78.8312445164197,-5.52509749734884 -78.8319519083691,-5.52531984322372 -78.8323672693365,-5.52550764459487 -78.8327073716277,-5.52572580818358 -78.8331522924577,-5.5260223278829 -78.8331324935051,-5.52654851573683 -78.8326992250711,-5.52684270908333 -78.8325476932094,-5.52754158382394 -78.8319308609616,-5.52742839304551 -78.8314215201454,-5.52722296130086 -78.8312847533138,-5.52669806136471 -78.830979913255,-5.52628785047079</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="04_coffee_colombia_peru.37">
+	<name>CO-PE-COF-0037</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#04_coffee_colombia_peru">
+		<SimpleData name="plot_id">CO-PE-COF-0037</SimpleData>
+		<SimpleData name="producer">Producer 295</SimpleData>
+		<SimpleData name="country">PER</SimpleData>
+		<SimpleData name="region">Cajamarca</SimpleData>
+		<SimpleData name="declared_ha">0.45</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-78.7472297334529,-5.68571243397691 -78.7472909763468,-5.68554690687463 -78.7474690332661,-5.68551221003302 -78.7475663681434,-5.68537189769947 -78.7477095688186,-5.68544572972372 -78.7478095954811,-5.68553464511182 -78.7478756059415,-5.68564678019784 -78.7479190313065,-5.68578873848974 -78.7478284700531,-5.68590686198939 -78.7477386181812,-5.68605535827106 -78.7475773520315,-5.6859629548353 -78.7473683103218,-5.68605786240416 -78.7473374198848,-5.68585370554986 -78.7472297334529,-5.68571243397691</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="04_coffee_colombia_peru.38">
+	<name>CO-PE-COF-0038</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#04_coffee_colombia_peru">
+		<SimpleData name="plot_id">CO-PE-COF-0038</SimpleData>
+		<SimpleData name="producer">Producer 700</SimpleData>
+		<SimpleData name="country">COL</SimpleData>
+		<SimpleData name="region">Cauca</SimpleData>
+		<SimpleData name="declared_ha">0.52</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-76.8785196068732,2.33731564057827 -76.8785651632821,2.33763784885284 -76.8789096062757,2.33769770586418 -76.8790777903779,2.33743856157945 -76.8791777655373,2.33714461413263 -76.8789153609154,2.33690838354453 -76.8785612700201,2.33698855436914 -76.8785196068732,2.33731564057827</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="04_coffee_colombia_peru.39">
+	<name>CO-PE-COF-0039</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#04_coffee_colombia_peru">
+		<SimpleData name="plot_id">CO-PE-COF-0039</SimpleData>
+		<SimpleData name="producer">Producer 997</SimpleData>
+		<SimpleData name="country">COL</SimpleData>
+		<SimpleData name="region">Huila</SimpleData>
+		<SimpleData name="declared_ha">1.72</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-75.9907439274364,2.24507815951173 -75.9909672966105,2.24540005671332 -75.9911102598478,2.2457597535217 -75.9914993063257,2.24575120508262 -75.9918174288261,2.24570085113603 -75.992173021249,2.24560216086301 -75.9922832248389,2.24525108696401 -75.9923017841195,2.24490066111898 -75.9921739923623,2.24455329848958 -75.9917502730884,2.24463240709288 -75.9915119191086,2.24450890981944 -75.9912242337979,2.24456155852973 -75.9910671822673,2.24480864610648 -75.9907439274364,2.24507815951173</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="04_coffee_colombia_peru.40">
+	<name>CO-PE-COF-0040</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#04_coffee_colombia_peru">
+		<SimpleData name="plot_id">CO-PE-COF-0040</SimpleData>
+		<SimpleData name="producer">Producer 770</SimpleData>
+		<SimpleData name="country">PER</SimpleData>
+		<SimpleData name="region">Cajamarca</SimpleData>
+		<SimpleData name="declared_ha">0.65</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-78.6500212943545,-5.68374289406553 -78.6501793457233,-5.68343549005489 -78.6505356239022,-5.68326366856094 -78.650696659929,-5.6836130497876 -78.6507586893349,-5.6839024632726 -78.6505150372855,-5.68413236713814 -78.6502454072191,-5.68396786683863 -78.6500212943545,-5.68374289406553</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="04_coffee_colombia_peru.41">
+	<name>CO-PE-COF-0041</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#04_coffee_colombia_peru">
+		<SimpleData name="plot_id">CO-PE-COF-0041</SimpleData>
+		<SimpleData name="producer">Producer 317</SimpleData>
+		<SimpleData name="country">COL</SimpleData>
+		<SimpleData name="region">Antioquia</SimpleData>
+		<SimpleData name="declared_ha">0.7</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-75.4789860180471,6.08892960867966 -75.4790191151314,6.0890361777071 -75.4790483061523,6.0891509377024 -75.4790420178524,6.08939730133792 -75.4792583845252,6.08924082849948 -75.4793806876373,6.08930809121468 -75.4795013378966,6.08925299345724 -75.4795826482384,6.08915411642703 -75.4796902416717,6.08906593167623 -75.4797314007791,6.08892960867966 -75.4796425696378,6.0888105389969 -75.4795607878966,6.08872334045427 -75.4794856642084,6.08863321837194 -75.4794081078033,6.08839649595773 -75.4792494424868,6.08856796213847 -75.4791060515188,6.08857219988394 -75.4789123212807,6.08859481852876 -75.4789975586034,6.08881523798085 -75.4789860180471,6.08892960867966</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="04_coffee_colombia_peru.42">
+	<name>CO-PE-COF-0042</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#04_coffee_colombia_peru">
+		<SimpleData name="plot_id">CO-PE-COF-0042</SimpleData>
+		<SimpleData name="producer">Producer 310</SimpleData>
+		<SimpleData name="country">PER</SimpleData>
+		<SimpleData name="region">Junín</SimpleData>
+		<SimpleData name="declared_ha">6.72</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-74.7577577709533,-11.4232687618594 -74.7578169630786,-11.4222725381272 -74.7588333200062,-11.4218186434249 -74.7599547840489,-11.4221695130977 -74.7602655402749,-11.4232687618594 -74.7600614036124,-11.4244725181387 -74.7588333200062,-11.4248820310282 -74.7579533360437,-11.4241313140628 -74.7577577709533,-11.4232687618594</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="04_coffee_colombia_peru.43">
+	<name>CO-PE-COF-0043</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#04_coffee_colombia_peru">
+		<SimpleData name="plot_id">CO-PE-COF-0043</SimpleData>
+		<SimpleData name="producer">Producer 629</SimpleData>
+		<SimpleData name="country">COL</SimpleData>
+		<SimpleData name="region">Cauca</SimpleData>
+		<SimpleData name="declared_ha">0.51</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-76.8539437983681,2.34090798676614 -76.8538731936081,2.34107474135078 -76.8540430744088,2.34113543787289 -76.8541685153191,2.34115254463405 -76.8542903929351,2.34131057986182 -76.854409374062,2.34118718655814 -76.85451465691,2.34110153120261 -76.8544986348223,2.34096120717673 -76.8546123937552,2.3408306063266 -76.8545147038007,2.34071440828999 -76.8544639195618,2.3405343902383 -76.854276110127,2.34064117210838 -76.8541367582912,2.34056577238009 -76.8540362970654,2.3406730149384 -76.8539823404024,2.34078978691184 -76.8539437983681,2.34090798676614</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="04_coffee_colombia_peru.44">
+	<name>CO-PE-COF-0044</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#04_coffee_colombia_peru">
+		<SimpleData name="plot_id">CO-PE-COF-0044</SimpleData>
+		<SimpleData name="producer">Producer 423</SimpleData>
+		<SimpleData name="country">PER</SimpleData>
+		<SimpleData name="region">Cajamarca</SimpleData>
+		<SimpleData name="declared_ha">0.71</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-78.9741423269381,-6.31382709936196 -78.9741538835962,-6.31367969751484 -78.9742613332455,-6.31357759785089 -78.9743065642694,-6.31336774067563 -78.9744867689658,-6.3132915949372 -78.9746307707396,-6.31349845799603 -78.9748102532047,-6.31346704512988 -78.9749314151532,-6.31358418053968 -78.9750734338316,-6.31372737380219 -78.9749871492221,-6.31391079336653 -78.9748594466943,-6.31402572748818 -78.9748630112209,-6.31425659274079 -78.9746494855845,-6.31422111761777 -78.974508107356,-6.31413372264564 -78.9743913295957,-6.31411725887498 -78.974152733133,-6.31417500245415 -78.9740187843673,-6.31402652147184 -78.9741423269381,-6.31382709936196</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="04_coffee_colombia_peru.45">
+	<name>CO-PE-COF-0045</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#04_coffee_colombia_peru">
+		<SimpleData name="plot_id">CO-PE-COF-0045</SimpleData>
+		<SimpleData name="producer">Producer 575</SimpleData>
+		<SimpleData name="country">COL</SimpleData>
+		<SimpleData name="region">Huila</SimpleData>
+		<SimpleData name="declared_ha">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-76.0946059809667,2.34021376338748 -76.0948158515788,2.3404290411219 -76.094927766335,2.34078154356941 -76.0952612082243,2.34067135592558 -76.09560070003,2.34056823585231 -76.0955322431575,2.34021376338748 -76.0955611266585,2.33988801868056 -76.0952953466014,2.33965119135608 -76.09500026155,2.33986891445141 -76.0947460453416,2.33994781075209 -76.0946059809667,2.34021376338748</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="04_coffee_colombia_peru.46">
+	<name>CO-PE-COF-0046</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#04_coffee_colombia_peru">
+		<SimpleData name="plot_id">CO-PE-COF-0046</SimpleData>
+		<SimpleData name="producer">Producer 339</SimpleData>
+		<SimpleData name="country">COL</SimpleData>
+		<SimpleData name="region">Antioquia</SimpleData>
+		<SimpleData name="declared_ha">2.17</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-75.8035033503686,5.97854087804983 -75.8036971895735,5.97879646859606 -75.8039511672294,5.97891816492535 -75.8040259725111,5.97919080339933 -75.8042510772227,5.97939925045209 -75.8045369296667,5.97929483794186 -75.8046856286035,5.97902729616708 -75.8049522587412,5.97899903782714 -75.8050251091367,5.97876598189113 -75.8049863362481,5.97854087804983 -75.8052296285269,5.97824174011361 -75.8049687303444,5.97806897213083 -75.8047341932289,5.97797080104513 -75.8045296797772,5.97782781069221 -75.8042399613886,5.97761980750121 -75.8040695014389,5.97796593694341 -75.8039752357934,5.9781836772514 -75.8038429824239,5.97833806314367 -75.8035033503686,5.97854087804983</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="04_coffee_colombia_peru.47">
+	<name>CO-PE-COF-0047</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#04_coffee_colombia_peru">
+		<SimpleData name="plot_id">CO-PE-COF-0047</SimpleData>
+		<SimpleData name="producer">Producer 190</SimpleData>
+		<SimpleData name="country">COL</SimpleData>
+		<SimpleData name="region">Cauca</SimpleData>
+		<SimpleData name="declared_ha">5.56</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-76.3915744867986,2.26426736264807 -76.391860886967,2.26507422480885 -76.3928321593611,2.26570031906471 -76.3935784816124,2.26478399710102 -76.3936849501845,2.26369949566523 -76.3926996664537,2.2634144423579 -76.3918526454686,2.26345017404413 -76.3915744867986,2.26426736264807</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="04_coffee_colombia_peru.48">
+	<name>CO-PE-COF-0048</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#04_coffee_colombia_peru">
+		<SimpleData name="plot_id">CO-PE-COF-0048</SimpleData>
+		<SimpleData name="producer">Producer 115</SimpleData>
+		<SimpleData name="country">PER</SimpleData>
+		<SimpleData name="region">Junín</SimpleData>
+		<SimpleData name="declared_ha">6.65</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-74.7328541400425,-11.2165322853684 -74.7336958754638,-11.2155918660953 -74.734727926421,-11.2153827301416 -74.7359238562925,-11.2158410018692 -74.7354725382828,-11.2170103770283 -74.73477449521,-11.2178819746051 -74.7334412181313,-11.2177859353323 -74.7328541400425,-11.2165322853684</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="04_coffee_colombia_peru.49">
+	<name>CO-PE-COF-0049</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#04_coffee_colombia_peru">
+		<SimpleData name="plot_id">CO-PE-COF-0049</SimpleData>
+		<SimpleData name="producer">Producer 159</SimpleData>
+		<SimpleData name="country">COL</SimpleData>
+		<SimpleData name="region">Antioquia</SimpleData>
+		<SimpleData name="declared_ha">0.6</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-75.5548441099448,5.76886330927312 -75.5550962674325,5.76912941731264 -75.5553796858557,5.76916898708038 -75.5556954877527,5.76904822019065 -75.5555595785302,5.7687435173126 -75.5554117833732,5.76841771526846 -75.5550770559886,5.7685732328513 -75.5548441099448,5.76886330927312</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="04_coffee_colombia_peru.50">
+	<name>CO-PE-COF-0050</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#04_coffee_colombia_peru">
+		<SimpleData name="plot_id">CO-PE-COF-0050</SimpleData>
+		<SimpleData name="producer">Producer 827</SimpleData>
+		<SimpleData name="country">COL</SimpleData>
+		<SimpleData name="region">Cauca</SimpleData>
+		<SimpleData name="declared_ha">1.4</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-76.4982536800706,2.55536420569466 -76.4984663413979,2.55559616842015 -76.498564479155,2.55589028331635 -76.4988685125404,2.55597970203441 -76.4991863979532,2.55591425187371 -76.4994076371967,2.55567515994138 -76.4994544211071,2.55536420569466 -76.4995176425574,2.55498980297887 -76.4991284521616,2.55491442476838 -76.4988685125404,2.55464120356361 -76.4985994484383,2.55489863641926 -76.4983424596271,2.55506079091761 -76.4982536800706,2.55536420569466</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="04_coffee_colombia_peru.51">
+	<name>CO-PE-COF-0051</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#04_coffee_colombia_peru">
+		<SimpleData name="plot_id">CO-PE-COF-0051</SimpleData>
+		<SimpleData name="producer">Producer 862</SimpleData>
+		<SimpleData name="country">PER</SimpleData>
+		<SimpleData name="region">Cajamarca</SimpleData>
+		<SimpleData name="declared_ha">3.75</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-78.9706711833675,-5.90664237921396 -78.9704782555343,-5.90621830216836 -78.9706665588607,-5.90581520632387 -78.971180099111,-5.9058459961919 -78.9714971599559,-5.90576637126178 -78.9717835743384,-5.90592637878248 -78.9722072492134,-5.90581455314723 -78.9722202036926,-5.90624732718772 -78.9723021649254,-5.90650787069509 -78.9725975388459,-5.90683180954576 -78.9725958047695,-5.90726875888279 -78.9722509269103,-5.90752773682739 -78.9717891557372,-5.90737789208112 -78.9714668533498,-5.90784371113432 -78.9710800732691,-5.90763857471847 -78.970957448399,-5.90720577912478 -78.9708321356631,-5.90693009021337 -78.9706711833675,-5.90664237921396</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="04_coffee_colombia_peru.52">
+	<name>CO-PE-COF-0052</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#04_coffee_colombia_peru">
+		<SimpleData name="plot_id">CO-PE-COF-0052</SimpleData>
+		<SimpleData name="producer">Producer 109</SimpleData>
+		<SimpleData name="country">PER</SimpleData>
+		<SimpleData name="region">Cajamarca</SimpleData>
+		<SimpleData name="declared_ha">0.66</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-78.7647481831302,-5.27517324725611 -78.7647715974365,-5.27505901598453 -78.7648058878648,-5.27493161376667 -78.7649011103988,-5.27481880628288 -78.7650485491145,-5.27480398227752 -78.76520379014,-5.27480004962016 -78.7653396944042,-5.27488333507459 -78.7654548423659,-5.27500566786079 -78.7653690031663,-5.27517324725611 -78.7654264557386,-5.27532911832545 -78.7653712188274,-5.27549455034329 -78.7651664310573,-5.27545663408771 -78.7650485491145,-5.27554981514463 -78.7649284847579,-5.27546188058565 -78.7647940631863,-5.27542665534217 -78.7647419223033,-5.27529971830983 -78.7647481831302,-5.27517324725611</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="04_coffee_colombia_peru.53">
+	<name>CO-PE-COF-0053</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#04_coffee_colombia_peru">
+		<SimpleData name="plot_id">CO-PE-COF-0053</SimpleData>
+		<SimpleData name="producer">Producer 453</SimpleData>
+		<SimpleData name="country">PER</SimpleData>
+		<SimpleData name="region">Cajamarca</SimpleData>
+		<SimpleData name="declared_ha">0.62</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-78.4539389141237,-5.15869967112937 -78.4540384459369,-5.1584644004211 -78.4542429827209,-5.15834669213302 -78.4544476040643,-5.15828975669904 -78.4546453376977,-5.15835857367441 -78.4547782997315,-5.15850951725334 -78.4547810860921,-5.15869967112937 -78.4547821332438,-5.15889202931984 -78.4545914589502,-5.15894782585458 -78.4544476040643,-5.15911776061297 -78.4542492379053,-5.15904185971312 -78.4540999938853,-5.15889955104754 -78.4539389141237,-5.15869967112937</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="04_coffee_colombia_peru.54">
+	<name>CO-PE-COF-0054</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#04_coffee_colombia_peru">
+		<SimpleData name="plot_id">CO-PE-COF-0054</SimpleData>
+		<SimpleData name="producer">Producer 108</SimpleData>
+		<SimpleData name="country">PER</SimpleData>
+		<SimpleData name="region">Cajamarca</SimpleData>
+		<SimpleData name="declared_ha">1.3</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-79.2871879777917,-5.81956742639274 -79.2876151067965,-5.81918016009209 -79.2880197674484,-5.8191567223498 -79.2882940792535,-5.81939086256904 -79.2885050081116,-5.81984504468201 -79.2880383071807,-5.82005893967295 -79.2876280398578,-5.81993855873042 -79.2871879777917,-5.81956742639274</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="04_coffee_colombia_peru.55">
+	<name>CO-PE-COF-0055</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#04_coffee_colombia_peru">
+		<SimpleData name="plot_id">CO-PE-COF-0055</SimpleData>
+		<SimpleData name="producer">Producer 260</SimpleData>
+		<SimpleData name="country">COL</SimpleData>
+		<SimpleData name="region">Cauca</SimpleData>
+		<SimpleData name="declared_ha">2.15</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-76.4339284932439,2.33097737958242 -76.4341587073091,2.33124170768178 -76.4342270785996,2.3316520393201 -76.4346169161512,2.33180691569134 -76.4349611027244,2.33157303493212 -76.4351010997017,2.33125669177776 -76.4355210025811,2.33097737958242 -76.4353407186915,2.33055983777141 -76.4349608886242,2.33038209475821 -76.4346169161512,2.33036508951785 -76.4341678633417,2.33020024087583 -76.4337857869404,2.33049792396221 -76.4339284932439,2.33097737958242</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="04_coffee_colombia_peru.56">
+	<name>CO-PE-COF-0056</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#04_coffee_colombia_peru">
+		<SimpleData name="plot_id">CO-PE-COF-0056</SimpleData>
+		<SimpleData name="producer">Producer 527</SimpleData>
+		<SimpleData name="country">COL</SimpleData>
+		<SimpleData name="region">Cauca</SimpleData>
+		<SimpleData name="declared_ha">2.86</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-76.5637282292513,2.3920936127509 -76.5640822084479,2.39250699019953 -76.5643625945653,2.39284852528542 -76.5647988236507,2.3930137094086 -76.565137114086,2.39267903838725 -76.5653578863088,2.39241610646064 -76.5655580031008,2.3920936127509 -76.5656748927006,2.39158825480257 -76.5652984457168,2.39122899603277 -76.5647988236507,2.39134358059757 -76.5643826716328,2.39137344441479 -76.5639329177889,2.39159411740878 -76.5637282292513,2.3920936127509</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="04_coffee_colombia_peru.57">
+	<name>CO-PE-COF-0057</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#04_coffee_colombia_peru">
+		<SimpleData name="plot_id">CO-PE-COF-0057</SimpleData>
+		<SimpleData name="producer">Producer 223</SimpleData>
+		<SimpleData name="country">COL</SimpleData>
+		<SimpleData name="region">Huila</SimpleData>
+		<SimpleData name="declared_ha">0.72</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-76.1926268871069,2.27869182319588 -76.1927280627708,2.27900085434396 -76.1930699572116,2.27910883389688 -76.193431856499,2.27891180315267 -76.1934238982074,2.27847567271976 -76.193076259399,2.27824722264202 -76.192633426428,2.27826421566589 -76.1926268871069,2.27869182319588</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="04_coffee_colombia_peru.58">
+	<name>CO-PE-COF-0058</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#04_coffee_colombia_peru">
+		<SimpleData name="plot_id">CO-PE-COF-0058</SimpleData>
+		<SimpleData name="producer">Producer 227</SimpleData>
+		<SimpleData name="country">COL</SimpleData>
+		<SimpleData name="region">Antioquia</SimpleData>
+		<SimpleData name="declared_ha">0.45</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-75.8704069708857,5.62834561631631 -75.8704066505794,5.6285920410794 -75.8706597728261,5.62858253781221 -75.870886885851,5.62866473362033 -75.8710379555055,5.62846739486375 -75.8710116179478,5.62823337764139 -75.8708747407394,5.62804743354851 -75.8706477072829,5.62804059761147 -75.8704066002017,5.62809914948504 -75.8704069708857,5.62834561631631</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="04_coffee_colombia_peru.59">
+	<name>CO-PE-COF-0059</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#04_coffee_colombia_peru">
+		<SimpleData name="plot_id">CO-PE-COF-0059</SimpleData>
+		<SimpleData name="producer">Producer 661</SimpleData>
+		<SimpleData name="country">PER</SimpleData>
+		<SimpleData name="region">Cajamarca</SimpleData>
+		<SimpleData name="declared_ha">2.53</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-79.171357547191,-5.62547976159341 -79.171723938548,-5.62512523357649 -79.1718860256964,-5.62473482851513 -79.1723020099978,-5.62465446378968 -79.1726754303008,-5.62476410543737 -79.1731526393913,-5.62481857676873 -79.1729660886091,-5.62534156859111 -79.173086128028,-5.62564739916112 -79.172902247312,-5.62592018673737 -79.1726370562897,-5.62609472110955 -79.1722759556682,-5.62651860268434 -79.1718560039691,-5.62626797918132 -79.1717044338892,-5.62584447714339 -79.171357547191,-5.62547976159341</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="04_coffee_colombia_peru.60">
+	<name>CO-PE-COF-0060</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#04_coffee_colombia_peru">
+		<SimpleData name="plot_id">CO-PE-COF-0060</SimpleData>
+		<SimpleData name="producer">Producer 119</SimpleData>
+		<SimpleData name="country">PER</SimpleData>
+		<SimpleData name="region">Cajamarca</SimpleData>
+		<SimpleData name="declared_ha">6.4</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-78.7805810569833,-5.40427639944289 -78.7812569548938,-5.40378885261702 -78.7814606258012,-5.4030592093458 -78.7822321709803,-5.40280021332909 -78.7826616213152,-5.4035380482824 -78.783119074005,-5.40395481847261 -78.7830499630954,-5.40457777782186 -78.7830253498148,-5.40543264978697 -78.7822073118575,-5.40558045510658 -78.7815952586208,-5.40520009521224 -78.7808270619748,-5.40503899361082 -78.7805810569833,-5.40427639944289</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="04_coffee_colombia_peru.61">
+	<name>CO-PE-COF-0061</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#04_coffee_colombia_peru">
+		<SimpleData name="plot_id">CO-PE-COF-0061</SimpleData>
+		<SimpleData name="producer">Producer 547</SimpleData>
+		<SimpleData name="country">COL</SimpleData>
+		<SimpleData name="region">Cauca</SimpleData>
+		<SimpleData name="declared_ha">0.88</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-76.0947576524007,2.52104972030034 -76.0948118553216,2.52124218579749 -76.0949090293068,2.52141197192415 -76.0950812096839,2.52149953553249 -76.0952704530041,2.52145034411883 -76.0954261150877,2.52153104558693 -76.0955771842607,2.52145812678176 -76.0957187777497,2.52136627066703 -76.0956712882787,2.52116976006012 -76.0956797971363,2.52104972030034 -76.0957104377395,2.52091544509356 -76.0956756934134,2.52076928699379 -76.0956222589564,2.52056331771919 -76.0954356028935,2.5205146390726 -76.0952763330253,2.52068241146317 -76.0950881463356,2.52061190807265 -76.0949256716701,2.5207014197615 -76.0949140120898,2.52089440083867 -76.0947576524007,2.52104972030034</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="04_coffee_colombia_peru.62">
+	<name>CO-PE-COF-0062</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#04_coffee_colombia_peru">
+		<SimpleData name="plot_id">CO-PE-COF-0062</SimpleData>
+		<SimpleData name="producer">Producer 465</SimpleData>
+		<SimpleData name="country">COL</SimpleData>
+		<SimpleData name="region">Huila</SimpleData>
+		<SimpleData name="declared_ha">0.4</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-76.2514823579441,2.28600554082674 -76.2516400087185,2.28622179964934 -76.2518538208958,2.28625556047747 -76.2520503340873,2.28626928295675 -76.2522753986593,2.2861428147659 -76.2522389928549
