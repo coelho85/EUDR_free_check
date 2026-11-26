@@ -41,8 +41,9 @@ Files never leave the user's computer: the browser reads only the parts of the f
    each 1024×1024 block of the tiles once with [geotiff.js](https://github.com/geotiffjs/geotiff.js) and counts forest pixels
    with a scanline fill: **a pixel counts when its centre lies inside the plot** (same rule as GDAL rasterize). Overlapping parts
    of multi-part plots are merged. Pixel areas are computed per row on the authalic sphere. Plots crossing tile edges are exact.
-4. **Sea check:** plots without forest are tested against a simplified Natural Earth 1:50m coastline (`web/landmask.json`)
-   to catch swapped coordinates.
+4. **Sea check:** plots without forest are tested against the Natural Earth 1:10m land and minor islands, extended at least
+   ~100 m beyond the coast (`web/landmask.json`, loaded only when needed). A plot is flagged *In the sea?* only if it is more than
+   ~1 km off that outline, which catches swapped coordinates without flagging coastal plots.
 
 ## Validation
 
@@ -55,6 +56,7 @@ the same statistics with GDAL/rasterio from the same tiles, and `tools/compare_d
 | Polygons with identical forest pixel count | 1,670 / 1,671 (the exception is a deliberately self-intersecting "bow-tie", flagged as approximate) |
 | Points with identical result | 741 / 741 |
 | Typical time, 250 plots, empty browser cache | 3–7 s |
+| Coastal land points (within 10 km of the Brazilian coast) wrongly flagged as sea | 0 / 600 (`testdata/forest-check-coast/`) |
 
 `tools/make_broken_datasets.py` creates 13 damaged or awkward files (truncated, wrong type, missing `.dbf`, UTM without `.prj`,
 swapped coordinates, invalid geometries, oversized plots) to test the error messages; `tools/browser/drop.mjs` drops files on the
@@ -104,7 +106,7 @@ web/                 the tool (static files: index.html, app.js, readers.js, wor
 worker-forms/        optional registration endpoint (Cloudflare Worker)
 tools/               tile builder, GDAL reference, test-data generators, comparison, browser tests (tools/browser)
 data/manifests/      JRC tile list, excluded tiles, tiles in the service
-testdata/            10 test portfolios, 13 broken files, zipped variants
+testdata/            10 test portfolios, 13 broken files, zipped variants, coastal points
 ```
 
 ## Limitations
@@ -119,7 +121,7 @@ due diligence statement in the EU Information System (TRACES).
 - Forest map: European Commission, Joint Research Centre, [Global Forest Cover 2020, version 4](https://forest-observatory.ec.europa.eu/).
 - Basemap: [Sentinel-2 cloudless 2016](https://s2maps.eu) by EOX IT Services GmbH (contains modified Copernicus Sentinel data, CC BY 4.0);
   optionally © Mapbox © Maxar.
-- Coastline: [Natural Earth](https://www.naturalearthdata.com/) 1:50m land (public domain).
+- Coastline: [Natural Earth](https://www.naturalearthdata.com/) 1:10m land and minor islands (public domain).
 - Libraries: MapLibre GL JS, geotiff.js, shpjs, sql.js, proj4js, fflate.
 
 ## License

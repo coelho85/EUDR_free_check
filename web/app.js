@@ -174,16 +174,16 @@ function classify(r, thr) {
 
 let busy = false, lastWarnings = [];
 
-// Sea check: plots without forest whose location is not on land (Natural Earth 1:50m coastline, public domain).
-// Catches swapped latitude/longitude and similar mistakes. Coarse: plots right on the coast or on small islands may be flagged.
+// Sea check: plots without forest whose location is not on land (Natural Earth 1:10m land and minor islands, public domain,
+// extended ~100 m beyond the coast). Catches swapped latitude/longitude and similar mistakes.
 let land = null;
 async function loadLand() {
   if (land) return land;
-  const { rings } = await (await fetch(asset('landmask.json'))).json();
+  const { rings, scale = 100 } = await (await fetch(asset('landmask.json'))).json();
   land = rings.map((r) => {
     let x0 = Infinity, x1 = -Infinity, y0 = Infinity, y1 = -Infinity;
-    for (let i = 0; i < r.length; i += 2) { const x = r[i] / 100, y = r[i + 1] / 100; if (x < x0) x0 = x; if (x > x1) x1 = x; if (y < y0) y0 = y; if (y > y1) y1 = y; }
-    return { r, x0, x1, y0, y1 };
+    for (let i = 0; i < r.length; i += 2) { const x = r[i] / scale, y = r[i + 1] / scale; if (x < x0) x0 = x; if (x > x1) x1 = x; if (y < y0) y0 = y; if (y > y1) y1 = y; }
+    return { r, s: scale, x0, x1, y0, y1 };
   });
   return land;
 }
@@ -191,10 +191,10 @@ function onLand(x, y) {
   let c = false;                                   // even-odd over all rings: lakes are holes
   for (const L of land) {
     if (x < L.x0 || x > L.x1 || y < L.y0 || y > L.y1) continue;
-    const r = L.r, n = r.length;
+    const r = L.r, n = r.length, s = L.s;
     for (let i = 0, j = n - 2; i < n; j = i, i += 2) {
-      const yi = r[i + 1] / 100, yj = r[j + 1] / 100;
-      if ((yi > y) !== (yj > y) && x < (r[j] / 100 - r[i] / 100) * (y - yi) / (yj - yi) + r[i] / 100) c = !c;
+      const yi = r[i + 1] / s, yj = r[j + 1] / s;
+      if ((yi > y) !== (yj > y) && x < (r[j] / s - r[i] / s) * (y - yi) / (yj - yi) + r[i] / s) c = !c;
     }
   }
   return c;
@@ -207,7 +207,7 @@ async function markSea(rows, plots) {
     let x, y;
     if (p.kind === 'point') { x = p.lon; y = p.lat; }
     else { const g = p.rings[0]; x = 0; y = 0; for (let k = 0; k < g.length; k += 2) { x += g[k]; y += g[k + 1]; } x /= g.length / 2; y /= g.length / 2; }
-    const d = 0.02;                                 // ~2 km tolerance for the coarse coastline
+    const d = 0.01;                                 // ~1 km tolerance on top of the ~100 m margin
     if (![[0, 0], [d, 0], [-d, 0], [0, d], [0, -d]].some(([dx, dy]) => onLand(x + dx, y + dy))) {
       r.code = 'sea';
       r.note = [r.note, t('n_sea')].filter(Boolean).join('; ');
