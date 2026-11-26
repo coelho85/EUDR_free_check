@@ -4,6 +4,7 @@ Builds a VRT over the 10° COG tiles on R2 (same data the browser reads), assign
 web tool would use, and runs tools/reference_stats.py. Output: testdata/forest-check/ref/<file>.json
 """
 import json
+import os
 import subprocess
 import sys
 import urllib.request
@@ -17,7 +18,7 @@ ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "testdata/forest-check"
 REF = DATA / "ref"
 VRT = ROOT / "data/cog10_r2.vrt"
-BASE = "https://maps.geoanalyticslab.com/gfc2020/v4/cog10/"
+BASE = os.environ.get("TILES_BASE", "")   # folder URL of your tiles.json and COG tiles, e.g. https://maps.example.com/gfc2020/v4/cog10/
 ID_KEYS = ["plot_id", "PLOT_ID", "plotid", "id", "ID", "name", "Name", "NAME", "ProducerName"]   # as in readers.js
 ENV = {"GDAL_DISABLE_READDIR_ON_OPEN": "EMPTY_DIR", "GDAL_HTTP_VERSION": "2", "GDAL_HTTP_MULTIPLEX": "YES",
        "VSI_CACHE": "TRUE", "GDAL_HTTP_MAX_RETRY": "5", "CPL_VSIL_CURL_ALLOWED_EXTENSIONS": ".tif"}
@@ -72,6 +73,8 @@ def load(path):
 
 
 def main(names):
+    if not BASE:
+        raise SystemExit('Set TILES_BASE to the folder URL of your tiles (see README).')
     import os
     os.environ.update(ENV)
     build_vrt()

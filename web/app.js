@@ -220,6 +220,7 @@ async function run(files) {
   document.body.classList.add('fc-busy');
   step(2);
   try {
+    if (!CONFIG.TILES_MANIFEST) throw new UserError('No forest map tiles are configured. Set TILES_MANIFEST in config.js (see README).');
     say(t('reading'));
     const all = [], warnings = [];
     for (const f of files) { const r = await readFile(f); all.push(...r.features); warnings.push(...r.warnings); }

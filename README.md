@@ -47,7 +47,7 @@ Files never leave the user's computer: the browser reads only the parts of the f
 ## Validation
 
 `tools/make_test_datasets.py` creates 10 synthetic sourcing portfolios (about 2,400 plots in 21 commodity regions, every
-supported format, projected coordinates, multi-layer files, tile corners and edge cases). `tools/reference_datasets.py` computes
+supported format, projected coordinates, multi-layer files, tile corners and edge cases). `tools/reference_datasets.py` (set `TILES_BASE` to your tiles) computes
 the same statistics with GDAL/rasterio from the same tiles, and `tools/compare_datasets.py` compares them with the browser results.
 
 | | Result |
@@ -60,21 +60,14 @@ the same statistics with GDAL/rasterio from the same tiles, and `tools/compare_d
 swapped coordinates, invalid geometries, oversized plots) to test the error messages; `tools/browser/drop.mjs` drops files on the
 page in Chrome and prints what the page shows.
 
-## Run it locally
+## Set up your own installation
 
-```bash
-git clone https://github.com/coelho85/EUDR_free_check.git
-cd EUDR_free_check/web
-python3 -m http.server 8765
-# open http://localhost:8765/   (try "Try with example plots", or drop a file from ../testdata/)
-```
-
-The default `web/config.js` reads the tiles from the GeoAnalytics Lab mirror, which accepts requests from
-`http://localhost:8765` for evaluation. For your own installation, host the tiles yourself (below) and edit `web/config.js`:
+The tool is a set of static files (`web/`) that any web server or static host can serve. It needs the forest map as 10° COG
+tiles on storage you control (next section). Then set the values in `web/config.js`:
 
 | Setting | Purpose |
 |---|---|
-| `TILES_MANIFEST` | URL of `tiles.json` listing the 10° COG tiles |
+| `TILES_MANIFEST` | URL of your `tiles.json` listing the 10° COG tiles (required) |
 | `MAPBOX_TOKEN` | optional Mapbox public token for high-resolution imagery at field scale (empty = Sentinel-2 only) |
 | `FORMS_URL` | optional registration endpoint before download (empty = direct download) |
 | `TURNSTILE_SITEKEY` | optional Cloudflare Turnstile key for the registration form |
